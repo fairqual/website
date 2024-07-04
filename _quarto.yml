@@ -30,7 +30,7 @@ website:
       - text: "Events"
         href: pages/events/
       - text: "Gallery"
-        href: pages/gallery/
+        href: pages/gallery/proposal/
 
 format:
   html:
