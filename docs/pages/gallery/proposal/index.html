@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.549">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Dr.&nbsp;Mollie Chapman">
+<meta name="author" content="Dr.&nbsp;Bianca Vienni Baptista">
+<meta name="author" content="Lars Schöbitz">
+<meta name="author" content="Prof.&nbsp;Dr.&nbsp;Elizabeth Tilley">
+
+<title>FAIRqual - ETH ORD Measure 2 - Explore Proposal</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../../style/styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../pages/events/"> 
+<span class="menu-text">Events</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../pages/gallery/proposal/"> 
+<span class="menu-text">Gallery</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">Abstract</a></li>
+  <li><a href="#keywords" id="toc-keywords" class="nav-link" data-scroll-target="#keywords">Keywords</a></li>
+  <li><a href="#proposal-full-title" id="toc-proposal-full-title" class="nav-link" data-scroll-target="#proposal-full-title">Proposal full title</a></li>
+  <li><a href="#background-and-motivation" id="toc-background-and-motivation" class="nav-link" data-scroll-target="#background-and-motivation">Background and motivation</a>
+  <ul class="collapse">
+  <li><a href="#section-1.1-qualitative-data-and-mode-2td-research-a-new-frontier-for-open-data" id="toc-section-1.1-qualitative-data-and-mode-2td-research-a-new-frontier-for-open-data" class="nav-link" data-scroll-target="#section-1.1-qualitative-data-and-mode-2td-research-a-new-frontier-for-open-data">Section 1.1: Qualitative data and Mode 2/Td Research – A new frontier for open data</a></li>
+  <li><a href="#section-1.2-usys-tdlab" id="toc-section-1.2-usys-tdlab" class="nav-link" data-scroll-target="#section-1.2-usys-tdlab">Section 1.2: USYS TdLab</a></li>
+  <li><a href="#section-1.3-data-stewardship-support" id="toc-section-1.3-data-stewardship-support" class="nav-link" data-scroll-target="#section-1.3-data-stewardship-support">Section 1.3: Data stewardship support</a></li>
+  <li><a href="#section-1.4-rdm-guidelines" id="toc-section-1.4-rdm-guidelines" class="nav-link" data-scroll-target="#section-1.4-rdm-guidelines">Section 1.4: RDM Guidelines</a></li>
+  <li><a href="#problem-statement" id="toc-problem-statement" class="nav-link" data-scroll-target="#problem-statement">Problem statement</a></li>
+  </ul></li>
+  <li><a href="#ord-project-plan" id="toc-ord-project-plan" class="nav-link" data-scroll-target="#ord-project-plan">ORD project plan</a>
+  <ul class="collapse">
+  <li><a href="#wp1-identification-of-ord-tools-and-workflows-for-publication-of-fair-qualitative-data-in-td-research" id="toc-wp1-identification-of-ord-tools-and-workflows-for-publication-of-fair-qualitative-data-in-td-research" class="nav-link" data-scroll-target="#wp1-identification-of-ord-tools-and-workflows-for-publication-of-fair-qualitative-data-in-td-research">WP1: Identification of ORD tools and workflows for publication of FAIR qualitative data in Td research</a>
+  <ul class="collapse">
+  <li><a href="#goal" id="toc-goal" class="nav-link" data-scroll-target="#goal">Goal</a></li>
+  <li><a href="#activities" id="toc-activities" class="nav-link" data-scroll-target="#activities">Activities</a></li>
+  <li><a href="#research-questions" id="toc-research-questions" class="nav-link" data-scroll-target="#research-questions">Research Questions</a></li>
+  <li><a href="#aims-addressed" id="toc-aims-addressed" class="nav-link" data-scroll-target="#aims-addressed">Aims addressed</a></li>
+  </ul></li>
+  <li><a href="#wp2-evaluation-of-current-data-practices-and-identification-of-training-and-education-needs" id="toc-wp2-evaluation-of-current-data-practices-and-identification-of-training-and-education-needs" class="nav-link" data-scroll-target="#wp2-evaluation-of-current-data-practices-and-identification-of-training-and-education-needs">WP2: Evaluation of current data practices and identification of training and education needs</a>
+  <ul class="collapse">
+  <li><a href="#goal-1" id="toc-goal-1" class="nav-link" data-scroll-target="#goal-1">Goal</a></li>
+  <li><a href="#activities-1" id="toc-activities-1" class="nav-link" data-scroll-target="#activities-1">Activities</a></li>
+  <li><a href="#research-questions-1" id="toc-research-questions-1" class="nav-link" data-scroll-target="#research-questions-1">Research Questions</a></li>
+  <li><a href="#aims-addressed-1" id="toc-aims-addressed-1" class="nav-link" data-scroll-target="#aims-addressed-1">Aims addressed</a></li>
+  </ul></li>
+  <li><a href="#wp3-development-of-guidelines-and-protocols-for-fair-qualitative-data-in-td-research" id="toc-wp3-development-of-guidelines-and-protocols-for-fair-qualitative-data-in-td-research" class="nav-link" data-scroll-target="#wp3-development-of-guidelines-and-protocols-for-fair-qualitative-data-in-td-research">WP3: Development of guidelines and protocols for FAIR qualitative data in Td research</a>
+  <ul class="collapse">
+  <li><a href="#goal-2" id="toc-goal-2" class="nav-link" data-scroll-target="#goal-2">Goal</a></li>
+  <li><a href="#activities-2" id="toc-activities-2" class="nav-link" data-scroll-target="#activities-2">Activities</a></li>
+  <li><a href="#research-questions-2" id="toc-research-questions-2" class="nav-link" data-scroll-target="#research-questions-2">Research Questions</a></li>
+  <li><a href="#aims-addressed-2" id="toc-aims-addressed-2" class="nav-link" data-scroll-target="#aims-addressed-2">Aims addressed</a></li>
+  </ul></li>
+  <li><a href="#wp4-building-a-community-of-practice-for-fair-qualitative-data-in-td-research" id="toc-wp4-building-a-community-of-practice-for-fair-qualitative-data-in-td-research" class="nav-link" data-scroll-target="#wp4-building-a-community-of-practice-for-fair-qualitative-data-in-td-research">WP4: Building a community of practice for FAIR qualitative data in Td research</a>
+  <ul class="collapse">
+  <li><a href="#goal-3" id="toc-goal-3" class="nav-link" data-scroll-target="#goal-3">Goal</a></li>
+  <li><a href="#activities-3" id="toc-activities-3" class="nav-link" data-scroll-target="#activities-3">Activities</a></li>
+  <li><a href="#aims-addressed-3" id="toc-aims-addressed-3" class="nav-link" data-scroll-target="#aims-addressed-3">Aims addressed</a></li>
+  </ul></li>
+  <li><a href="#project-implementation-and-risk-mitigation" id="toc-project-implementation-and-risk-mitigation" class="nav-link" data-scroll-target="#project-implementation-and-risk-mitigation">Project Implementation and Risk Mitigation</a></li>
+  </ul></li>
+  <li><a href="#impact" id="toc-impact" class="nav-link" data-scroll-target="#impact">Impact</a></li>
+  <li><a href="#work-packages-and-milestones" id="toc-work-packages-and-milestones" class="nav-link" data-scroll-target="#work-packages-and-milestones">Work Packages and milestones</a></li>
+  <li><a href="#bibliography" id="toc-bibliography" class="nav-link" data-scroll-target="#bibliography">Bibliography</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">ETH ORD Measure 2 - Explore Proposal</h1>
+<p class="subtitle lead">FAIRqual - FAIR Data Practices for Qualitative Research in Transdisciplinarity</p>
+</div>
+
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Authors</div>
+  <div class="quarto-title-meta-heading">Affiliations</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author"><a href="https://usys.ethz.ch/en/people/profile.MTY5Mjk4.TGlzdC82MzcsMzIwMTk3MjIy.html">Dr.&nbsp;Mollie Chapman</a> </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            USYS Transdisciplinary Labmm ETH Zurich
+          </p>
+      </div>
+    <div class="quarto-title-meta-contents">
+    <p class="author"><a href="https://tdlab.usys.ethz.ch/team/person-detail.bianca-vienni.html">Dr.&nbsp;Bianca Vienni Baptista</a> </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            USYS Transdisciplinary Labmm ETH Zurich
+          </p>
+      </div>
+    <div class="quarto-title-meta-contents">
+    <p class="author"><a href="https://www.lse.de">Lars Schöbitz</a> </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Global Health Engineering, ETH Zurich
+          </p>
+      </div>
+    <div class="quarto-title-meta-contents">
+    <p class="author"><a href="https://ghe.ethz.ch/about/people/person-detail.MTc2MjI5.TGlzdC80MTI2LC0xNDYwMDMwNTU3.html">Prof.&nbsp;Dr.&nbsp;Elizabeth Tilley</a> </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Global Health Engineering, ETH Zurich
+          </p>
+      </div>
+  </div>
+
+<div class="quarto-title-meta">
+
+      
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>This is a copy of the proposal as it was submitted to, and supported by the <a href="https://ethrat.ch/en/eth-domain/open-research-data/">Open Research Data Program of the ETH Board</a>.</p>
+<section id="abstract" class="level1">
+<h1>Abstract</h1>
+<p>While ORD practices become increasingly widespread, one area that remains a challenge is qualitative data. On the one hand, qualitative data is more difficult to process and make available in open practices. On the other, ethical norms in research practice require confidentiality of research subjects. Yet interview transcripts, workshops or other kinds of qualitative data are difficult or sometimes impossible to anonymize. This challenge comes to the fore when conducting transdisciplinary (Td) research, where new forms of engagement between science and society co-produce problem framings and project outputs. In this context, questions of who processes and stores data are increasingly important. Td research makes frequent use of qualitative methods, especially interviews and workshops. Sharing of this data could allow for improved learning between Td processes and increase engagement between science and society. How might this data be shared according to FAIR principles? What are appropriate protocols for determining what data to share and how to navigate the ethical issues of research participant protection and the benefits of sharing qualitative data? In this project we will prototype tools for FAIR qualitative data within Td research projects, develop standards and guidelines for other Td researchers and build a dialogue and community of practice within the Td research community around FAIR practices for qualitative data.</p>
+</section>
+<section id="keywords" class="level1">
+<h1>Keywords</h1>
+<p>transdisciplinary research, qualitative methods, FAIR data practices, mixed media data, open science</p>
+</section>
+<section id="proposal-full-title" class="level1">
+<h1>Proposal full title</h1>
+<p>FAIRQual - FAIR Data Practices for Qualitative Research in Transdisciplinarity</p>
+</section>
+<section id="background-and-motivation" class="level1">
+<h1>Background and motivation</h1>
+<section id="section-1.1-qualitative-data-and-mode-2td-research-a-new-frontier-for-open-data" class="level2">
+<h2 class="anchored" data-anchor-id="section-1.1-qualitative-data-and-mode-2td-research-a-new-frontier-for-open-data">Section 1.1: Qualitative data and Mode 2/Td Research – A new frontier for open data</h2>
+<p>In the last decades, participatory qualitative and transdisciplinary (Td) research are on the rise <span class="citation" data-cites="oecd2020addressing">(<a href="#ref-oecd2020addressing" role="doc-biblioref">OECD, 2020</a>)</span>. Td research allows for co-production of knowledge between societal and scientific actors in order to tackle sustainability challenges <span class="citation" data-cites="oecd2020addressing">(<a href="#ref-oecd2020addressing" role="doc-biblioref">OECD, 2020</a>)</span>. This turn into more participatory and dialogical research settings has strong implications for qualitative methods, and therefore for the data produced. Data is no longer collected and/or analyzed solely by the researcher, but an active role from practitioners and other societal actors is expected. How to then deal with accessibility and management of this data and secure a fair and equitable access to it? In this way, transdisciplinary research implies a new frontier to qualitative methods and data as it poses new questions on who has the power to create and manage such data, who is entitled to access it and how <span class="citation" data-cites="pohl2021conceptualising">(<a href="#ref-pohl2021conceptualising" role="doc-biblioref">Pohl et al., 2021</a>)</span>.</p>
+<p>Qualitative research includes different methods, the most common of which include interviews, focus groups, participant observation, ethnographic research, and workshops. These methods are appropriate for sensitive topics or topics needing an in-depth exploration. They usually can collect a large amount of data from transcriptions or other recording methods as videos. Within qualitative research, standard practice, as outlined in ethical guidelines, is to assure confidentiality of the data acquired (for example, the ETH Zurich Research with Human Participants guidelines). Participants are asked to sign detailed consent forms which specify who has access to the provided answers and how the data is going to be used for research. Commonly, audio files are transcribed into text documents where the DOCX file format is common. The text documents are then analyzed using software such as NVivo, MaxQDA, or Atlas.ti. Anonymized quotes are used in the research paper, where potentially identifying details are removed. The audio files and transcribed text documents are typically stored on the researcher’s computer or a secure server. Ethics procedures require that this data be deleted after a certain number of years, often between 5 and 10 years. Recent granting requirements ask for a Data Management Plan. However, generally there is no appropriate long-term archiving allowing for open access to the data.</p>
+<p>The importance of confidentiality in qualitative research is a fundamental pillar of social science research ethics. The promise of confidentiality creates an atmosphere of trust, allowing the researcher to obtain an authentic and deep understanding of the research topics. This practice can be appropriate for sensitive information and where an individual’s privacy needs to be protected. However, there are also cases for semi-structured interviews where anonymisation of participants is possible, and the interview content itself does not contain sensitive information. Or there may be cases where participants want to be named and have their perspectives openly shared. In these cases, the research data can be made available for other researchers to use. This is a common practice in quantitative research where data is made available in a data repository such as Zenodo. The research data is typically published in CSV format, which is a popular choice for quantitative research because it is a standardized open and machine-readable format.</p>
+<p>Currently, many transdisciplinary researchers using qualitative methods face a quandary: Standard research ethics practices dictate that all human subjects’ data should be strictly confidential. Yet increasing demand from journals and even in cases from the project participants themselves, suggests that in many cases, the sharing of qualitative data could be valuable. To move forward the access to and the equitable sharing of qualitative research data within Td research, this proposal explores how this data can be shared in machine-readable formats. First, we will <strong>prototype ORD tools</strong>: we will either store or convert transcripts of semi-structured interviews in markdown file format with the aim to test and implement protocols to make qualitative data open and accessible. From there, we will extract text and transform it into a table format. The data will be shared using an established R data package workflow. Second, we will <strong>specify ORD standards</strong> by creating a set of guidelines for FAIR qualitative data in Td, based on our prototype and an analysis of practices and training needs of the Td community. Finally, we will engage our extensive network in <strong>building a community of practice</strong> around FAIR qualitative data in Td research, via networking and education events such as workshops and a webinar; creating and uploading guidelines on Td websites; and publishing an open-access journal article outlining guidelines and motivations for FAIR qualitative data in Td research.</p>
+</section>
+<section id="section-1.2-usys-tdlab" class="level2">
+<h2 class="anchored" data-anchor-id="section-1.2-usys-tdlab">Section 1.2: USYS TdLab</h2>
+<p>The Transdisciplinarity Lab (TdLab) at the Department of Environmental Systems Science (D-USYS, ETH) is a place where students, teachers, researchers, and other societal actors collaboratively define and tackle the complexities of sustainable development to respect environmental limits and uphold social justice for present and future generations. The lab conceptualizes and tests educational and research approaches to address real-world problems in the context of sustainable development through collaborative and reflective teaching and research. We give students freedom and responsibility to explore and experience interactive ways of doing methodologically sound research that involves active connection with stakeholders.</p>
+<p>TdLab is well connected to national and international networks, including the Global Alliance for Inter- and Transdisciplinarity, Swiss Academic Society for Environmental Research and Ecology, the Network for Transdisciplinary Research, the tdAcademy and the newly formed Society for Transdisciplinary and Participatory Research. In addition, the members of TdLab, including senior staff, postdocs, research assistants and PhD students, each bring their own networks ranging across topics from living labs, regional development, sustainability, international cooperation, energy transitions, biodiversity, climate adaptation, circular economies, food systems and more. All members of TdLab have experience in qualitative or Td research–we will draw on this wealth of knowledge, experience and networks to support and advance our project.</p>
+<p>The project co-applicants, Mollie Chapman and Bianca Vienni-Baptista are well-established researchers in their respective fields (conservation social science and cultural studies of science and technology, respectively). They each bring extensive experience in qualitative methods and transdisciplinary research, having led and implemented projects around the world (Argentina, Uruguay, Colombia, Costa Rica, Japan USA, Canada, Germany, Switzerland). Each is experienced in project management, interdisciplinary collaboration and supervision of early career researchers and staff. Christian Pohl is co-director of TdLab and brings decades of experience in workshop facilitation and Td research, as well as qualitative methods. We plan to hire a postdoctoral researcher to be housed at TdLab to contribute to the development of the tasks detailed in this proposal. Potential candidates from our extensive networks have already been contacted, whose experiences span from qualitative methods and Td research and are well connected to both communities.</p>
+</section>
+<section id="section-1.3-data-stewardship-support" class="level2">
+<h2 class="anchored" data-anchor-id="section-1.3-data-stewardship-support">Section 1.3: Data stewardship support</h2>
+<p>At ETH Zurich, we have identified the Data Stewardship Network as a helpful resource to support us in developing strategies for sharing of qualitative research data. We have engaged with data steward, Lars Schöbitz, who will support the technical elements of sharing qualitative research data, following commonly used FAIR principles for data sharing. The data steward is employed within the Global Health Engineering group at ETH Zurich, which has previously worked on a first prototype of sharing qualitative research data <span class="citation" data-cites="schobitz2023biogasoutcomesmalawi">(<a href="#ref-schobitz2023biogasoutcomesmalawi" role="doc-biblioref">Schöbitz et al., 2023</a>)</span>.</p>
+</section>
+<section id="section-1.4-rdm-guidelines" class="level2">
+<h2 class="anchored" data-anchor-id="section-1.4-rdm-guidelines">Section 1.4: RDM Guidelines</h2>
+<p>The Guidelines for Research Data Management at ETH Zurich (RDM Guidelines) require all research data at ETH to be shared as Open Research Data (ORD) <span class="citation" data-cites="eth2022guidelines">(<a href="#ref-eth2022guidelines" role="doc-biblioref">ETH, 2022</a>)</span>. There are existing guidelines provided by the RDM team of the ETH Library, but these provide general guidelines rather than a specific practical application of how to share qualitative research data. The Qualitative Data Repository (QDR), hosted by the Center for Qualitative and Multi-Method Inquiry at Syracuse University, USA provides services for storing and sharing data generated through qualitative and multi-method research. The repository adheres to FAIR principles for data sharing, as it provides persistent Digital Object Identifiers (DOIs), defines licenses, and follows metadata standards such as DataCite and Dublin Core to facilitate data discovery and interoperability. Finally, it offers an active data curation service to increase potential for reuse. It is the best example for existing ORD best practices in the social sciences. Their existing services and guidelines will help us contribute to build up missing guidelines within the ETH domain. Through the Data Stewardship Network, we can integrate our learnings with ORD services at ETH and support the RDM efforts of the ETH Library.</p>
+</section>
+<section id="problem-statement" class="level2">
+<h2 class="anchored" data-anchor-id="problem-statement">Problem statement</h2>
+<p>Despite the importance of confidentiality of data in some research contexts, we are curious about the necessary ubiquity of the principle for all qualitative research. Td research involves interfaces between science and society, where researchers and societal actors work together on challenges that neither could address alone <span class="citation" data-cites="gibbons1999science">(<a href="#ref-gibbons1999science" role="doc-biblioref">Gibbons, 1999</a>)</span>. While Td research involves many different methods and scientific disciplines, qualitative research often plays a central role–either to facilitate the Td process or as part of the scientific study itself. Such processes can be resource-intensive: organizing workshops and focus groups that bring together diverse societal actors, conducting in-depth interviews of one or more hours each with 20 to 40 study participants, and developing visions and problem framings of societal challenges. Large amounts of data are collected and much is learned in the process. In some cases the Td process is also studied and the results published (see for instance, <span class="citation" data-cites="vienni-baptista2022situated">Vienni-Baptista et al. (<a href="#ref-vienni-baptista2022situated" role="doc-biblioref">2022</a>)</span>)—but in others only the “scientific” studies themselves are published. Important learning and insights and the opportunity to compare across cases and over time, are lost. Beyond this, there may be cases where Td projects themselves would benefit from greater sharing of data, e.g., to build support for a new initiative or to increase the possibility of participation from diverse stakeholders.</p>
+</section>
+</section>
+<section id="ord-project-plan" class="level1">
+<h1>ORD project plan</h1>
+<p>The scholarship on transdisciplinary research, when entailing co-production of knowledge with stakeholders and other scientific partners, has not yet touched upon this topic. Therefore the background studies on how qualitative research is dealt with in transdisciplinary settings is scarce (an example of open science recommendations for qualitative methods is <span class="citation" data-cites="alexander2019qualitative">Alexander et al. (<a href="#ref-alexander2019qualitative" role="doc-biblioref">2019</a>)</span>, however this does not address Td research contexts). However, our transdisciplinary communities face this challenge in every single project. Ways to overcome this challenge have included the development of new methods to systematize experiences (such as Robledo et al., 2023) and participatory qualitative research and the further elaborations such as engaged anthropology (see for instance, <span class="citation" data-cites="larsen2022repositioning">Larsen et al. (<a href="#ref-larsen2022repositioning" role="doc-biblioref">2022</a>)</span>). For example, with the method of photo-voice, research participants take photos of their daily lives and explain to researchers why these are important to them; often these projects involve a photo exhibition of the final works. In this method, the sharing of the results and ‘data’ including individual identities is an important part of the participatory and empowering goals of this method. Humanities and social sciences, and more specifically, qualitative researchers have begun attending to the problem of integrating the FAIR principles into co-productive settings, work we will build upon. Nevertheless, we see an urgent demand and need to further elaborate on the access to qualitative data. In the spirit of Open Science, we aim at sharing what’s shareable so that others can reuse and learn from it. An unintentional benefit of applying Open Science principles to our work will be unforeseen reuse cases that can be applied by researchers outside of the Td community and qualitative research field. We therefore seek to understand the conditions under which qualitative data collected as part of Td processes can or should be shared following FAIR principles <span class="citation" data-cites="wilkinson2016fair">(<a href="#ref-wilkinson2016fair" role="doc-biblioref">Wilkinson et al., 2016</a>)</span>; to develop best practices for doing so; and to build a community of practice for the sharing of data within the Td field.</p>
+<section id="wp1-identification-of-ord-tools-and-workflows-for-publication-of-fair-qualitative-data-in-td-research" class="level2">
+<h2 class="anchored" data-anchor-id="wp1-identification-of-ord-tools-and-workflows-for-publication-of-fair-qualitative-data-in-td-research">WP1: Identification of ORD tools and workflows for publication of FAIR qualitative data in Td research</h2>
+<section id="goal" class="level3">
+<h3 class="anchored" data-anchor-id="goal">Goal</h3>
+<p>Our first step will be to elaborate the technical requirements of sharing qualitative data and consider what if any changes would be required to standard methods for qualitative data collection.</p>
+</section>
+<section id="activities" class="level3">
+<h3 class="anchored" data-anchor-id="activities">Activities</h3>
+<div class="cell">
+<ol type="1">
+<li>Activity 1.1: Literature review on existing practices of FAIR and open data for Td and qualitative research</li>
+<li>Activity 1.2: Identification of tools for the collection of and transcription of data</li>
+<li>Activity 1.3: Development of workflows for transformation of text files in different formats to machine-readable table format</li>
+</ol>
+</div>
+</section>
+<section id="research-questions" class="level3">
+<h3 class="anchored" data-anchor-id="research-questions">Research Questions</h3>
+<div class="cell">
+<ol type="1">
+<li>RQ 1.1: What procedures are currently used by researchers and practitioners to collect qualitative data in transdisciplinary settings? How do they assure FAIR principles?</li>
+<li>RQ 1.2: What are best practice workflows for data management in order to share qualitative data?</li>
+<li>RQ 1.3: What kinds of possibilities exist for collecting and sharing data from transdisciplinary methods using qualitative techniques, which might include workshops using flip chart drawings, post-it notes, group conversations, marked up maps, and other mixed media?</li>
+</ol>
+</div>
+</section>
+<section id="aims-addressed" class="level3">
+<h3 class="anchored" data-anchor-id="aims-addressed">Aims addressed</h3>
+<p>In this step we will develop an initial prototype of ORD standards for qualitative research data and for workshop data based on the systematization of previous experiences and review of the relevant literature.</p>
+</section>
+</section>
+<section id="wp2-evaluation-of-current-data-practices-and-identification-of-training-and-education-needs" class="level2">
+<h2 class="anchored" data-anchor-id="wp2-evaluation-of-current-data-practices-and-identification-of-training-and-education-needs">WP2: Evaluation of current data practices and identification of training and education needs</h2>
+<section id="goal-1" class="level3">
+<h3 class="anchored" data-anchor-id="goal-1">Goal</h3>
+<p>In this work package we will use two approaches to elicit ideas about sharing qualitative data generated during Td research projects. As a first step, we will organize a workshop at the International Transdisciplinarity Conference (<a href="https://itd-alliance.org/itd24/">ITD</a>) organized by the Transdisciplinary Research Network (td-net, Swiss National Academies of Science), to be held in November 2024. This conference brings together scientists and practitioners from diverse fields who design and implement Td methods, tools and theories. Holding a workshop in this setting will allow us to gather insights from this network, as well as to present the idea of open Td data to this research community. Complementary contributions in other conferences are also planned for WP4, to present findings to the larger interdisciplinary and transdisciplinary communities. The Network for Transdisciplinary Research (td-net) organizes an annual Transdisciplinary Day, which also constitutes an ideal setting to further discuss with and raise awareness of this project.</p>
+<p>As a second step, drawing on insights and networks from the workshop and other relevant panels during the ITD conference, as well as TdLab’s existing networks, we will conduct interviews with Td scientists as well as practitioners and participants from previous Td projects. We will ask researchers and practitioners questions such as: Which situations have you experienced or can you imagine where sharing of qualitative data would be beneficial for the project? Under which circumstances should data remain confidential? What are your experiences of anonymizing interview data? Would you consider reusing qualitative data from another Td study? What metadata, access conditions, or other resources would you need for this data to be useful? Who should determine when and how qualitative data is shared? Are there ways that stakeholders or interview respondents might participate in how their data is shared (e.g., reviewing and elaborating transcripts, or selecting sections to publish and which to redact)? What are your experiences, concerns or ideas for sharing mulit-media data, such as that from workshops, or visual methods? What kinds of technical support and training materials would you need to publish your qualitative data according to FAIR standards?</p>
+</section>
+<section id="activities-1" class="level3">
+<h3 class="anchored" data-anchor-id="activities-1">Activities</h3>
+<div class="cell">
+<ol type="1">
+<li>Activity 2.1: Ethics application explaining the unique character of our study.</li>
+<li>Activity 2.2: Workshop at the ITD Conference 2024 to identify and systematize diverse perspectives on the topic</li>
+<li>Activity 2.3: Identification and recruitment of interview respondents. Conduct interviews (in-person or via zoom) with 10 to 20 respondents</li>
+<li>Activity 2.4: Transcription and conversion of interview audio files</li>
+<li>Activity 2.5: Qualitative coding and analysis of interview data</li>
+<li>Activity 2.6: Transformation of interview data to ORD using workflows defined in WP1</li>
+</ol>
+</div>
+</section>
+<section id="research-questions-1" class="level3">
+<h3 class="anchored" data-anchor-id="research-questions-1">Research Questions</h3>
+<div class="cell">
+<ol type="1">
+<li>RQ 2.1: Under what conditions does sharing of qualitative data generated during Td research provide benefits for a) research participants, b) the Td project itself, or c) the Td community?</li>
+<li>RQ 2.2: What are the risks of sharing Td data openly to the groups listed above (RQ 2.1)? How can these be mitigated?</li>
+<li>RQ 2.3: If qualitative data is shared, what are potential formats for sharing this data to make it not only available to researchers but also to societal actors?</li>
+<li>RQ 2.4: What kinds of concerns or benefits are specific to particular kinds of data? In other words, how is interview data different from workshop data? How might multia-media data be shared?</li>
+<li></li>
+<li></li>
+</ol>
+</div>
+</section>
+<section id="aims-addressed-1" class="level3">
+<h3 class="anchored" data-anchor-id="aims-addressed-1">Aims addressed</h3>
+<p>This WP focuses on exchange with other researchers and stakeholders to understand the risks, costs, and benefits of sharing qualitative data generated as part of Td processes. As well, the process of conducting the workshop and interviews will help to establish a community of practice around open qualitative data within Td research projects. The interviews will serve as data to prototype the ORD protocols we develop, a case study for the example website and training materials, and also inform us as to the needs of the community.</p>
+</section>
+</section>
+<section id="wp3-development-of-guidelines-and-protocols-for-fair-qualitative-data-in-td-research" class="level2">
+<h2 class="anchored" data-anchor-id="wp3-development-of-guidelines-and-protocols-for-fair-qualitative-data-in-td-research">WP3: Development of guidelines and protocols for FAIR qualitative data in Td research</h2>
+<section id="goal-2" class="level3">
+<h3 class="anchored" data-anchor-id="goal-2">Goal</h3>
+<p>Based on the results of WP1 and WP2, our team will develop guidelines for when and how qualitative data should be made open in Td research projects (including ethical, methodological and technical guidelines). We will then share, refine and improve these guidelines via a 1 day in-person workshop at ETH. We will invite 10-20 researchers, stakeholders, data scientists and other relevant experts to collaborate on the development of the guidelines. The workshop will also serve as a networking and educational event, to foster dialogue on FAIRqual and to inspire other teams to implement open science. These guidelines, which we will share and discuss broadly in WP4, will serve as an invitation to greater participation in open science among the Td community and as a means to set best practices for future research projects.</p>
+</section>
+<section id="activities-2" class="level3">
+<h3 class="anchored" data-anchor-id="activities-2">Activities</h3>
+<div class="cell">
+<ol type="1">
+<li>Activity 3.1: Development of conditions for when sharing of qualitative data from Td processes is valuable, or when it should be avoided</li>
+<li>Activity 3.2: Development of technical protocols for how to share specific types of data (interview transcripts, workshop findings, multimedia)</li>
+<li>Activity 3.3: Create example data sharing website using the data generated in our project.</li>
+<li>Activity 3.4: 1 day in-person workshop at ETH to develop fully usable guidelines</li>
+</ol>
+</div>
+</section>
+<section id="research-questions-2" class="level3">
+<h3 class="anchored" data-anchor-id="research-questions-2">Research Questions</h3>
+<div class="cell">
+<ol type="1">
+<li>RQ 3.1: What are best practices in qualitative data sharing in Td research?</li>
+<li>RQ 3.2: What are the technical protocols needed for sharing different kinds of qualitative data according to FAIR standards?</li>
+<li>RQ 3.3: What are the needs of researchers to make these practices actionable in Td settings?</li>
+<li></li>
+</ol>
+</div>
+</section>
+<section id="aims-addressed-2" class="level3">
+<h3 class="anchored" data-anchor-id="aims-addressed-2">Aims addressed</h3>
+<p>This work package defines a critical step in developing standards for ORD. We will lay out guidelines for how to navigate the challenge of assuring protections for research subjects while also creating opportunities for sharing of data. By doing this, we will not only enrich the current discussions on Td research but also in ethical requirements to be pursued at ETH Domain.</p>
+</section>
+</section>
+<section id="wp4-building-a-community-of-practice-for-fair-qualitative-data-in-td-research" class="level2">
+<h2 class="anchored" data-anchor-id="wp4-building-a-community-of-practice-for-fair-qualitative-data-in-td-research">WP4: Building a community of practice for FAIR qualitative data in Td research</h2>
+<section id="goal-3" class="level3">
+<h3 class="anchored" data-anchor-id="goal-3">Goal</h3>
+<p>In this WP we will engage in several activities to broadly share our findings with the Td community.</p>
+</section>
+<section id="activities-3" class="level3">
+<h3 class="anchored" data-anchor-id="activities-3">Activities</h3>
+<div class="cell">
+<ol type="1">
+<li>Activity 4.1: Interactive webinar to share our results and dialogue with Td community</li>
+<li>Activity 4.2: Sharing of website as a demo project, with data collected from our project displayed in engaging formats</li>
+<li>Activity 4.3: Publication of scientific article describing our project and results in a widely read Td or qualitative journal</li>
+<li>Activity 4.4: Develop protocols suitable to be shared online in on-going Td toolkitsonline (such as ShapeID, TdNet toolbox).</li>
+<li>Activity 4.5: Presentation of FAIRQual guidelines and protocols at Td and qualitative conferences by members of the TdLab</li>
+</ol>
+</div>
+</section>
+<section id="aims-addressed-3" class="level3">
+<h3 class="anchored" data-anchor-id="aims-addressed-3">Aims addressed</h3>
+<p>This WP focuses on building communities of practice to engage in ORD practices. We will employ our own and the TdLab`s extensive national and international networks, as well as additional networks generated during WP3 and combine these with ORD networks and qualitative research networks to broadly share our findings and engage these communities in conversations about this topic. We specifically target Td researchers using qualitative methods, but will as a secondary community, also reach out to various qualitative research networks, for example, TdLab is an institutional member in the Gesellschaft für transdisziplinäre und partizipative Forschung (Society for Transdisciplinary and Participatory Research), which includes both Td researchers as well as qualitative researchers using participatory methods from such areas as public health.</p>
+</section>
+</section>
+<section id="project-implementation-and-risk-mitigation" class="level2">
+<h2 class="anchored" data-anchor-id="project-implementation-and-risk-mitigation">Project Implementation and Risk Mitigation</h2>
+<p>Building a FAIR qualitative data community of practice for Td is a high risk/high gain endeavor. We plan to anticipate and mitigate these risks as follows. Given the long tradition of confidentiality in qualitative research, we anticipate that many researchers will be reluctant to engage in ORD practices and may even oppose these on ethical grounds. We will mitigate this risk by actively bringing these concerns into our guidelines and by identifying benefits of ORD practices for researchers, research participants and stakeholders. As the Td community is based on values of open communication, collaboration and dialogue, we expect that a meaningful path forward can be found. A further risk is that the ETH ethics board may find our proposed project challenging. We anticipate opening a dialogue and potentially even collaborating with the ETH ethics board to initiate the process of developing new protocols for FAIRqual. Given the dual ethical needs to protect research subjects and for FAIR and open data, we see a productive tension in which to initiate new avenues and approaches.</p>
+</section>
+</section>
+<section id="impact" class="level1">
+<h1>Impact</h1>
+<p><strong>How sustainable is the proposed project inside the ETH Domain?</strong></p>
+<p>As the project will be housed in TdLab, which is a leader on transdisciplinary methods within the ETH domain and internationally, the key insights will be shared across the whole lab group (around 15 scientists and staff) and also widely communicated to the ETH domain. TdLab also serves as a central node in teaching and research collaboration within D-USYS and ETH domain more broadly; researchers from many fields come to TdLab for advice, collaboration and support in transdisciplinary methods and tools into their research. In this way, the insights generated in this project, and the specific protocols and methodologies will radiate out from the project partners. TdLab also maintains a strong institutional memory, such that the project’s guidelines and protocols will be sustained for future Td projects and scientists. Both co-applicants of this proposal are Group Leaders within the TdLab. The outcomes from this proposal will also benefit the research projects from early career researchers working in transdisciplinary contexts. As lecturers in several courses at D-USYS and internationally, the co-applicants will also use the protocols and guidelines for teaching and learning purposes.</p>
+<p><strong>To what extent will the planned project substantially advance the ORD field, or solve a critical outstanding problem in the targeted field(s)?</strong></p>
+<p>In our target field of qualitative research within Td projects, the challenge of the dual demands of open science and participant confidentiality is a critical outstanding problem. Journals and funders increasingly demand open science, data management plans, and more accessible research. Yet standard practices for qualitative research seem to contradict this need. How can Td researches navigate this tension? By developing guidelines on responsible, ethical ways to share qualitative data in FAIR formats, we will meet a critical need of the Td community. Such an approach has potential for widespread uptake within the Td community. Td research itself is based on ideas of science-society interaction, leaving the ivory tower, and creating socially meaningful science. These goals align with those of the ORD movement, creating a strong synergy. As well, the field of Td research is dynamic and open to change, and TdLab is considered a leader in Td methods, such that we see potential for widespread adoption of the guidelines and protocols we develop.</p>
+<p><strong>To what extent does the proposal support a collaborative approach, involving significant synergies, complementarities, or/and scientific added-value to achieve its objectives?</strong></p>
+<p>Our project involves collaboration between data scientists and qualitative researchers–a novel combination. It is deeply collaborative; neither field would have the expertise to conduct this project on its own. Expertise in qualitative research and Td methods, as well as in data science and stewardship is needed to create a set of guidelines and protocols that are truly usable. Alone, qualitative researchers could suggest when and what kinds of data to share, but would not be able to elaborate how to technically do this. Alone, data stewards could suggest technical protocols to share data, but not how to navigate the tricky ethical challenges. By combining these expertises, we will create a “whole product” that guides future Td qualitative research from ethics to file types.</p>
+</section>
+<section id="work-packages-and-milestones" class="level1">
+<h1>Work Packages and milestones</h1>
+<p>The following Google Sheet shows a basic gantt chart against the four work packages, including program activities. Column “Lead” abbreviations:</p>
+<p>LS: Lars Schöbitz CP: Christian Pohl</p>
+<p>TdLab: Mollie Chapman and Bianca Vienni-Baptista, postdoctoral researcher (to be hired), with support of TdLab staff and students</p>
+<p>Google Sheet: <a href="https://docs.google.com/spreadsheets/d/14kl5jumfwk3jwxwrnJEz9Jvnui9vl-gOpq2utZIN7X0/edit#gid=0" class="uri">https://docs.google.com/spreadsheets/d/14kl5jumfwk3jwxwrnJEz9Jvnui9vl-gOpq2utZIN7X0/edit#gid=0</a></p>
+</section>
+<section id="bibliography" class="level1">
+
+
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Bibliography</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-alexander2019qualitative" class="csl-entry" role="listitem">
+Alexander, S. M., Jones, K., Bennett, N. J., Budden, A., Cox, M., Crosas, M. x000E8, Game, E. T., Geary, J., Hardy, R. D., Johnson, J. T., Karcher, S., Motzer, N., Pittman, J., Randell, H., Silva, J. A., da Silva, P. P., Strasser, C., Strawhacker, C., Stuhl, A., &amp; Weber, N. (2019). Qualitative data sharing and synthesis for sustainability science. <em>Nature Sustainability</em>, 1–8. <a href="https://doi.org/10.1038/s41893-019-0434-8">https://doi.org/10.1038/s41893-019-0434-8</a>
+</div>
+<div id="ref-eth2022guidelines" class="csl-entry" role="listitem">
+ETH, Z. (2022). <em>Guidelines for <span>Research Data Management</span> at <span>ETH Zurich</span> (<span>RDM Guidelines</span>)</em>.
+</div>
+<div id="ref-gibbons1999science" class="csl-entry" role="listitem">
+Gibbons, M. (1999). Science’s new social contract with society. <em>Nature</em>, <em>402</em>(6761), C81–C84. <a href="https://doi.org/10.1038/35011576">https://doi.org/10.1038/35011576</a>
+</div>
+<div id="ref-larsen2022repositioning" class="csl-entry" role="listitem">
+Larsen, P., Bacalzo, D., Naef, P., Tibet, E. E., Baracchini, L., &amp; Riva, S. (2022). Repositioning <span>Engaged Anthropology</span>: <span>Critical Reflexivity</span> and <span>Overcoming Dichotomies</span>. <em>Swiss Journal of Sociocultural Anthropology</em>, <em>27</em>, 4–15. <a href="https://doi.org/10.36950/tsantsa.2022.27.7994">https://doi.org/10.36950/tsantsa.2022.27.7994</a>
+</div>
+<div id="ref-oecd2020addressing" class="csl-entry" role="listitem">
+OECD. (2020). <em>Addressing societal challenges using transdisciplinary research</em>. OECD. <a href="https://doi.org/10.1787/0ca0ca45-en">https://doi.org/10.1787/0ca0ca45-en</a>
+</div>
+<div id="ref-pohl2021conceptualising" class="csl-entry" role="listitem">
+Pohl, C., Klein, J. T., Hoffmann, S., Mitchell, C., &amp; Fam, D. (2021). Conceptualising transdisciplinary integration as a multidimensional interactive process. <em>Environmental Science &amp; Policy</em>, <em>118</em>, 18–26. <a href="https://doi.org/10.1016/j.envsci.2020.12.005">https://doi.org/10.1016/j.envsci.2020.12.005</a>
+</div>
+<div id="ref-schobitz2023biogasoutcomesmalawi" class="csl-entry" role="listitem">
+Schöbitz, L., Loos, S. C., Kalina, M., Ogwang, J. O., Kwangulero, J., &amp; Tilley, E. (2023). <em>Biogasoutcomesmalawi: <span>Data</span> for 61 semi-structured interviews with biogas owners in <span>Malawi</span></em> (Version 0.0.1). <a href="https://doi.org/10.5281/zenodo.6470427">https://doi.org/10.5281/zenodo.6470427</a>
+</div>
+<div id="ref-vienni-baptista2022situated" class="csl-entry" role="listitem">
+Vienni-Baptista, B., Goñi Mazzitelli, M., García Bravo, M. H., Rivas Fauré, I., Marín-Vanegas, D. F., &amp; Hidalgo, C. (2022). Situated expertise in integration and implementation processes in <span>Latin America</span>. <em>Humanities and Social Sciences Communications</em>, <em>9</em>(1), 1–14. <a href="https://doi.org/10.1057/s41599-022-01203-7">https://doi.org/10.1057/s41599-022-01203-7</a>
+</div>
+<div id="ref-wilkinson2016fair" class="csl-entry" role="listitem">
+Wilkinson, M. D., Dumontier, M., Aalbersberg, Ij. J., Appleton, G., Axton, M., Baak, A., Blomberg, N., Boiten, J.-W., da Silva Santos, L. B., Bourne, P. E., Bouwman, J., Brookes, A. J., Clark, T., Crosas, M., Dillo, I., Dumon, O., Edmunds, S., Evelo, C. T., Finkers, R., … Mons, B. (2016). The <span>FAIR Guiding Principles</span> for scientific data management and stewardship. <em>Scientific Data</em>, <em>3</em>(1), 160018. <a href="https://doi.org/10.1038/sdata.2016.18">https://doi.org/10.1038/sdata.2016.18</a>
+</div>
+</div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>This project was supported by the <a href="https://ethrat.ch/en/eth-domain/open-research-data/">Open Research Data Program of the ETH Board</a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="../../../about.html">
+<p>About</p>
+</a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="mailto:ghe@mavt.ethz.ch?subject=FAIRqual request">
+      <i class="bi bi-envelope-at" role="img" aria-label="Email">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/fairqual">
+      <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
