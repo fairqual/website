@@ -1,11 +1,27 @@
 ---
-title: "website"
+pagetitle: "FAIRqual"
+page-layout: custom
+section-divs: false
+toc: false
 ---
 
-This is a Quarto website.
+::: {.hero-banner}
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+::: {.content-block}
 
-```{r}
-1 + 1
-```
+# Welcome to FAIRqual
+
+## FAIR Data Practices for Qualitative Research in Transdisciplinarity
+
+This webite is under development. [Read the funded project proposal to learn more about this project](pages/gallery/proposal/). 
+
+*** 
+
+::: {.hero-buttons}
+[Proposal](pages/gallery/proposal){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button"}
+[Events](pages/events/){#btn-guide .btn-action .btn .btn-info .btn-lg role="button"}
+::: 
+
+:::
+
+:::
