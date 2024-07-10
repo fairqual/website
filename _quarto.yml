@@ -20,7 +20,7 @@ website:
         href: https://github.com/fairqual
         aria-label: GitHub
   navbar:
-    background: "#EAA238" 
+    background: "#18A5C5" 
     title: false
     collapse-below: lg
     left:
