@@ -46,6 +46,9 @@ format:
       sidebar-width: 250px
       body-width: 900px
       margin-width: 300px
+    include-in-header: 
+        - text: |
+            <script defer data-domain="fairqual.org" src="https://plausible.io/js/script.js"></script>
 
 execute:
   freeze: auto
