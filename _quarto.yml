@@ -1,6 +1,5 @@
 project:
   type: website
-  output-dir: docs
 
 website:
   title: "FAIRqual"
@@ -29,9 +28,9 @@ website:
       - text: "About"
         href: about.qmd
       - text: "Events"
-        href: pages/events/
+        href: events/
       - text: "Gallery"
-        href: pages/gallery/proposal/
+        href: gallery/proposal/
 
 format:
   html:
@@ -48,7 +47,7 @@ format:
       body-width: 900px
       margin-width: 300px
 
-execute: 
+execute:
   freeze: auto
 
 

@@ -16,7 +16,7 @@
 
 
 .hero-banner h1 {
-  color: #EAA238;
+  color: #18A5C5;
   font-size: 3.5rem;
 }
 
@@ -38,7 +38,7 @@
 
 .btn-action-primary {
   color: white;
-  background-color: #EAA238 !important;
+  background-color: #18A5C5 !important;
 }
 
 .btn-action-primary:hover {
