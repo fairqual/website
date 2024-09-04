@@ -44,7 +44,7 @@ library(tidyverse)
 
 ## tbl-01-work-packages --------------------------------------------------
 
-tbl01 <- read_csv(here::here("pages/gallery/proposal/data/tables/tbl-01-work-packages.csv"))
+tbl01 <- read_csv(here::here("gallery/proposal/data/tables/tbl-01-work-packages.csv"))
 
 wp_no <- tbl01$WP
 
@@ -52,7 +52,7 @@ wp_name <- tbl01$Name
 
 ## tbl-02-wp-activities-research-questions ------------------------------
 
-tbl05 <- read_csv(here::here("pages/gallery/proposal/data/tables/tbl-05-research-questions.csv"))
+tbl05 <- read_csv(here::here("gallery/proposal/data/tables/tbl-05-research-questions.csv"))
 
 wp1_activities <- filter(tbl05, WP == "WP1") |> 
   pull(`Project Activity`) 
