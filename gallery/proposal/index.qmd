@@ -4,14 +4,19 @@ subtitle: "FAIRqual - FAIR Data Practices for Qualitative Research in Transdisci
 author: 
   - name: "Dr. Mollie Chapman"
     url: https://usys.ethz.ch/en/people/profile.MTY5Mjk4.TGlzdC82MzcsMzIwMTk3MjIy.html
-    affiliation: USYS Transdisciplinary Labmm ETH Zurich
+    affiliation: USYS Transdisciplinarity Lab ETH Zurich
     affiliation_url: https://tdlab.usys.ethz.ch/
     orcid_id: 0000-0003-1399-2144 
-  - name: "Dr. Bianca Vienni Baptista"
+  - name: "PD Dr. Bianca Vienni-Baptista"
     url: https://tdlab.usys.ethz.ch/team/person-detail.bianca-vienni.html
-    affiliation: USYS Transdisciplinary Labmm ETH Zurich
+    affiliation: USYS Transdisciplinarity Lab ETH Zurich
     affiliation_url: https://tdlab.usys.ethz.ch/
-    orcid_id: 000-0003-1282-4288 
+    orcid_id: 0000-0003-1282-4288
+  - name: "Dr. Franziska Mohr"
+    url: https://tdlab.usys.ethz.ch/team/person-detail.franziska-mohr.html
+    affiliation: USYS Transdisciplinarity Lab ETH Zurich
+    affiliation_url: https://tdlab.usys.ethz.ch/
+    orcid_id: 0000-0002-8323-7032
   - name: "Lars Schöbitz"
     url: https://www.lse.de
     affiliation: Global Health Engineering, ETH Zurich
