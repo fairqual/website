@@ -1,5 +1,14 @@
 ---
 title: "About"
+listing:
+  contents: "about/*/index.qmd"
+  fields: [image, title, subtitle]
+  type: grid
+  sort-ui: false
+  filter-ui: false
+  categories: false
 ---
 
-This page is under development. [Read the full proposal to learn more about this project](pages/gallery/proposal/). 
+# Team
+
+The first proposal for this work was funded in 2024 and our project team is comprised of five team members. You can read the [full proposal to learn more about this project](pages/gallery/proposal/).
