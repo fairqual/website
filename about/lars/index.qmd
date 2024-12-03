@@ -1,0 +1,24 @@
+---
+title: "Lars Schöbitz"
+subtitle: "Data Steward"
+image: profile-lars.png
+about:
+  template: trestles
+  image-width: 10em
+  image-shape: round
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/larnsce
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/larsschoebitz/
+    - icon: search
+      text: ORCID
+      href: https://orcid.org/0000-0003-2196-5015
+---
+
+With a passion for reproducibility, Lars is actively working on bringing people together that care for open data and open code. He currently works for the Global Health Engineering group at ETH Zurich, and independently to provide data science training for literate programming with Quarto and R, and collaboration and version control with Git and GitHub.
+
+His role in the FAIRqual project is to support the core project team in all aspects regarding research data management and stewardship, and to ensure that the project's data is FAIR (Findable, Accessible, Interoperable, Reusable). He is also responsible for the project's website and the technical development of the project's data management plan.
+

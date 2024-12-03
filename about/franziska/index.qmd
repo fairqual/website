@@ -1,0 +1,22 @@
+---
+title: "Dr. Franziska Mohr"
+subtitle: "[Title or role in project]"
+image: profile.jpg
+about:
+  template: trestles
+  image-width: 10em
+  image-shape: round
+  links:
+    - icon: house
+      text: ETH Zurich
+      href: https://tdlab.usys.ethz.ch/team/person-detail.franziska-mohr.html
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/franziska-m-a70655197/
+    - icon: search
+      text: ORCID
+      href: https://orcid.org/0000-0002-8323-7032
+---
+
+[One to two paragraphs of text about the person. Brief biography and role in the project.]
+
