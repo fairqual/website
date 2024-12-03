@@ -1,6 +1,6 @@
 ---
 title: "Prof. Dr. Elizabeth (Liz) Tilley"
-subtitle: "Advsior"
+subtitle: "Project Advsior"
 image: profile-liz.png
 about:
   template: trestles
