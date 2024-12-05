@@ -1,7 +1,7 @@
 ---
 title: "Dr. Mollie Chapman"
-subtitle: "[Title or role in project]"
-image: profile.jpg
+subtitle: "Principal Investigator"
+image: mollie-chapman-profile.jpg
 about:
   template: trestles
   image-width: 10em
@@ -18,5 +18,7 @@ about:
       href: https://orcid.org/0000-0003-1399-2144
 ---
 
-[One to two paragraphs of text about the person. Brief biography and role in the project.]
+I am a conservation social scientist who uses qualitative and transdisciplinary methods to address food system transformations. 
+
+My role in this project is to keep the creative energy flowing and help the team navigate challenges and find a pathway to building useful outputs for our team and the larger research community.
 

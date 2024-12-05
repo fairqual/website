@@ -13,7 +13,7 @@ toc: false
 
 ## FAIR Data Practices for Qualitative Research in Transdisciplinarity
 
-This webite is under development. [Read the funded project proposal to learn more about this project](gallery/proposal/). 
+Read our [About page](about.qmd) or our [Blog](blog/) to learn more about this project.
 
 *** 
 
