@@ -19,7 +19,7 @@ This webite is under development. [Read the funded project proposal to learn mor
 
 ::: {.hero-buttons}
 [About](about.qmd){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button"}
-[Blog](gallery/proposal){#btn-guide .btn-action .btn .btn-info .btn-lg role="button"}
+[Blog](blog/){#btn-guide .btn-action .btn .btn-info .btn-lg role="button"}
 [Events](events/){#btn-guide .btn-action .btn .btn-info .btn-lg role="button"}
 ::: 
 

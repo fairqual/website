@@ -7,16 +7,45 @@ description: |
 categories:
   - conference
   - workshop
-author: Dr. Franziska Mohr
+author: 
+  - name: "Dr. Franziska Mohr"
+    url: https://tdlab.usys.ethz.ch/team/person-detail.franziska-mohr.html
+    affiliation: USYS Transdisciplinarity Lab ETH Zurich
+    affiliation_url: https://tdlab.usys.ethz.ch/
+    orcid_id: 0000-0002-8323-7032
 date: today
 draft: false
-image: ""
-image-alt: ""
+css: ../../../style/styles.css
+citation:
+  type: post
+  container-title: FAIRqual Project Blog
+  url: https://fairqual.org/blog/2024-12-05-itd24
+image: "PXL_20241105_110903103.jpg"
+image-alt: "Workshop participants discussing challenges and experiences of sharing qualitative data in transdisciplinary research."
 ---
 
 From 4 to 8 November, the International Transdisciplinary Conference (ITD24) took place in Utrecht, NL. This occasion brought together researchers active or interested in transdisciplinarity and other forms of collaborative research/education for a thought-provoking and inspiring week of presentations, workshops and keynotes.
 
+```{=html}
+<iframe class="slide-deck" src="fairqual_itd24_webpage.pdf" height="420" width="747" style="border: 1px solid #123233;"></iframe>
+```
+
+<a href="fairqual_itd24_webpage.pdf" download class="btn btn-primary">
+  <i class="bi bi-download"></i> Download Slides
+</a>
+
 The FAIRqual project facilitated a 90-minute workshop to brainstorm challenges and experiences of sharing qualitative data in TD research. 24 researchers attended and in four groups many ideas and concerns were shared and discussed using prepared flipcharts that quickly filled up with colourful post-its.
+
+::: {#fig-elephants layout-ncol=2}
+
+![](PXL_20241105_110903103.jpg){#fig-1}
+
+![](PXL_20241105_105230709.jpg){#fig-2}
+
+Workshop participants at the ITD conference in Utrecht, NL.
+:::
+
+
 
 It became clear that while this topic is on the minds of many researchers, there is also a lot of uncertainty about how and what to share. The main points of discussion related to the handling of sensitive data, the misuse/decontextualisation of data, and the potential (danger) of new AI applications. The issue of appropriate data repositories in light of different institutional data policies was also raised, as well as the cost-benefit of taking time to prepare data for sharing.
 

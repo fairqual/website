@@ -28,7 +28,7 @@ website:
       - text: "About"
         href: about.qmd
       - text: "Blog"
-        href: pages/blog/index.qmd
+        href: blog/
       - text: "Gallery"
         href: gallery/proposal/
       - text: "Events"
@@ -58,7 +58,7 @@ format:
       margin-width: 300px
     include-in-header: 
         - text: |
-            <script defer data-domain="fairqual.org" src="https://plausible.io/js/script.js"></script>
+            <script defer data-domain="fairqual.org" src="https://plausible.io/js/script.file-downloads.js"></script>
 
 execute:
   freeze: auto
