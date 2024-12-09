@@ -1,7 +1,7 @@
 ---
 title: "PD Dr. Bianca Vienni-Baptista"
-subtitle: "[Title or role in project]"
-image: profile.jpg
+subtitle: "Co-Principal Investigator (Co-PI)"
+image: profile-bianca.jpg
 about:
   template: trestles
   image-width: 10em
@@ -10,6 +10,9 @@ about:
     - icon: house
       text: ETH Zurich
       href: https://tdlab.usys.ethz.ch/team/person-detail.bianca-vienni.html
+    - icon: house-door
+      text: Cultural Studies of Science and Technology
+      href: https://csts.ethz.ch/research/fairqual.html
     - icon: linkedin
       text: Linkedin
       href: https://www.linkedin.com/in/bianca-vienni-baptista-549926323/
@@ -18,5 +21,7 @@ about:
       href: https://orcid.org/0000-0003-1282-4288
 ---
 
-[One to two paragraphs of text about the person. Brief biography and role in the project.]
+I am an interdisciplinary scholar working in the anthropology of science and technology while implementing transdisciplinary approaches for sustainable development. As a Group Leader of “Cultural Studies of Science and Technology”, I investigate with my team the specific conditions for inter- and transdisciplinary research and funding. Therefore, qualitative methods are at the centre of my research and teaching.
+
+My role in the FAIRqual project is to support the team with and contribute to the research process, grounding us into the challenges and opportunities that transdisciplinary research faces.  
 
