@@ -1,0 +1,24 @@
+---
+title: "Dr. Mollie Chapman"
+subtitle: "Principal Investigator"
+image: mollie-chapman-profile.jpg
+about:
+  template: trestles
+  image-width: 10em
+  image-shape: round
+  links:
+    - icon: house
+      text: ETH Zurich
+      href: https://usys.ethz.ch/en/people/profile.MTY5Mjk4.TGlzdC82MzcsMzIwMTk3MjIy.html
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/mollie-chapman-42047a4/
+    - icon: search
+      text: ORCID
+      href: https://orcid.org/0000-0003-1399-2144
+---
+
+I am a conservation social scientist who uses qualitative and transdisciplinary methods to address food system transformations. 
+
+My role in this project is to keep the creative energy flowing and help the team navigate challenges and find a pathway to building useful outputs for our team and the larger research community.
+

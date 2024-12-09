@@ -1,0 +1,63 @@
+---
+title: "FAIR Data Practices for Qualitative Research in Transdisciplinarity"
+subtitle: "Tales from the road: FAIRqual project at the International Transdisciplinary Conference (ITD24) in Utrecht, NL."
+description: |
+  In this blog post we share some experiences and reflections from our workshop “FAIR Data Practices for Qualitative Research in
+  Transdisciplinarity” at the ITD24 conference in Utrecht.
+categories:
+  - conference
+  - workshop
+author: 
+  - name: "Dr. Franziska Mohr"
+    url: https://tdlab.usys.ethz.ch/team/person-detail.franziska-mohr.html
+    affiliation: USYS Transdisciplinarity Lab ETH Zurich
+    affiliation_url: https://tdlab.usys.ethz.ch/
+    orcid_id: 0000-0002-8323-7032
+date: today
+draft: false
+css: ../../../style/styles.css
+citation:
+  type: post
+  container-title: FAIRqual Project Blog
+  url: https://fairqual.org/blog/2024-12-05-itd24
+image: "PXL_20241105_110903103.jpg"
+image-alt: "Workshop participants discussing challenges and experiences of sharing qualitative data in transdisciplinary research."
+---
+
+From 4 to 8 November, the International Transdisciplinary Conference (ITD24) took place in Utrecht, NL. This occasion brought together researchers active or interested in transdisciplinarity and other forms of collaborative research/education for a thought-provoking and inspiring week of presentations, workshops and keynotes.
+
+```{=html}
+<iframe class="slide-deck" src="fairqual_itd24_webpage.pdf" height="420" width="747" style="border: 1px solid #123233;"></iframe>
+```
+
+<a href="fairqual_itd24_webpage.pdf" download class="btn btn-primary">
+  <i class="bi bi-download"></i> Download Slides
+</a>
+
+The FAIRqual project facilitated a 90-minute workshop to brainstorm challenges and experiences of sharing qualitative data in TD research. 24 researchers attended and in four groups many ideas and concerns were shared and discussed using prepared flipcharts that quickly filled up with colourful post-its.
+
+::: {#fig-elephants layout-ncol=2}
+
+![](PXL_20241105_110903103.jpg){#fig-1}
+
+![](PXL_20241105_105230709.jpg){#fig-2}
+
+Workshop participants at the ITD conference in Utrecht, NL.
+:::
+
+
+
+It became clear that while this topic is on the minds of many researchers, there is also a lot of uncertainty about how and what to share. The main points of discussion related to the handling of sensitive data, the misuse/decontextualisation of data, and the potential (danger) of new AI applications. The issue of appropriate data repositories in light of different institutional data policies was also raised, as well as the cost-benefit of taking time to prepare data for sharing.
+
+We also gained two practical insights into how to prevent workshop data from being shared without people's consent:
+
+- Participants were informed at the beginning of the workshop that the flipchart and post-its would be shared publicly after the event. In order to mark sensitive information from the outset, participants were given the opportunity to put a special sticker on post-its that they did not want shared.
+- The conference organiser introduced the possibility of getting an orange wristband as a symbol of not wanting to be photographed for the event website.
+
+Filled with inspiration and data from the conference, we are now looking forward to exploring the hot topics identified in the workshop in the next phase of the project through expert interviews.
+
+We would like to thank everyone who took part. It was great to have you all at the workshop!
+
+Keep an eye out: The data from the workshop will soon be openly available on this website, in line with our project's intention to promote FAIR data standards for qualitative data in TD research.
+
+If you would like to get in touch or receive updates of the projects, [drop us a line](mailto:franziska.mohr@usys.ethz.ch?subject=FAIRqual request)!

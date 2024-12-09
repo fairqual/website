@@ -1,0 +1,24 @@
+---
+title: "Dr. Franziska Mohr"
+subtitle: "PostDoc"
+image: fmohr-profile.jpg
+about:
+  template: trestles
+  image-width: 10em
+  image-shape: round
+  links:
+    - icon: house
+      text: ETH Zurich
+      href: https://tdlab.usys.ethz.ch/team/person-detail.franziska-mohr.html
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/franziska-m-a70655197/
+    - icon: search
+      text: ORCID
+      href: https://orcid.org/0000-0002-8323-7032
+---
+
+I am a geographer by training. After graduating, I worked on a project to inventory the archaeological heritage of the canton of Graubünden. During my PhD at the Swiss Federal Research Institute WSL and the University of Bern, I studied how and why farming and agricultural landscapes have changed in Europe over the last 50 years. An important type of data we used were oral history interviews with (almost) retired farmers from 13 different study sites. This work introduced me to the power and challenges of working with qualitative data.
+
+My own experience of working with qualitative data motivates me to delve deeper into this topic during my PostDoc, to understand how to make this valuable data more accessible where possible. In my role as PostDoc, it is my responsibility to organise and carry out the data collection and analysis. Through a workshop and expert interviews, I plan to highlight pressing issues of sharing qualitative data for Td researchers, but also to explore ways of applying FAIR data standards to such data. In the second part of the project, I will contribute to the production and dissemination of guidelines for Td researchers.
+

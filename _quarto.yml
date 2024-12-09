@@ -13,7 +13,7 @@ website:
       - text: About
         href: about.qmd
       - icon: "envelope-at"
-        href: "mailto:ghe@mavt.ethz.ch?subject=FAIRqual request"
+        href: "mailto:franziska.mohr@usys.ethz.ch?subject=FAIRqual request"
         aria-label: Email
       - icon: github
         href: https://github.com/fairqual
@@ -27,10 +27,20 @@ website:
         text: Home
       - text: "About"
         href: about.qmd
-      - text: "Events"
-        href: events/
+      - text: "Blog"
+        href: blog/
       - text: "Gallery"
         href: gallery/proposal/
+      - text: "Events"
+        href: events/
+      - text: "Support"
+        menu:
+          - text: "Email us"
+            icon: "envelope-at"
+            href: "mailto:franziska.mohr@usys.ethz.ch?subject=FAIRqual request"
+          - text: "Report a Bug"
+            icon: "bug"
+            href: "https://github.com/fairqual/website/issues"
 
 format:
   html:
@@ -48,7 +58,7 @@ format:
       margin-width: 300px
     include-in-header: 
         - text: |
-            <script defer data-domain="fairqual.org" src="https://plausible.io/js/script.js"></script>
+            <script defer data-domain="fairqual.org" src="https://plausible.io/js/script.file-downloads.js"></script>
 
 execute:
   freeze: auto

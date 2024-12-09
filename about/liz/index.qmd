@@ -1,0 +1,23 @@
+---
+title: "Prof. Dr. Elizabeth (Liz) Tilley"
+subtitle: "Project Advsior"
+image: profile-liz.png
+about:
+  template: trestles
+  image-width: 10em
+  image-shape: round
+  links:
+    - icon: house
+      text: ETH Zurich
+      href: https://ghe.ethz.ch/about/people/person-detail.MTc2MjI5.TGlzdC80MTI2LC0xNDYwMDMwNTU3.html
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/elizabeth-tilley-8103b38a/
+    - icon: search
+      text: ORCID
+      href: https://orcid.org/0000-0002-2095-9724
+---
+
+As the Chair of Global Health Engineering at ETH Zurich, Elizabeth is obsessed with answering some not so simple questions: Why after 70 years of dedicated interventions doesn’t everyone on earth have access to a toilet? And, how can we make sure that no one ever dies from a preventable, sanitation-related disease? She believes that some of the answers are probably hidden in data that someone has produced, but hasn’t made accessible: yet!
+
+Her role in the FAIRqual project is of advisory nature. With her experience in managing a group that implements FAIR data principles to their work, she understands what it takes to make it priority.

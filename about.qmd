@@ -1,5 +1,24 @@
 ---
 title: "About"
+listing:
+  contents: "about/*/index.qmd"
+  fields: [image, title, subtitle]
+  type: grid
+  sort-ui: false
+  filter-ui: false
+  categories: false
 ---
 
-This page is under development. [Read the full proposal to learn more about this project](pages/gallery/proposal/). 
+In the FAIRqual project, the core question that drives us is how to make FAIR data practices an integral part of qualitative data management in transdisciplinary research. But why is this necessary? Open research data (ORD) practices are becoming more widespread and - apart from their inherent value - are increasingly required by funders, publishers or institutions. There is already some traction towards ORD for quantitative data, but what about qualitative data?
+
+Qualitative data are more difficult to process and make available in ORD practice. More importantly, ethical norms require confidentiality of research subjects - with interview transcripts, workshops or other types of qualitative data sometimes difficult or impossible to anonymise. Nevertheless, sharing qualitative data can be valuable. Particularly in transdisciplinary (Td) research, where new forms of engagement between science and society are central to the co-production of problem framing and project outcomes, the question of who processes and stores data is even more pressing. Whether qualitative data is generated during the facilitation of the Td process or as part of the scientific study itself, sharing this data could allow for improved learning between Td processes and increased engagement between science and society. And we are curious to find out how!
+
+In order to move qualitative data in Td research towards ORD, a focus on the [FAIR Principles](https://www.go-fair.org/) could be a central element.While the FAIR Principles promote a transparent description of the content and location of datasets and their metadata, it is not a requirement that the data necessarily be made available to everyone. Given the ethical challenges of qualitative data, the ability to decide how much of the dataset is publicly available and, if necessary, to control who can access it and for what purpose, is a key condition.
+
+In the FAIRqal project we will approach this challenge from different angles. As a first step, we are exploring different facets of the application of FAIR principles to qualitative data in Td research. We facilitated a workshop at the [International Transdisciplinary Conference](https://itd-alliance.org/itd-24-conference-save-the-date/) and plan to conduct interviews with Td researchers using qualitative data, but also with experts in information science, data authority, ethics and other related topics. In parallel, we are developing workflows and prototypes to facilitate the technical side of sharing qualitative data. Based on the generated knowledge and experience, we will develop guidelines and show examples / case studies on how to start integrating FAIR principles in qualitative data in Td research. To share, discuss and further develop our findings, we intend to build a community of practice around FAIR qualitative data in Td research and initiate networking and educational events such as workshops or webinars.
+
+The FAIRqual project is funded by the [Open Research Data Program of the ETH Board](https://ethrat.ch/en/eth-domain/open-research-data/) and carried out by researchers from [Tdlab](https://tdlab.usys.ethz.ch/) and the [Global Health Engineering group](https://ghe.ethz.ch/) - both at ETH Zurich. 
+
+# Team
+
+The first proposal for this work was funded in 2024 and our project team is comprised of five team members. You can read the [full proposal to learn more about this project](pages/gallery/proposal/).
