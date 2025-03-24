@@ -21,4 +21,4 @@ The FAIRqual project is funded by the [Open Research Data Program of the ETH Boa
 
 # Team
 
-The first proposal for this work was funded in 2024 and our project team is comprised of five team members. You can read the [full proposal to learn more about this project](pages/gallery/proposal/).
+The first proposal for this work was funded in 2024 and our project team is comprised of five team members. You can read the [full proposal to learn more about this project](gallery/proposal/).
