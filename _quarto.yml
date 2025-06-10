@@ -29,7 +29,9 @@ website:
         href: about.qmd
       - text: "Blog"
         href: blog/
-      - text: "Gallery"
+      - text: "Slides"
+        href: gallery/slides/
+      - text: "Proposal"
         href: gallery/proposal/
       - text: "Events"
         href: events/
