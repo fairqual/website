@@ -1,0 +1,14 @@
+---
+title: "Slides"
+---
+
+## Advancing Open Research Data (ORD) Practices: collaboration and innovation in the ETH Domain
+
+<a href="2025-06-10-fairqual-ord-conference.pdf" download class="btn btn-primary">
+  <i class="bi bi-download"></i> Download PDF slides
+</a>
+
+```{=html}
+<iframe class="slide-deck" src="ord-conference/2025-06-10-fairqual-ord-conference.pdf" height="420" width="747" style="border: 1px solid #123233;"></iframe>
+```
+
