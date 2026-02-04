@@ -10,3 +10,4 @@
 _extensions
 
 gallery/qr-code/*
+**/*.quarto_ipynb

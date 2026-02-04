@@ -1,0 +1,54 @@
+---
+title: "ITD24 Workshop Data Now Available"
+subtitle: "Sharing qualitative data openly: From workshop flipcharts to a FAIR data package"
+description: |
+  The data from our ITD24 workshop "FAIR Data Practices for Qualitative Research in Transdisciplinarity" is now openly available.
+  In this post, we share how we published the workshop data and the technical workflow we used.
+categories:
+  - data package
+  - open data
+  - FAIR
+author:
+  - name: "Dr. Franziska Mohr"
+    url: https://tdlab.usys.ethz.ch/team/person-detail.franziska-mohr.html
+    affiliation:
+      name: USYS Transdisciplinarity Lab ETH Zurich
+      url: https://tdlab.usys.ethz.ch/
+    orcid_id: 0000-0002-8323-7032
+  - name: "Lars Schöbitz"
+    url: https://lse.de
+    affiliation:
+      name: Global Health Engineering, ETH Zurich
+      url: https://ghe.ethz.ch/
+    orcid_id: 0000-0003-2196-5015
+date: today
+draft: false
+css: ../../../style/styles.css
+citation:
+  type: post
+  container-title: FAIRqual Project Blog
+  url: https://fairqual.org/blog/2026-02-04-dataitd24
+---
+
+The data from our workshop at the [ITD24 conference](../2024-12-05-itd24/index.qmd) is finally online! After deciding how to digitize the flip charts produced during the workshop, gathering feedback and approval from all participants, and selecting an appropriate repository and workflow, the data is now available for you to view and download here: <https://fairqual.github.io/dataitd24/>
+
+If you have any questions or comments about the dataset, please [contact us](mailto:franziska.mohr@usys.ethz.ch?subject=FAIRqual dataitd24 dataset). We have learned a lot along the way and will soon share some of our insights in a separate blog post. We are now excited to explore some of the questions raised during the workshop in the upcoming expert interviews. Stay tuned!
+
+## Publishing the data: Our technical workflow
+
+### Data storage and documentation
+
+The R package development environment enabled us to maintain a complete audit trail from unprocessed raw data to analysis-ready datasets. The data are stored in a [Git repository on GitHub](https://github.com/fairqual/dataitd24), alongside the code for data processing, rich metadata, and documentation, following FAIR data-sharing principles.
+
+### Metadata and archiving
+
+The repository includes several metadata files supporting FAIR principles: a Citation File Format (.cff) file that records contributor ORCID IDs, a permissive CC-BY license, and structured documentation. GitHub–Zenodo integration allows the creation of a digital object identifier (DOI) and ensures long-term archiving aligned with internationally recommended best practices. Once published, the DOI-based entry was imported into the [ETH Research Collection](https://www.research-collection.ethz.ch/) to enhance discoverability and ensure institutional archiving.
+
+### Data presentation
+
+For data communication and curation, the R package [pkgdown](https://pkgdown.r-lib.org/) offers substantial advantages. It allows R practitioners to create an attractive website presenting exploratory data analysis examples, even without web development experience. The tool leverages structured metadata to generate a standalone, shareable website on [GitHub Pages](https://fairqual.github.io/dataitd24/) while remaining platform-independent—the repository can be migrated to other Git hosting platforms and alternative website hosting services at any time.
+
+### Alternative platforms
+
+For qualitative data in Switzerland, another option is [SwissUbase](https://www.swissubase.ch/). While it provides advantages such as an integrated access control system, it would have been difficult to integrate with the open publishing workflow described above. Because our workshop data were fully anonymized and contained no sensitive information, controlled access was deemed unnecessary. Therefore, Zenodo and the GitHub-based workflow were chosen. In practice, GitHub is best suited for open-by-default data sharing without restrictions, which is an important consideration when designing informed consent forms and ethics applications.
+
