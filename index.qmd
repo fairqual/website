@@ -13,14 +13,14 @@ toc: false
 
 ## FAIR Data Practices for Qualitative Research in Transdisciplinarity
 
-Read our [About page](about.qmd) or our [Blog](blog/) to learn more about this project.
+The FAIRqual project explores how to make FAIR data practices an integral part of qualitative data management in transdisciplinary research. While qualitative data presents unique ethical and confidentiality challenges that make open sharing difficult, making this data available could enable improved learning between transdisciplinary processes and increased engagement between science and society. We approach this challenge by conducting workshops and expert interviews, developing technical workflows and prototypes, and building a community of practice around FAIR qualitative data.
 
 *** 
 
 ::: {.hero-buttons}
 [About](about.qmd){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button"}
 [Blog](blog/){#btn-guide .btn-action .btn .btn-info .btn-lg role="button"}
-[Proposal](gallery/proposal/){#btn-guide .btn-action .btn .btn-info .btn-lg role="button"}
+[Slides](gallery/slides/){#btn-guide .btn-action .btn .btn-info .btn-lg role="button"}
 ::: 
 
 :::
