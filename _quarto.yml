@@ -3,6 +3,7 @@ project:
 
 website:
   title: "FAIRqual"
+  site-url: https://fairqual.org
   page-navigation: true
   search: false
   page-footer: 
