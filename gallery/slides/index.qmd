@@ -16,11 +16,25 @@ On December 2nd, 2025, the FAIRqual team presented "FAIRifying qualitative data"
 
 ## Advancing Open Research Data (ORD) Practices: collaboration and innovation in the ETH Domain
 
+On June 12th, 2025, the FAIRqual team presented at the [ETH Domain ORD Day](https://memento.epfl.ch/event/eth-domain-ord-day-the-archives-de-la-construction/) at Casino Bern. The FAIRqual project was one of 6 accepted presentations selected from a programme of nearly 100 funded projects. This national event brought together researchers from across the ETH Domain institutions to showcase innovative research projects and discuss best practices for open research data through keynote presentations and tailored workshops.
+
 <a href="ord-conference/2025-06-10-fairqual-ord-conference.pdf" download class="btn btn-primary">
   <i class="bi bi-download"></i> Download PDF slides
 </a>
 
 ```{=html}
 <iframe class="slide-deck" src="ord-conference/2025-06-10-fairqual-ord-conference.pdf" height="420" width="747" style="border: 1px solid #123233;"></iframe>
+```
+
+## FAIR Data Practices for Qualitative Research in Transdisciplinarity
+
+From November 4-8, 2024, the FAIRqual team facilitated a 90-minute workshop at the [International Transdisciplinary Conference (ITD24)](../../blog/posts/2024-12-05-itd24/index.qmd) in Utrecht, NL. The workshop brought together 24 researchers to brainstorm challenges and experiences of sharing qualitative data in transdisciplinary research, discussing topics such as handling sensitive data, preventing misuse and decontextualization, and navigating institutional data policies.
+
+<a href="../../blog/posts/2024-12-05-itd24/fairqual_itd24_webpage.pdf" download class="btn btn-primary">
+  <i class="bi bi-download"></i> Download PDF slides
+</a>
+
+```{=html}
+<iframe class="slide-deck" src="../../blog/posts/2024-12-05-itd24/fairqual_itd24_webpage.pdf" height="420" width="747" style="border: 1px solid #123233;"></iframe>
 ```
 
