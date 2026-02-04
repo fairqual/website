@@ -21,7 +21,7 @@ author:
       name: Global Health Engineering, ETH Zurich
       url: https://ghe.ethz.ch/
     orcid_id: 0000-0003-2196-5015
-date: today
+date: 2026-02-04
 draft: false
 css: ../../../style/styles.css
 citation:

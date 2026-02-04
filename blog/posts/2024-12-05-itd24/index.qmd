@@ -13,7 +13,7 @@ author:
     affiliation: USYS Transdisciplinarity Lab ETH Zurich
     affiliation_url: https://tdlab.usys.ethz.ch/
     orcid_id: 0000-0002-8323-7032
-date: today
+date: 2024-12-05
 draft: false
 css: ../../../style/styles.css
 citation:
