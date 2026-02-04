@@ -13,7 +13,8 @@ read_sheet("https://docs.google.com/spreadsheets/d/1VhXDQ1WRkBV9qfMF0w0R9dYKHCWq
     write_csv(here::here("events/events_data/tbl-06-fairqual-events.csv"))
 
 events <- read_csv(here::here("events/events_data/tbl-06-fairqual-events.csv")) |>
-    mutate(date = lubridate::as_date(date))
+    mutate(date = lubridate::as_date(date)) |>
+    rename(path = site_url)
 
 # functions
 
