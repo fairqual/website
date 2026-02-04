@@ -2,6 +2,18 @@
 title: "Slides"
 ---
 
+## EPFL IT4R Tech Talk: Research Data Management for Qualitative Data
+
+On December 2nd, 2025, the FAIRqual team presented "FAIRifying qualitative data" at EPFL's [Tuesdays Tech Talks](https://www.epfl.ch/schools/enac/about/data-at-enac/enac-it4research/mondays-open-doors/) series, organized by ENAC-IT4R (School of Architecture, Civil and Environmental Engineering - IT for Research). These lightning talk sessions foster interdisciplinary knowledge sharing on data and coding topics within the ENAC research community in a "Lunch & Learn" format.
+
+<a href="epfl-it4r-tech-talk/2025-12-02-fairqual-techtalk-epfl.pdf" download class="btn btn-primary">
+  <i class="bi bi-download"></i> Download PDF slides
+</a>
+
+```{=html}
+<iframe class="slide-deck" src="epfl-it4r-tech-talk/2025-12-02-fairqual-techtalk-epfl.pdf" height="420" width="747" style="border: 1px solid #123233;"></iframe>
+```
+
 ## Advancing Open Research Data (ORD) Practices: collaboration and innovation in the ETH Domain
 
 <a href="ord-conference/2025-06-10-fairqual-ord-conference.pdf" download class="btn btn-primary">
