@@ -6,6 +6,11 @@ website:
   site-url: https://fairqual.org
   page-navigation: true
   search: false
+  announcement:
+    dismissable: true
+    content: "**News!** Our abstract has been accepted for [STS NL 2026](blog/posts/2026-02-05-sts-nl2026/). We'll present in the track 'How to Make Science Better'. [Read more →](blog/posts/2026-02-05-sts-nl2026/)"
+    type: warning
+    icon: megaphone
   page-footer: 
     left: | 
         This project was supported by the 
