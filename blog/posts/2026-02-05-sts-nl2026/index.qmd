@@ -23,6 +23,14 @@ citation:
 
 We are excited to announce that our abstract has been accepted for the [STS NL 2026 conference](https://www.utwente.nl/en/bms/sts-nl2026/). The FAIRqual project will be represented in the track 'How to Make Science Better', where we will talk about how the use of FAIR qualitative data in Td research could contribute to this ambition. Are you planning to join STS NL 2026 as well? Get in touch!
 
+::: {.callout-note}
+
+## Update
+
+We presented this work at the conference on April 16th, 2026. The slides are available in our [slides gallery](../../../gallery/slides/index.qmd).
+
+:::
+
 ## Abstract: FAIR Data Practices for Qualitative Research in Transdisciplinarity
 
 In recent years, open research data (ORD) practices have gained traction, as evidenced by funding calls and journals establishing them as a requirement. ORD intends to 'make science better ' by increasing transparency and reproducibility, and by making datasets reusable and citable. However, ORD practises are often based on quantitative data cultures, and are rarely applied to qualitative data. Given their growing importance, it is important to rethink ORD practices for qualitative data, taking into account the practical, epistemological, and ethical challenges of sharing such data. This need comes to the fore when conducting transdisciplinary (Td) research, where new forms of engagement between science and society co-produce problem framings and project outputs. Sharing interview or workshop data from Td projects could allow for improved learning between Td processes and increase engagement between science and society.
