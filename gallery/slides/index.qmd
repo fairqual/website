@@ -4,7 +4,7 @@ title: "Slides"
 
 ## STS NL 2026: FAIR Data Practices for Qualitative Research in Transdisciplinarity
 
-On April 16th, 2026, the FAIRqual team presented at the [STS NL 2026 conference](https://www.utwente.nl/en/bms/sts-nl2026/) at the University of Twente, NL, in the track 'How to Make Science Better'. The presentation discussed how FAIR qualitative data practices in transdisciplinary research could contribute to making science better. The accepted abstract is published as a [blog post](../../blog/posts/2026-02-05-sts-nl2026/index.qmd).
+On April 16th, 2026, the FAIRqual team presented at the [STS NL 2026 conference](https://www.utwente.nl/en/bms/sts-nl2026/) at the University of Twente, NL, in the track 'How to Make Science Better'. The track provided plenty of food for thought on current trends in the 'science industry', such as publishing schemes, handling misconduct, and institutionalising movements such as Open Science. In our presentation, we discussed how raising awareness of data governance and FAIR data practices in qualitative, transdisciplinary research could contribute to making science better. The accepted abstract is published as a [blog post](../../blog/posts/2026-02-05-sts-nl2026/index.qmd).
 
 <a href="sts-conference/2026-04-16-fairqual-sts-netherlands.pdf" download class="btn btn-primary">
   <i class="bi bi-download"></i> Download PDF slides
