@@ -2,6 +2,7 @@
 title: "Data repositories and beyond"
 subtitle: "FAIRqual Workshop · Reallabor Jurapark"
 author: "Lars Schöbitz"
+institute: "Global Health Engineering, ETH Zurich"
 date: "2026-08-31"
 date-format: "D MMMM YYYY"
 format:
@@ -234,13 +235,6 @@ Photo: FAIRqual team, from the *dataitd24* package (CC BY 4.0). <https://doi.org
 Hand to the group exercise. Encourage them to add "places" beyond the three repository types: reading rooms, project websites, documentation-only shares.
 :::
 
-## References
-
-- FAIRqual OER module, Subsection 4.3 *Practical Aspects of Sharing Qualitative Data* (Units 4.3.1–4.3.3). In preparation.
-- Alexander, S. M., Jones, K., Bennett, N. J. et al. (2020). Qualitative data sharing and synthesis for sustainability science. *Nat Sustain* 3, 81–88. <https://doi.org/10.1038/s41893-019-0434-8>
-- Mohr, F., Chapman, M., Pohl, C. et al. (2026). *dataitd24* (v1.0.0) [Data set]. Zenodo. <https://doi.org/10.5281/zenodo.18493525>
-- ETH Zurich data management guidelines (RSETHZ 414.2); SWISSUbase Standard Download Contract.
-
 ## Thanks {#thanks}
 
 ::: {.columns}
@@ -275,3 +269,11 @@ All material is licensed under Creative Commons Attribution 4.0 International (C
 ::: {.notes}
 Close the block. Everything here is open. The repository types from earlier map to the resources: SWISSUbase for sensitive qualitative data, the ETH Research Collection for ETH members, Zenodo as the generalist fallback.
 :::
+
+## References
+
+- FAIRqual OER module, Subsection 4.3 *Practical Aspects of Sharing Qualitative Data* (Units 4.3.1–4.3.3). In preparation.
+- Alexander, S. M., Jones, K., Bennett, N. J. et al. (2020). Qualitative data sharing and synthesis for sustainability science. *Nat Sustain* 3, 81–88. <https://doi.org/10.1038/s41893-019-0434-8>
+- Mohr, F., Chapman, M., Pohl, C. et al. (2026). *dataitd24* (v1.0.0) [Data set]. Zenodo. <https://doi.org/10.5281/zenodo.18493525>
+- ETH Zurich data management guidelines (RSETHZ 414.2); SWISSUbase Standard Download Contract.
+
