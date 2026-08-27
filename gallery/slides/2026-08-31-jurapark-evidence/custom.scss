@@ -1,0 +1,187 @@
+/*-- scss:defaults --*/
+
+// FAIRqual brand
+$teal:    #18A5C5;
+$ink:     #1e1e1e;
+$paper:   #f4f4f4;
+$magenta: #e6007e;
+$purple:  #6a2c91;
+$link-color: #272bd1;
+
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap');
+
+$font-family-sans-serif: "Atkinson Hyperlegible", -apple-system, sans-serif;
+$presentation-heading-font: "Atkinson Hyperlegible", sans-serif;
+$presentation-heading-color: $teal;
+$body-color: $ink;
+$body-bg: #ffffff;
+$link-color-hover: darken($link-color, 10%);
+
+/*-- scss:rules --*/
+
+.reveal {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+}
+
+.reveal h1, .reveal h2, .reveal h3 {
+  color: $teal;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.reveal .slide-number { color: $teal; }
+.reveal .footer { color: #7a7a7a; font-size: 0.55em; }
+
+.reveal ul { line-height: 1.5; }
+.reveal section img.rounded {
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.18);
+  max-height: 560px;
+  object-fit: cover;
+}
+
+// Big centered question slides
+.big-question {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: $purple;
+  line-height: 1.3;
+  margin: 0.3em 0 0.6em;
+}
+
+.axis-caption {
+  margin-top: 0.6em;
+  font-size: 0.62em;
+  color: #555;
+  line-height: 1.4;
+}
+
+// "What a repository gives you" card
+.repo-card {
+  background: $teal;
+  color: #fff;
+  border-radius: 12px;
+  padding: 0.9em 0.8em;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.6;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+// ---- grades-of-sharing figure (OER figure, Alexander et al. 2020) ----
+.reveal section img.grid-img {
+  display: block;
+  width: 100%;
+  max-height: 560px;
+  object-fit: contain;
+  margin: 0;
+  border: none;
+  box-shadow: none;
+  background: #fff;
+}
+
+// ---- access staircase ----
+.access-stair { display: flex; gap: 18px; max-width: 1000px; margin: 0.5em auto 0; }
+.stair-axis {
+  display: flex; flex-direction: column; justify-content: space-between;
+  align-items: center; padding: 6px 0; font-weight: 700; font-size: 0.6em; letter-spacing: 0.08em;
+}
+.stair-axis::before {
+  content: ""; position: relative; flex: 1; width: 3px;
+  background: linear-gradient(#2aa84a, #6bb52a, #e08a1e, #c0392b);
+  border-radius: 3px; margin: 6px 0;
+}
+.stair-axis .ax-open { color: #2aa84a; order: -1; }
+.stair-axis .ax-closed { color: #c0392b; }
+.stair-rungs { flex: 1; display: flex; flex-direction: column; gap: 12px; }
+.srung {
+  padding: 0.7em 1em; border-radius: 10px; color: #fff; font-size: 0.8em; line-height: 1.35;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.16);
+}
+.srung .lbl { font-weight: 700; display: block; font-size: 1.05em; margin-bottom: 2px; }
+.srung em { opacity: 0.85; font-style: italic; }
+.srung.s1 { background: #2aa84a; margin-right: 0%; }
+.srung.s2 { background: #6bb52a; margin-right: 9%; }
+.srung.s3 { background: #e08a1e; margin-right: 18%; }
+.srung.s4 { background: #c0392b; margin-right: 27%; }
+
+// ---- automatic vs manual fork ----
+// Equalise the two boxes: stretch the columns row so both columns share the
+// tallest height, then let each box fill its column (height: 100%).
+.reveal .fork-box-row.columns { display: flex; align-items: stretch; }
+.reveal .fork-box-row.columns > .column { display: flex; }
+.fork-box {
+  border-radius: 12px;
+  padding: 0.9em 1em;
+  width: 100%;
+  height: 100%;
+  line-height: 1.4;
+}
+.fork-box.auto   { background: rgba(42,168,74,0.12);  border: 2px solid #2aa84a; }
+.fork-box.manual { background: rgba(192,57,43,0.10);  border: 2px solid #c0392b; }
+.fork-box strong { color: $ink; }
+
+.smaller-refs { font-size: 0.5em; line-height: 1.5; }
+.smaller-refs a { color: $link-color; }
+
+// Callout text at slide-body size. Reveal scales the whole callout
+// container down with `.callout { font-size: 0.7em }`, so children
+// inherit the shrink. Reset the container itself to full size.
+.reveal .callout { font-size: 1em; }
+.reveal .callout .callout-body,
+.reveal .callout .callout-content,
+.reveal .callout .callout-content p,
+.reveal .callout .callout-title p { font-size: 1em; line-height: 1.4; }
+
+// ---- key-point banner (replaces callouts for headline rules) ----
+// A full-width coloured band with large white text. Reads as a headline
+// statement, not a secondary aside like a callout does.
+.reveal .key-banner {
+  background: $magenta;
+  color: #fff;
+  border-radius: 10px;
+  padding: 0.6em 0.9em;
+  margin: 0.5em 0;
+  font-size: 1.15em;
+  font-weight: 700;
+  line-height: 1.35;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.18);
+}
+.reveal .key-banner strong { color: #fff; }
+.reveal .key-banner.teal { background: $teal; }
+
+// Pull a top banner above the heading. Reveal forces `display:block
+// !important` on every slide section, so flex + !important is needed to
+// win the cascade; the extra class raises specificity over reveal's rule.
+.reveal .slides section.banner-top {
+  display: flex !important;
+  flex-direction: column;
+}
+.reveal .slides section.banner-top > .key-banner { order: -1; }
+
+// ---- repository logo row (placeholders until real logos are dropped in) ----
+.logo-row { display: flex; justify-content: center; align-items: flex-start; gap: 40px; margin: 0.8em auto 0; max-width: 1000px; }
+.logo-cell { display: flex; flex-direction: column; align-items: center; justify-content: flex-start; gap: 8px; width: 200px; }
+.logo-cell span { font-size: 0.55em; color: #555; font-weight: 700; text-align: center; }
+.logo-cell img { max-width: 200px; max-height: 80px; width: 100%; height: auto; object-fit: contain; }
+
+// ---- thanks slide ----
+.kicker {
+  text-transform: uppercase; letter-spacing: 0.08em; font-weight: 700;
+  color: $magenta; font-size: 0.6em; margin-bottom: 0.3em;
+}
+.thanks-foot { margin-top: 0.8em; font-size: 0.5em; color: #777; }
+
+// ---- per-image credit line ----
+.reveal .img-credit {
+  font-size: 0.4em; color: #888; line-height: 1.3; margin-top: 0.3em;
+}
+.reveal .img-credit a { color: #888; text-decoration: underline; }
+
+// Force landscape 16:9 page size when exporting to PDF via Chrome print-pdf,
+// and keep heading colours in print (Chrome strips backgrounds by default).
+@media print {
+  @page { size: 13.333in 7.5in; margin: 0; }
+  .reveal h1, .reveal h2, .reveal h3 { color: $teal !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .repo-card, .srung, .stair-axis::before, .axis-grid .plot .dot, .fork-box { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+}

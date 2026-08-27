@@ -1,0 +1,39 @@
+---
+title: "Sharing qualitative data, in numbers"
+subtitle: "Teilen qualitativer Daten in Zahlen"
+author: "Lars Schöbitz"
+date: "2026-08-31"
+date-format: "D MMMM YYYY"
+format:
+  revealjs:
+    theme: [default, custom.scss]
+    width: 1280
+    height: 720
+    slide-number: true
+    controls: true
+    transition: fade
+    fig-align: center
+    footer: "FAIRqual Workshop, Reallabor Jurapark"
+execute:
+  echo: false
+---
+
+## Sharing qualitative data, in numbers
+
+- **96% never deposited.** Of 425 surveyed qualitative researchers in the US, 96% have never shared qualitative data in a repository (Mozersky et al. 2021)
+- **Participants are more open than researchers.** The vast majority of 30 interviewed participants of sensitive interview studies support sharing, deidentified and among researchers (Mozersky et al. 2020)
+- **"Available on request" rarely holds.** In an audit of 190 articles, 74% of datasets were unavailable (Asmundo et al. 2024), and only 31% of on-request promises were honoured when tested (Archer et al. 2025)
+- **Where an archive exists, reuse happens.** 7,155 downloads of 267 qualitative collections at the UK Data Service, 2002-2016; 60% of collections reused at least once, three quarters of downloads for teaching and learning (Bishop and Kuula-Luumi 2017)
+
+::: {.notes}
+The gap runs in both directions: researchers hold back although participants support sharing, and informal promises do not deliver. Infrastructure does: where a curated archive exists, the data get used, mostly in teaching. Full sources with abstracts are in the Zotero collection jurapark-workshop; the audits come from health and clinical fields because that is where such audits exist, and no transdisciplinary-specific audit was found (stating that openly is itself credible).
+:::
+
+## References {.smaller}
+
+- Archer, D., Barks, N., Chaudhry, M., et al. (2025). Data sharing statements: impact of journal policies across clinical research disciplines. *European Heart Journal*. <https://doi.org/10.1093/eurheartj/ehaf359>
+- Asmundo, M. G., Durukan, E., Russo, G. I., Jensen, C. F. S., Østergren, P., Cimino, S., & Fode, M. (2024). Data availability statements and data sharing in urology: A false promise? *European Urology Focus*.
+- Bishop, L., & Kuula-Luumi, A. (2017). Revisiting qualitative data reuse: A decade on. *SAGE Open*, January-March 2017, 1-15. <https://doi.org/10.1177/2158244016685136>
+- Mozersky, J., Parsons, M. V., Walsh, H. A., Baldwin, K. A., McIntosh, T. J., & DuBois, J. M. (2020). Research participant views regarding qualitative data sharing. *Ethics & Human Research*. <https://doi.org/10.1002/eahr.500044>
+- Mozersky, J., McIntosh, T. J., Walsh, H. A., Parsons, M. V., Goodman, M., & DuBois, J. M. (2021). Barriers and facilitators to qualitative data sharing in the United States: A survey of qualitative researchers. *PLOS ONE*. <https://doi.org/10.1371/journal.pone.0261719>
+
