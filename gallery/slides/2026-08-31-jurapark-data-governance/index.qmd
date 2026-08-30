@@ -1,0 +1,307 @@
+---
+title: "Data Repositories und Mehr"
+subtitle: "FAIRqual Workshop"
+author: "Lars Schöbitz"
+institute: "Global Health Engineering, ETH Zürich"
+date: "2026-08-31"
+date-format: "D. MMMM YYYY"
+lang: de
+format:
+  revealjs:
+    theme: [default, custom.scss]
+    width: 1280
+    height: 720
+    slide-number: true
+    controls: true
+    transition: fade
+    fig-align: center
+    footer: "FAIRqual Workshop"
+execute:
+  echo: false
+---
+
+## Wo liegen eure Daten nach dem Projekt? {.center}
+
+::: {.big-question}
+Ein Ordner auf dem Laborserver ist nicht das Ende des Weges.
+:::
+
+::: {.notes}
+Den Block aufsetzen: Wenn ein Td-Projekt endet, brauchen die Daten ein Zuhause, das das Projekt, die Personen und die Website überlebt. Das ist der "Wo"-Teil der Data Governance. 10 Minuten, dann öffnen wir die Runde.
+:::
+
+## Warum nicht einfach der Ordner auf dem Laborserver?
+
+::: {.columns}
+::: {.column width="55%"}
+- **Kein permanenter Link.** Niemand kann diesen zitieren oder wiederfinden.
+- **Unsichtbar.** Nur eure Gruppe weiss, dass der Ordner existiert.
+- **Fragil.** Der Ordner geht verloren, wenn Server, Personal oder Websites wechseln.
+:::
+::: {.column width="45%"}
+![](img/itd24-workshop-1.jpg){.rounded}
+
+::: {.img-credit}
+Foto: FAIRqual-Team, ITD24-Workshop (Nov. 2024). Projektmaterial.
+:::
+:::
+:::
+
+::: {.notes}
+Der Laborserver deckt die aktive Projektphase ab. Für alle ausserhalb der Gruppe leistet er nichts von dem, was hier folgt. Die ETH sagt dasselbe in RSETHZ 414.2.
+:::
+
+## Was euch ein Repository gibt
+
+::: {.columns}
+::: {.column width="60%"}
+- **DOI** – ein permanenter Identifikator, der dauerhaft funktioniert und zitiert werden kann.
+- **Sichtbarkeit** – ein öffentlicher Katalog, durchsuchbar, auch wenn die Dateien geschlossen bleiben.
+- **Kontrollierter Zugang** – Regeln, Antragsformulare, Verträge, ein Nachweis, wer die Daten erhalten hat.
+- **Langzeitarchivierung** – Dateien bleiben lesbar und gesichert, über das Projekt hinaus.
+:::
+::: {.column width="40%"}
+::: {.repo-card}
+DOI · Katalog · Zugangsregeln · Backup
+:::
+:::
+:::
+
+::: {.notes}
+Kontrast zum Verschicken von Kopien per E-Mail: ihr verliert die Kontrolle darüber, was danach passiert. Ein Repository ist ein Service, keine Festplatte.
+:::
+
+## Zwei Fragen entscheiden, wie ihr teilt
+
+::: {.columns}
+::: {.column width="44%"}
+![](img/grades-of-sharing.png){.grid-img fig-alt="Raster der Abstufungen des Teilens: Zugang auf der x-Achse (geschlossen bis offen), Verarbeitung auf der y-Achse (Rohdaten bis Endauswertung). Ein oranger Kreis markiert vollständige Daten ohne Identifikatoren, offen geteilt."}
+:::
+::: {.column width="52%"}
+- **Zugang** – wie leicht kommt jemand an die Daten? *(geschlossen -> offen)*
+- **Verarbeitung** – welche Arbeitsschritte teilt ihr? *(Rohdaten -> Endauswertung)*
+
+Euer Datensatz ist ein Punkt auf diesem Raster. Der orange Kreis: **vollständige Daten ohne Identifikatoren**, **offen** geteilt.
+:::
+:::
+
+::: {.axis-caption}
+Abbildung: FAIRqual-OER-Modul (Unit 4.3.1). Beispiel: Mohr et al. 2026. Nach Tabelle 2, Alexander et al. 2020.
+:::
+
+::: {.notes}
+Der orange Kreis ist eine Wahl: "vollständige Daten ohne Identifikatoren" in einem "offenen" Setting, wie der FAIRqual-ITD24-Datensatz (Mohr et al. 2026). Jeder Datensatz sitzt irgendwo auf diesem Raster; der Rest des Vortrags zeigt, wie Repositories euch den Punkt wählen lassen. Auf die Achsen hinweisen: Zugang läuft oben von geschlossen nach offen, Verarbeitung seitlich von Rohdaten zur Endauswertung.
+:::
+
+## Drei Arten von Repositories
+
+- **Institutionell** – für Angehörige einer Institution. An der ETH: die **ETH Research Collection**.
+- **Disziplinär** – fachspezifische Kuratierung und Zugang. Für qualitative und sozialwissenschaftliche Daten in der Schweiz: **SWISSUbase** (betrieben von FORS), und **EnviDat** der WSL für Umweltdaten
+- **Generalistisch** – nimmt Daten aus allen Fächern an, z.B. **Zenodo**.
+
+```{=html}
+<div class="logo-row">
+  <div class="logo-cell"><img src="img/eth-logo-pos.png" alt="Logo der ETH Zürich"></div>
+  <div class="logo-cell"><img src="img/swissubase.webp" alt="SWISSUbase-Logo"></div>
+  <div class="logo-cell"><img src="img/zenodo-black-border.svg" alt="Zenodo-Logo"></div>
+</div>
+```
+
+::: {.key-banner .fragment}
+SWISSUbase ist das Zuhause für qualitative Daten: zertifiziert (CoreTrustSeal), vergibt DOIs, nimmt sensible Daten an, untersteht Schweizer Recht.
+:::
+
+::: {.notes}
+Die meisten wählen standardmässig Zenodo, weil es einfach ist. Für sensible qualitative Daten ist die disziplinäre Option meist die bessere Wahl.
+:::
+
+
+## Ein Beispiel-Repository: EnviDat
+
+- **Betrieben von der WSL**, der Eidgenössischen Forschungsanstalt für Wald, Schnee und Landschaft.
+- **Jetzt schon durchstöberbar**: rund 766 Datensätze auf [envidat.ch](https://www.envidat.ch) (Stand August 2026)
+- **Was ein Repository gibt, in Aktion**: DOIs, offener Zugang, Creative-Commons-Lizenzen und Metadaten
+- **Einreichen bei der WSL**: läuft über WSL-Zugehörigkeit oder Registrierung
+- **Mehr finden**: [re3data.org](https://www.re3data.org) listet über 3'000 Forschungsrepositories, filterbar nach Land und Fachgebiet
+
+::: {.notes}
+Das Paar für dieses Publikum: EnviDat ist der Ort für die Umweltmonitoring-Daten rund um einen Park, SWISSUbase der Ort für die eigenen qualitativen und sozialen Daten der Teilnehmenden. Zusammen decken sie beide Hälften dessen ab, was ein Reallabor produziert. Für Artenbeobachtungen ist GBIF das greifbare Zusatzbeispiel, weil Park-Sichtungen letztlich dorthin fliessen. re3data macht aus der Post-it-Frage "welche Orte passen zu welchen Daten?" etwas, das die Teilnehmenden nach dem Workshop selbst beantworten können.
+:::
+
+## Die Zugangs-Achse im Detail
+
+Die Achse "geschlossen -> offen" aus dem Raster ist kein Schalter. Repositories geben euch Stufen dazwischen.
+
+```{=html}
+<div class="access-stair">
+  <div class="stair-axis"><span class="ax-open">OFFEN</span><span class="ax-closed">GESCHLOSSEN</span></div>
+  <div class="stair-rungs">
+    <div class="srung s1"><span class="lbl">Offen</span> alle können herunterladen, offene Lizenz, keine Registrierung</div>
+    <div class="srung s2"><span class="lbl">Standardbedingungen</span> registrieren &amp; Bedingungen akzeptieren <em>(automatisch)</em></div>
+    <div class="srung s3"><span class="lbl">Individuelle Genehmigung</span> eine benannte Person entscheidet über jede Anfrage</div>
+    <div class="srung s4"><span class="lbl">Gesichert / vor Ort</span> die Daten verlassen den kontrollierten Raum nie</div>
+  </div>
+</div>
+```
+
+::: {.axis-caption}
+Konkret: SWISSUbase kann den Zugang auf akademische Forschung einschränken; die ETH Research Collection kann Dateien auf eingeloggte ETH-Angehörige beschränken.
+:::
+
+::: {.notes}
+Das ist die Zugangs-Achse aus dem Raster von vorhin, so wie Repositories sie tatsächlich umsetzen. Rückbezug auf Folie 4: dieselbe Achse, jetzt konkret. Betonen: Es ist eine Leiter, kein Schalter; ihr seid nicht auf ganz-offen oder ganz-geschlossen festgelegt. Die nächsten zwei Folien zoomen in diese Leiter: Stufe 2 vs. Stufe 3 ist "automatisch vs. manuell", Stufe 4 ist "Zugang geben, ohne die Daten zu geben".
+:::
+
+## Automatisch vs. manuell
+
+::: {.columns}
+::: {.column width="50%"}
+**Automatische Regeln**
+
+- Embargo-Datum, nur akademische Forschung.
+- Niemand prüft die einzelne Anfrage.
+:::
+::: {.column width="50%"}
+**Manuell (sur dossier)**
+
+- Eine benannte Person genehmigt jede Anfrage.
+- Muss noch **Jahre** nach Projektende erreichbar sein.
+:::
+:::
+
+::: {.key-banner .fragment}
+Manuelle Genehmigung funktioniert nur, wenn die Rolle bei einer **Funktion** liegt (z.B. Data Steward). Sonst: automatische Regeln wählen.
+:::
+
+::: {.notes}
+Das ist die praktische Falle für die Park-Arbeit: "Ich genehmige die Anfragen selbst" überlebt keinen Personalwechsel. Bindet die Genehmigung an eine Rolle, nicht an eine Person, oder wählt automatische Regeln.
+:::
+
+## Lizenz vs. Datennutzungsvereinbarung
+
+::: {.columns}
+::: {.column width="50%"}
+**Creative-Commons-Lizenz**
+
+- Regelt das Urheberrecht.
+- Im Voraus erteilt, nicht widerrufbar.
+- Deckt **keine** Personendaten ab.
+- CC / CC0 für vollständig anonymisierte offene Daten.
+:::
+::: {.column width="50%"}
+**Datennutzungsvereinbarung (DUA)**
+
+- Ein Vertrag mit jeder Nutzerin, jedem Nutzer.
+- Beschränkt den Zweck, verbietet die Weitergabe.
+- Verbietet Re-Identifikation, verlangt Löschung.
+- Qualitative Daten brauchen meist genau das.
+:::
+:::
+
+::: {.key-banner .fragment}
+Keine von beiden darf offener sein, als was die Teilnehmenden eingewilligt haben.
+:::
+
+::: {.notes}
+SWISSUbase publiziert einen Standard Download Contract als öffentliches Beispiel einer DUA. Die Einwilligung ist die harte Obergrenze: ihr könnt Daten nicht offener lizenzieren oder teilen, als die Menschen zugestimmt haben.
+:::
+
+## Zugang geben, ohne die Daten zu geben
+
+::: {.columns}
+::: {.column width="55%"}
+- **Lesesaal-Zugang**: genehmigte Besucherinnen und Besucher konsultieren das vollständige Material vor Ort, keine Kopien (z.B. Archiv für Zeitgeschichte der ETH).
+- **Den Prozess teilen, nicht die Daten**: die Verarbeitungsstufe senken: Auszüge, Codebücher, Dokumentation der Entscheidungen.
+:::
+::: {.column width="45%"}
+![](img/reading-room-loc.jpg){.rounded}
+
+::: {.img-credit}
+Foto: Carol M. Highsmith, Public Domain ([Library of Congress, via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:LOC_Main_Reading_Room_Highsmith.jpg)).
+:::
+:::
+:::
+
+::: {.notes}
+Wenn keine Zugangsstufe zu den Daten passt, bewegt euch stattdessen auf der anderen Achse: teilt, was die Daten beschreibt (Metadaten, Dokumentation), auch wenn die Daten selbst geschlossen bleiben. Das schliesst den Kreis zu den "Verarbeitungsstufen".
+:::
+
+## Jetzt seid ihr dran {.center}
+
+::: {.big-question}
+Welche "Orte" passen zu welchen eurer Daten?
+:::
+
+::: {.columns}
+::: {.column width="55%"}
+Auf eure Post-its: benennt einen Datensatz, platziert diesen auf dem Raster (wie offen, wie verarbeitet), und notiert, welches Repository oder Archiv dazu passt.
+:::
+::: {.column width="45%"}
+![](img/flipchart-output.jpg){.rounded}
+
+::: {.img-credit}
+Foto: FAIRqual-Team, aus dem Paket *dataitd24* (CC BY 4.0). <https://doi.org/10.5281/zenodo.18493525>
+:::
+:::
+:::
+
+::: {.notes}
+Übergabe an die Gruppenübung. Ermutigt die Gruppe, "Orte" jenseits der drei Repository-Typen zu ergänzen: Lesesäle, Projektwebsites, reine Dokumentations-Shares.
+:::
+
+## Danke {#thanks}
+
+::: {.columns}
+::: {.column width="50%"}
+
+::: {.kicker}
+Kontakt
+:::
+
+- **Lars Schöbitz**, Global Health Engineering, ETH Zürich
+- **Das FAIRqual-Projekt:** [fairqual.org](https://fairqual.org)
+- **Diese Folien:** gebaut mit Quarto und reveal.js
+
+:::
+::: {.column width="50%"}
+
+::: {.kicker}
+Ressourcen
+:::
+
+- **Zertifiziertes Repository für qualitative Daten:** [SWISSUbase](https://www.swissubase.ch) (FORS)
+- **ETH Research Collection:** [research-collection.ethz.ch](https://www.research-collection.ethz.ch)
+- **Beispiel-Datensatz:** [dataitd24 auf Zenodo](https://doi.org/10.5281/zenodo.18493525), kuratiert als [eigenständige Website](https://fairqual.github.io/dataitd24/)
+
+:::
+:::
+
+::: {.thanks-foot}
+Alle Materialien sind lizenziert unter Creative Commons Attribution 4.0 International (CC BY 4.0).
+:::
+
+::: {.notes}
+Block abschliessen. Alles hier ist offen. Die Repository-Typen von vorhin entsprechen den Ressourcen: SWISSUbase für sensible qualitative Daten, die ETH Research Collection für ETH-Angehörige, Zenodo als generalistische Alternative.
+:::
+
+## Referenzen
+
+- FAIRqual OER module, Subsection 4.3 *Practical Aspects of Sharing Qualitative Data* (Units 4.3.1–4.3.3). In Vorbereitung.
+- Alexander, S. M., Jones, K., Bennett, N. J. et al. (2020). Qualitative data sharing and synthesis for sustainability science. *Nat Sustain* 3, 81–88. <https://doi.org/10.1038/s41893-019-0434-8>
+- ETH Zürich (2022). *Guidelines for Research Data Management at ETH Zurich* (RSETHZ 414.2). Rechtssammlung der ETH Zürich.
+
+## Zusatz: Was bedeutet CoreTrustSeal? {visibility="uncounted"}
+
+- **Ein internationales Zertifikat für vertrauenswürdige Daten-Repositories** – community-getragen, nicht kommerziell ([coretrustseal.org](https://www.coretrustseal.org))
+- **16 Anforderungen**, unter anderem: klarer Auftrag und gesicherte Finanzierung, Rechte und Lizenzen, Datenintegrität und Authentizität, Langzeitarchivierung, Sicherheit, Fachpersonal
+- **Peer-Review-Verfahren**: das Repository dokumentiert die Erfüllung, unabhängige Gutachterinnen und Gutachter prüfen; das Zertifikat gilt **3 Jahre**, dann Re-Zertifizierung
+- **Entstanden 2017** aus dem Data Seal of Approval und der Zertifizierung des ICSU World Data System
+- **Für euch heisst das**: ein zertifiziertes Repository hat nachgewiesen, dass eure Daten auch nach Projektende verwaltet, gesichert und zugänglich bleiben, unabhängig von einzelnen Personen
+
+::: {.key-banner}
+SWISSUbase trägt das CoreTrustSeal: einer der Gründe, warum es die Empfehlung für qualitative Daten ist.
+:::
+
+::: {.notes}
+Nur zeigen, falls die Frage nach der Zertifizierung kommt. Kernbotschaft: Zertifizierung heisst geprüfte Langzeit-Verlässlichkeit, nicht nur ein Label. Die Folie zählt nicht in der Foliennummerierung (uncounted).
+:::

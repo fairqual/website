@@ -1,0 +1,31 @@
+---
+title: "An example repository: EnviDat"
+subtitle: "Ein Repositorium aus der Nachbarschaft"
+author: "Lars Schöbitz"
+date: "2026-08-31"
+date-format: "D MMMM YYYY"
+format:
+  revealjs:
+    theme: [default, custom.scss]
+    width: 1280
+    height: 720
+    slide-number: true
+    controls: true
+    transition: fade
+    fig-align: center
+    footer: "FAIRqual Workshop, Reallabor Jurapark"
+execute:
+  echo: false
+---
+
+## An example repository: EnviDat
+
+- **Run by WSL**, the federal institute for forest, snow, and landscape research. Its subjects read like a park's data inventory: biodiversity, forest management, landscape planning, natural hazards
+- **Browsable right now**: about 766 datasets at [envidat.ch](https://www.envidat.ch) (August 2026); search a region and see real Swiss environmental datasets
+- **What a repository gives you, in action**: DOIs, open access, Creative Commons licences, and metadata that stay visible even where the data are restricted
+- **The honest caveat**: depositing runs through WSL affiliation or registration, so the route for parks is their research partners. Your own qualitative and social data goes to SwissUBase
+- **Finding more**: [re3data.org](https://www.re3data.org) lists over 3,000 research repositories, filterable by country and subject (EnviDat: r3d100012587)
+
+::: {.notes}
+The pairing for this audience: EnviDat is where the environmental monitoring data around a park lives, SwissUBase is where the workshop participants' own qualitative and social data goes. Together they cover both halves of what a Reallabor produces. For species observations, GBIF is the tangible extra example, since park sightings ultimately flow there. re3data turns the post-it question "which places suit which data?" into something participants can answer themselves after the workshop.
+:::

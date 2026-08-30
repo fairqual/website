@@ -1,0 +1,67 @@
+---
+title: "Data Repositories und Mehr"
+subtitle: "FAIRqual Workshop · 31. August 2026"
+lang: de
+format:
+  typst:
+    papersize: a4
+    margin:
+      x: 1.6cm
+      y: 1.4cm
+    fontsize: 9pt
+    mainfont: "Helvetica Neue"
+---
+
+```{=typst}
+#set text(fill: rgb("#1e1e1e"))
+#show heading: set text(fill: rgb("#18A5C5"))
+#set par(spacing: 0.6em, leading: 0.5em)
+#show heading.where(level: 2): set text(size: 10.5pt)
+```
+
+## Zwei Fragen entscheiden, wie ihr teilt
+
+Jeder Datensatz sitzt an einem Punkt auf einem Raster: **Zugangsstufe** (wie leicht jemand an die Daten kommt, geschlossen bis offen) x **Verarbeitungsstufe** (welche Arbeitsschritte ihr teilt, Rohdaten bis Endauswertung). Der orange Kreis ist ein Beispiel: vollständige Daten ohne Identifikatoren, offen geteilt. *Nach Tabelle 2, Alexander et al. 2020.*
+
+```{=typst}
+#align(center)[#image("img/grades-of-sharing.png", height: 7.5cm)]
+```
+
+::: {layout-ncol=2}
+### Wohin damit
+
+- **ETH Research Collection**: institutionell; für ETH-Angehörige; DOIs; Dateien lassen sich auf eingeloggte ETH-Angehörige beschränken.
+- **SWISSUbase (FORS)**: disziplinäres Zuhause für qualitative und sozialwissenschaftliche Daten; CoreTrustSeal; nimmt sensible Daten an; Schweizer Recht.
+- **EnviDat (WSL)**: disziplinäres Zuhause für Schweizer Umweltdaten (Biodiversität, Wald, Naturgefahren); DOIs, offener Zugang, CC-Lizenzen; Einreichen über WSL-Zugehörigkeit. Rund 766 Datensätze auf envidat.ch.
+- **Zenodo**: generalistisch; alle Fächer; unkompliziert, aber ohne besondere Behandlung sensibler Daten.
+
+### Wie offen (die Zugangsleiter)
+
+- **Offen**: alle können herunterladen, offene Lizenz, keine Registrierung.
+- **Standardbedingungen**: registrieren und Bedingungen akzeptieren *(automatisch)*.
+- **Individuelle Genehmigung**: eine benannte Person entscheidet über jede Anfrage.
+- **Gesichert / vor Ort**: die Daten verlassen den kontrollierten Raum nie.
+:::
+
+### Vor dem Einreichen entscheiden
+
+1. Haben die Teilnehmenden dem Teilen **zugestimmt**, und in welchem Umfang? *(Nichts darf offener sein als die Einwilligung.)*
+2. Sind die Daten **sensibel oder biometrisch** (Audio, Video)?
+3. Lassen sie sich **anonymisieren**, zu vertretbaren Kosten an Zeit und verlorener Aussagekraft?
+4. Läuft der Zugang über Genehmigung: **wer ist die erreichbare genehmigende Stelle?** An eine **Funktion** binden (z.B. Data Steward), nicht an eine Person; sonst automatische Regeln.
+5. **Lizenz oder Vereinbarung?** CC / CC0 für vollständig anonymisierte offene Daten; eine **Datennutzungsvereinbarung** (Zweck, keine Weitergabe, keine Re-Identifikation, Löschung) für qualitative Daten.
+
+### Die Daten selbst lassen sich nicht teilen?
+
+Zugang geben, **ohne** Kopien zu geben: **Lesesaal**-Konsultation vor Ort (z.B. Archiv für Zeitgeschichte der ETH), oder **den Prozess teilen, nicht die Daten**: Auszüge, Codebücher und die Dokumentation der Entscheidungen (die Verarbeitungsstufe senken).
+
+```{=typst}
+#v(0.4em)
+#line(length: 100%, stroke: 0.4pt + rgb("#bbb"))
+```
+
+### Referenzen
+
+- Alexander et al. 2020 (doi.org/10.1038/s41893-019-0434-8)
+- ETH Zürich (2022). Guidelines for Research Data Management at ETH Zurich (RSETHZ 414.2)
+- EnviDat (re3data r3d100012587)
