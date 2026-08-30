@@ -1,6 +1,7 @@
 ---
-title: "Data repositories and beyond"
-subtitle: "A one-page take-away · FAIRqual Workshop · Reallabor Jurapark · 31 Aug 2026"
+title: "Data Repositories und Mehr"
+subtitle: "FAIRqual Workshop · 31. August 2026"
+lang: de
 format:
   typst:
     papersize: a4
@@ -18,80 +19,49 @@ format:
 #show heading.where(level: 2): set text(size: 10.5pt)
 ```
 
-## Two questions decide how you share
+## Zwei Fragen entscheiden, wie ihr teilt
 
-Every dataset sits at one point on a grid: **level of access** (how easily someone can reach it, closed to open) x **level of processing** (which work steps you share, raw data to final analysis). The orange circle is one example: full data without identifiers, shared openly (Mohr et al. 2026). *Based on Table 2, Alexander et al. 2020.*
+Jeder Datensatz sitzt an einem Punkt auf einem Raster: **Zugangsstufe** (wie leicht jemand an die Daten kommt, geschlossen bis offen) x **Verarbeitungsstufe** (welche Arbeitsschritte ihr teilt, Rohdaten bis Endauswertung). Der orange Kreis ist ein Beispiel: vollständige Daten ohne Identifikatoren, offen geteilt. *Nach Tabelle 2, Alexander et al. 2020.*
 
 ```{=typst}
-#align(center)[#image("img/grades-of-sharing.png", height: 5.2cm)]
+#align(center)[#image("img/grades-of-sharing.png", height: 7.5cm)]
 ```
 
 ::: {layout-ncol=2}
-### Where to put it
+### Wohin damit
 
-- **ETH Research Collection**: institutional; for ETH members; DOIs; can restrict files to logged-in ETH.
-- **SWISSUbase (FORS)**: disciplinary home for qualitative / social-science data; CoreTrustSeal; accepts sensitive data; Swiss law.
-- **Zenodo**: generalist; any field; low-friction, but no special handling for sensitive data.
+- **ETH Research Collection**: institutionell; für ETH-Angehörige; DOIs; Dateien lassen sich auf eingeloggte ETH-Angehörige beschränken.
+- **SWISSUbase (FORS)**: disziplinäres Zuhause für qualitative und sozialwissenschaftliche Daten; CoreTrustSeal; nimmt sensible Daten an; Schweizer Recht.
+- **EnviDat (WSL)**: disziplinäres Zuhause für Schweizer Umweltdaten (Biodiversität, Wald, Naturgefahren); DOIs, offener Zugang, CC-Lizenzen; Einreichen über WSL-Zugehörigkeit. Rund 766 Datensätze auf envidat.ch.
+- **Zenodo**: generalistisch; alle Fächer; unkompliziert, aber ohne besondere Behandlung sensibler Daten.
 
-### How open (the access ladder)
+### Wie offen (die Zugangsleiter)
 
-- **Open**: anyone downloads, open licence, no registration.
-- **Standard conditions**: register and accept terms *(automatic)*.
-- **Individual approval**: a named person decides each request.
-- **Secure / on-site**: data never leaves a controlled space.
+- **Offen**: alle können herunterladen, offene Lizenz, keine Registrierung.
+- **Standardbedingungen**: registrieren und Bedingungen akzeptieren *(automatisch)*.
+- **Individuelle Genehmigung**: eine benannte Person entscheidet über jede Anfrage.
+- **Gesichert / vor Ort**: die Daten verlassen den kontrollierten Raum nie.
 :::
 
-### Decide before you deposit
+### Vor dem Einreichen entscheiden
 
-1. Did participants **consent** to sharing, and to what extent? *(Nothing can be more open than the consent.)*
-2. Is it **sensitive / biometric** (audio, video)? Then raw data is basically never shared.
-3. Can it be **anonymised** at a feasible cost in time and lost meaning?
-4. If access is by approval, **who is the reachable approver?** Tie it to a **function** (e.g. a data steward), not a person; automatic rules otherwise.
-5. **Licence or agreement?** CC / CC0 for fully anonymised open data; a **data-use agreement** (purpose, no passing-on, no re-identification, deletion) for qualitative data.
+1. Haben die Teilnehmenden dem Teilen **zugestimmt**, und in welchem Umfang? *(Nichts darf offener sein als die Einwilligung.)*
+2. Sind die Daten **sensibel oder biometrisch** (Audio, Video)?
+3. Lassen sie sich **anonymisieren**, zu vertretbaren Kosten an Zeit und verlorener Aussagekraft?
+4. Läuft der Zugang über Genehmigung: **wer ist die erreichbare genehmigende Stelle?** An eine **Funktion** binden (z.B. Data Steward), nicht an eine Person; sonst automatische Regeln.
+5. **Lizenz oder Vereinbarung?** CC / CC0 für vollständig anonymisierte offene Daten; eine **Datennutzungsvereinbarung** (Zweck, keine Weitergabe, keine Re-Identifikation, Löschung) für qualitative Daten.
 
-### Can't share the data itself?
+### Die Daten selbst lassen sich nicht teilen?
 
-Give access **without** giving copies: **reading-room** consultation on site (e.g. ETH Archives of Contemporary History), or **share the process, not the data**: excerpts, codebooks, and documentation of decisions (lower the processing level).
+Zugang geben, **ohne** Kopien zu geben: **Lesesaal**-Konsultation vor Ort (z.B. Archiv für Zeitgeschichte der ETH), oder **den Prozess teilen, nicht die Daten**: Auszüge, Codebücher und die Dokumentation der Entscheidungen (die Verarbeitungsstufe senken).
 
 ```{=typst}
 #v(0.4em)
 #line(length: 100%, stroke: 0.4pt + rgb("#bbb"))
-#set text(size: 7.5pt, fill: rgb("#777"))
-Sources: Alexander et al. 2020 (doi.org/10.1038/s41893-019-0434-8) · ETH RSETHZ 414.2 · SWISSUbase Standard Download Contract
 ```
 
-```{=typst}
-#pagebreak()
-#set text(size: 9pt, fill: rgb("#1e1e1e"))
-```
+### Referenzen
 
-## The grades-of-sharing grid
-
-Sharing qualitative data is a **gradient**. Every dataset sits at one point on two independent axes, following Table 2 in Alexander et al. (2020). Read the figure, then place each of your own datasets on it.
-
-```{=typst}
-#align(center)[#image("img/grades-of-sharing.png", height: 12cm)]
-```
-
-::: {layout-ncol=2}
-### The two axes
-
-- **Level of access** (across): from **closed** through controlled and restricted to **open**. This is how easily someone can reach the data. Repositories implement it as a ladder with several rungs: open download, register-and-accept-terms, individual approval, or on-site only.
-- **Level of processing** (down): from the **whole raw dataset** through excerpted or partial data to **only the final analysis**. This is how much of your work you hand over.
-
-### Why it is a gradient
-
-- Qualitative data is about people, so it can **never be fully anonymised**, and its collection is entangled with interpretation. Deciding what to share is data governance: the discussions and decisions that give agency to the people the data represents.
-- Because full anonymisation is rarely possible, **raw data is basically never shared**. The feasible degree of anonymisation balances the time it takes and the meaning it destroys against the level of access you want.
-:::
-
-### If you cannot share the data itself
-
-When anonymised data cannot be shared, share **excerpted or partial data**, and read "metadata" broadly: everything that describes the data. Workshop invites and slides, informed-consent forms, interview guides, and qualitative codebooks with the decisions that shaped them. This gives access to the research **process** without sharing the data itself, and lowers the processing level instead of forcing the access level open.
-
-```{=typst}
-#v(0.4em)
-#line(length: 100%, stroke: 0.4pt + rgb("#bbb"))
-#set text(size: 7.5pt, fill: rgb("#777"))
-The orange circle marks one example dataset: full data without identifiers, shared openly, where participants consented to open sharing (Mohr et al. 2026, doi.org/10.5281/zenodo.18493525). Figure based on Table 2, Alexander et al. 2020.
-```
+- Alexander et al. 2020 (doi.org/10.1038/s41893-019-0434-8)
+- ETH Zürich (2022). Guidelines for Research Data Management at ETH Zurich (RSETHZ 414.2)
+- EnviDat (re3data r3d100012587)
