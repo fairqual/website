@@ -4,7 +4,19 @@ title: "Slides"
 
 ## FAIRqual Workshop 2026: Data Repositories und Mehr
 
-On August 31st, 2026, the FAIRqual team ran a data governance workshop. In the "Data Repositories und Mehr" input, Lars Schöbitz walked through where qualitative data can live after a project ends: what a repository gives you over a lab-server folder, the three kinds of repository, how open to make the data, the automatic-versus-manual access choice, licences versus data-use agreements, and how to give access without handing over the data. A one-page take-away accompanies the talk for the group session that follows. The workshop was held in German, and so are all materials: the slides, the handout, and the full workshop deck below.
+On August 31st, 2026, the FAIRqual team ran a data governance workshop. The workshop was held in German, and so are all materials: the workshop deck, the input slides, and the handout.
+
+The full workshop deck by the FAIRqual team frames the day: the project's motivation, qualitative data in transdisciplinary projects, the shift from applying the FAIR principles towards implementing data governance, the reflection exercise on your own data, and the zine action plan that closes the workshop.
+
+<a href="2026-08-31-jurapark-data-governance/2026-08-31-fairqual-workshop-jurapark.pdf" download class="btn btn-primary">
+  <i class="bi bi-download"></i> Download workshop deck (PDF)
+</a>
+
+```{=html}
+<iframe class="slide-deck" src="2026-08-31-jurapark-data-governance/2026-08-31-fairqual-workshop-jurapark.pdf" height="420" width="747" style="border: 1px solid #123233;"></iframe>
+```
+
+In the "Data Repositories und Mehr" input, Lars Schöbitz walked through where qualitative data can live after a project ends: what a repository gives you over a lab-server folder, the three kinds of repository, how open to make the data, the automatic-versus-manual access choice, licences versus data-use agreements, and how to give access without handing over the data. A one-page take-away accompanies the talk for the group session that follows.
 
 <a href="2026-08-31-jurapark-data-governance/index.html" class="btn btn-primary">
   <i class="bi bi-easel"></i> Open slides
@@ -15,16 +27,6 @@ On August 31st, 2026, the FAIRqual team ran a data governance workshop. In the "
 
 ```{=html}
 <iframe class="slide-deck" src="2026-08-31-jurapark-data-governance/index.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
-```
-
-The full workshop deck by the FAIRqual team frames the day: the project's motivation, qualitative data in transdisciplinary projects, the shift from applying the FAIR principles towards implementing data governance, the reflection exercise on your own data, and the zine action plan that closes the workshop.
-
-<a href="2026-08-31-jurapark-data-governance/2026-08-31-fairqual-workshop-jurapark.pdf" download class="btn btn-primary">
-  <i class="bi bi-download"></i> Download workshop deck (PDF)
-</a>
-
-```{=html}
-<iframe class="slide-deck" src="2026-08-31-jurapark-data-governance/2026-08-31-fairqual-workshop-jurapark.pdf" height="420" width="747" style="border: 1px solid #123233;"></iframe>
 ```
 
 ## STS NL 2026: FAIR Data Practices for Qualitative Research in Transdisciplinarity
