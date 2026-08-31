@@ -17,6 +17,16 @@ On August 31st, 2026, the FAIRqual team ran a data governance workshop with the 
 <iframe class="slide-deck" src="2026-08-31-jurapark-data-governance/index.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
 ```
 
+The full workshop deck by the FAIRqual team frames the day: the project's motivation, qualitative data in transdisciplinary projects, the shift from applying the FAIR principles towards implementing data governance, the reflection exercise on your own data, and the zine action plan that closes the workshop. The deck is in German.
+
+<a href="2026-08-31-jurapark-data-governance/2026-08-31-fairqual-workshop-jurapark.pdf" download class="btn btn-primary">
+  <i class="bi bi-download"></i> Download workshop deck (PDF)
+</a>
+
+```{=html}
+<iframe class="slide-deck" src="2026-08-31-jurapark-data-governance/2026-08-31-fairqual-workshop-jurapark.pdf" height="420" width="747" style="border: 1px solid #123233;"></iframe>
+```
+
 ## STS NL 2026: FAIR Data Practices for Qualitative Research in Transdisciplinarity
 
 On April 16th, 2026, the FAIRqual team presented at the [STS NL 2026 conference](https://www.utwente.nl/en/bms/sts-nl2026/) at the University of Twente, NL, in the track 'How to Make Science Better'. The track provided plenty of food for thought on current trends in the 'science industry', such as publishing schemes, handling misconduct, and institutionalising movements such as Open Science. In our presentation, we discussed how raising awareness of data governance and FAIR data practices in qualitative, transdisciplinary research could contribute to making science better. The accepted abstract is published as a [blog post](../../blog/posts/2026-02-05-sts-nl2026/index.qmd).
