@@ -60,4 +60,4 @@ We would like to thank everyone who took part. It was great to have you all at t
 
 Keep an eye out: The data from the workshop will soon be openly available on this website, in line with our project's intention to promote FAIR data standards for qualitative data in TD research.
 
-If you would like to get in touch or receive updates of the projects, [drop us a line](mailto:franziska.mohr@usys.ethz.ch?subject=FAIRqual request)!
+If you would like to get in touch or receive updates of the projects, [drop us a line](mailto:mollie.chapman@usys.ethz.ch?subject=FAIRqual request)!
