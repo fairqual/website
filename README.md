@@ -41,7 +41,7 @@ This website includes:
 
 We welcome engagement from researchers, practitioners, and anyone interested in FAIR data practices for qualitative research.
 
-- Visit our website: [fairqual.org](https://fairqual.org)
+- Visit our website: [fairqual.github.io/website](https://fairqual.github.io/website)
 - Email us: [franziska.mohr@usys.ethz.ch](mailto:franziska.mohr@usys.ethz.ch?subject=FAIRqual%20request)
 - Follow our work: [GitHub](https://github.com/fairqual)
 

@@ -19,7 +19,7 @@ css: ../../../style/styles.css
 citation:
   type: post
   container-title: FAIRqual Project Blog
-  url: https://fairqual.org/blog/2024-12-05-itd24
+  url: https://fairqual.github.io/website/blog/posts/2024-12-05-itd24/
 image: "PXL_20241105_110903103.jpg"
 image-alt: "Workshop participants discussing challenges and experiences of sharing qualitative data in transdisciplinary research."
 ---

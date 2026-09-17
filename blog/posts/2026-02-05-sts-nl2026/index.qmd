@@ -18,7 +18,7 @@ css: ../../../style/styles.css
 citation:
   type: post
   container-title: FAIRqual Project Blog
-  url: https://fairqual.org/blog/2026-02-05-sts-nl2026
+  url: https://fairqual.github.io/website/blog/posts/2026-02-05-sts-nl2026/
 ---
 
 We are excited to announce that our abstract has been accepted for the [STS NL 2026 conference](https://www.utwente.nl/en/bms/sts-nl2026/). The FAIRqual project will be represented in the track 'How to Make Science Better', where we will talk about how the use of FAIR qualitative data in Td research could contribute to this ambition. Are you planning to join STS NL 2026 as well? Get in touch!
