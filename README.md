@@ -49,6 +49,16 @@ We welcome engagement from researchers, practitioners, and anyone interested in 
 
 If you notice any issues with the website or have suggestions, please [open an issue](https://github.com/fairqual/website/issues) on this repository.
 
+## Publishing
+
+The site is built with [Quarto](https://quarto.org/) and served by GitHub Pages from the `gh-pages` branch. After changes are merged into `main`, publish from `main`:
+
+```bash
+quarto publish gh-pages
+```
+
+The former address fairqual.org is a redirect on Netlify that sends every path to the GitHub Pages site.
+
 ## License
 
-The content on this website is made available under open licenses to promote sharing and reuse in line with our project's goals.
+The content of this website (text, images, slides, and documents by the FAIRqual team) is licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). See [LICENSE.md](LICENSE.md). Material by third parties keeps its own licence.
