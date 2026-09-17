@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>FAIRqual</title>
+<link>https://fairqual.github.io/website/events/</link>
+<atom:link href="https://fairqual.github.io/website/events/index.xml" rel="self" type="application/rss+xml"/>
+<description>A list of events we participate in or offer ourselves.</description>
+<generator>quarto-1.10.18</generator>
+<lastBuildDate>Tue, 14 Apr 2026 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>FAIR Data Practices for Qualitative Research in Transdisciplinarity</title>
+  <link>https://fairqual.github.io/website/</link>
+  <description>STS NL conference - Track 7: Making Science Better?</description>
+  <guid>https://fairqual.github.io/website/</guid>
+  <pubDate>Tue, 14 Apr 2026 22:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>EPFL IT4R Tech Talk - Research Data Management for Qualitative Data</title>
+  <link>https://fairqual.github.io/website/</link>
+  <description>ENAC-IT4R Tuesdays Tech Talks, EPFL</description>
+  <guid>https://fairqual.github.io/website/</guid>
+  <pubDate>Mon, 01 Dec 2025 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>FAIR Data Practices for Qualitative Research in Transdisciplinarity</title>
+  <link>https://fairqual.github.io/website/</link>
+  <description>ITD Conference 2024, Utrecht, NL</description>
+  <guid>https://fairqual.github.io/website/</guid>
+  <pubDate>Sun, 03 Nov 2024 23:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

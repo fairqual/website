@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="de"><head>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-html/tabby.min.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.10.18">
+
+  <meta name="author" content="Lars Schöbitz">
+  <title>FAIRqual – Data Repositories und Mehr</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="../../../site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="../../../site_libs/revealjs/dist/reveal.css">
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="../../../site_libs/revealjs/dist/theme/quarto-d7e540437601550a78a457484da4e4f8.css">
+  <link href="../../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="../../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="../../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../../../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">Data Repositories und Mehr</h1>
+  <p class="subtitle">FAIRqual Workshop</p>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Lars Schöbitz
+</div>
+        <p class="quarto-title-affiliation">
+            Global Health Engineering, ETH Zürich
+          </p>
+    </div>
+</div>
+
+  <p class="date">31. August 2026</p>
+</section>
+<section id="wo-liegen-eure-daten-nach-dem-projekt" class="slide level2 center">
+<h2>Wo liegen eure Daten nach dem Projekt?</h2>
+<div class="big-question">
+<p>Ein Ordner auf dem Laborserver ist nicht das Ende des Weges.</p>
+</div>
+<aside class="notes">
+<p>Den Block aufsetzen: Wenn ein Td-Projekt endet, brauchen die Daten ein Zuhause, das das Projekt, die Personen und die Website überlebt. Das ist der “Wo”-Teil der Data Governance. 10 Minuten, dann öffnen wir die Runde.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="warum-nicht-einfach-der-ordner-auf-dem-laborserver" class="slide level2">
+<h2>Warum nicht einfach der Ordner auf dem Laborserver?</h2>
+<div class="columns">
+<div class="column" style="width:55%;">
+<ul>
+<li><strong>Kein permanenter Link.</strong> Niemand kann diesen zitieren oder wiederfinden.</li>
+<li><strong>Unsichtbar.</strong> Nur eure Gruppe weiss, dass der Ordner existiert.</li>
+<li><strong>Fragil.</strong> Der Ordner geht verloren, wenn Server, Personal oder Websites wechseln.</li>
+</ul>
+</div><div class="column" style="width:45%;">
+<p><img data-src="img/itd24-workshop-1.jpg" class="rounded"></p>
+<div class="img-credit">
+<p>Foto: FAIRqual-Team, ITD24-Workshop (Nov.&nbsp;2024). Projektmaterial.</p>
+</div>
+</div></div>
+<aside class="notes">
+<p>Der Laborserver deckt die aktive Projektphase ab. Für alle ausserhalb der Gruppe leistet er nichts von dem, was hier folgt. Die ETH sagt dasselbe in RSETHZ 414.2.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="was-euch-ein-repository-gibt" class="slide level2">
+<h2>Was euch ein Repository gibt</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<ul>
+<li><strong>DOI</strong> – ein permanenter Identifikator, der dauerhaft funktioniert und zitiert werden kann.</li>
+<li><strong>Sichtbarkeit</strong> – ein öffentlicher Katalog, durchsuchbar, auch wenn die Dateien geschlossen bleiben.</li>
+<li><strong>Kontrollierter Zugang</strong> – Regeln, Antragsformulare, Verträge, ein Nachweis, wer die Daten erhalten hat.</li>
+<li><strong>Langzeitarchivierung</strong> – Dateien bleiben lesbar und gesichert, über das Projekt hinaus.</li>
+</ul>
+</div><div class="column" style="width:40%;">
+<div class="repo-card">
+<p>DOI · Katalog · Zugangsregeln · Backup</p>
+</div>
+</div></div>
+<aside class="notes">
+<p>Kontrast zum Verschicken von Kopien per E-Mail: ihr verliert die Kontrolle darüber, was danach passiert. Ein Repository ist ein Service, keine Festplatte.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="zwei-fragen-entscheiden-wie-ihr-teilt" class="slide level2">
+<h2>Zwei Fragen entscheiden, wie ihr teilt</h2>
+<div class="columns">
+<div class="column" style="width:44%;">
+<p><img data-src="img/grades-of-sharing.png" class="grid-img" alt="Raster der Abstufungen des Teilens: Zugang auf der x-Achse (geschlossen bis offen), Verarbeitung auf der y-Achse (Rohdaten bis Endauswertung). Ein oranger Kreis markiert vollständige Daten ohne Identifikatoren, offen geteilt."></p>
+</div><div class="column" style="width:52%;">
+<ul>
+<li><strong>Zugang</strong> – wie leicht kommt jemand an die Daten? <em>(geschlossen -&gt; offen)</em></li>
+<li><strong>Verarbeitung</strong> – welche Arbeitsschritte teilt ihr? <em>(Rohdaten -&gt; Endauswertung)</em></li>
+</ul>
+<p>Euer Datensatz ist ein Punkt auf diesem Raster. Der orange Kreis: <strong>vollständige Daten ohne Identifikatoren</strong>, <strong>offen</strong> geteilt.</p>
+</div></div>
+<div class="axis-caption">
+<p>Abbildung: FAIRqual-OER-Modul (Unit 4.3.1). Beispiel: Mohr et al.&nbsp;2026. Nach Tabelle 2, Alexander et al.&nbsp;2020.</p>
+</div>
+<aside class="notes">
+<p>Der orange Kreis ist eine Wahl: “vollständige Daten ohne Identifikatoren” in einem “offenen” Setting, wie der FAIRqual-ITD24-Datensatz (Mohr et al.&nbsp;2026). Jeder Datensatz sitzt irgendwo auf diesem Raster; der Rest des Vortrags zeigt, wie Repositories euch den Punkt wählen lassen. Auf die Achsen hinweisen: Zugang läuft oben von geschlossen nach offen, Verarbeitung seitlich von Rohdaten zur Endauswertung.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="drei-arten-von-repositories" class="slide level2">
+<h2>Drei Arten von Repositories</h2>
+<ul>
+<li><strong>Institutionell</strong> – für Angehörige einer Institution. An der ETH: die <strong>ETH Research Collection</strong>.</li>
+<li><strong>Disziplinär</strong> – fachspezifische Kuratierung und Zugang. Für qualitative und sozialwissenschaftliche Daten in der Schweiz: <strong>SWISSUbase</strong> (betrieben von FORS), und <strong>EnviDat</strong> der WSL für Umweltdaten</li>
+<li><strong>Generalistisch</strong> – nimmt Daten aus allen Fächern an, z.B. <strong>Zenodo</strong>.</li>
+</ul>
+<div class="logo-row">
+  <div class="logo-cell"><img src="img/eth-logo-pos.png" alt="Logo der ETH Zürich"></div>
+  <div class="logo-cell"><img src="img/swissubase.webp" alt="SWISSUbase-Logo"></div>
+  <div class="logo-cell"><img src="img/zenodo-black-border.svg" alt="Zenodo-Logo"></div>
+</div>
+<div class="key-banner fragment">
+<p>SWISSUbase ist das Zuhause für qualitative Daten: zertifiziert (CoreTrustSeal), vergibt DOIs, nimmt sensible Daten an, untersteht Schweizer Recht.</p>
+</div>
+<aside class="notes">
+<p>Die meisten wählen standardmässig Zenodo, weil es einfach ist. Für sensible qualitative Daten ist die disziplinäre Option meist die bessere Wahl.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="ein-beispiel-repository-envidat" class="slide level2">
+<h2>Ein Beispiel-Repository: EnviDat</h2>
+<ul>
+<li><strong>Betrieben von der WSL</strong>, der Eidgenössischen Forschungsanstalt für Wald, Schnee und Landschaft.</li>
+<li><strong>Jetzt schon durchstöberbar</strong>: rund 766 Datensätze auf <a href="https://www.envidat.ch">envidat.ch</a> (Stand August 2026)</li>
+<li><strong>Was ein Repository gibt, in Aktion</strong>: DOIs, offener Zugang, Creative-Commons-Lizenzen und Metadaten</li>
+<li><strong>Einreichen bei der WSL</strong>: läuft über WSL-Zugehörigkeit oder Registrierung</li>
+<li><strong>Mehr finden</strong>: <a href="https://www.re3data.org">re3data.org</a> listet über 3’000 Forschungsrepositories, filterbar nach Land und Fachgebiet</li>
+</ul>
+<aside class="notes">
+<p>Das Paar für dieses Publikum: EnviDat ist der Ort für die Umweltmonitoring-Daten rund um einen Park, SWISSUbase der Ort für die eigenen qualitativen und sozialen Daten der Teilnehmenden. Zusammen decken sie beide Hälften dessen ab, was ein Reallabor produziert. Für Artenbeobachtungen ist GBIF das greifbare Zusatzbeispiel, weil Park-Sichtungen letztlich dorthin fliessen. re3data macht aus der Post-it-Frage “welche Orte passen zu welchen Daten?” etwas, das die Teilnehmenden nach dem Workshop selbst beantworten können.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="die-zugangs-achse-im-detail" class="slide level2">
+<h2>Die Zugangs-Achse im Detail</h2>
+<p>Die Achse “geschlossen -&gt; offen” aus dem Raster ist kein Schalter. Repositories geben euch Stufen dazwischen.</p>
+<div class="access-stair">
+  <div class="stair-axis"><span class="ax-open">OFFEN</span><span class="ax-closed">GESCHLOSSEN</span></div>
+  <div class="stair-rungs">
+    <div class="srung s1"><span class="lbl">Offen</span> alle können herunterladen, offene Lizenz, keine Registrierung</div>
+    <div class="srung s2"><span class="lbl">Standardbedingungen</span> registrieren &amp; Bedingungen akzeptieren <em>(automatisch)</em></div>
+    <div class="srung s3"><span class="lbl">Individuelle Genehmigung</span> eine benannte Person entscheidet über jede Anfrage</div>
+    <div class="srung s4"><span class="lbl">Gesichert / vor Ort</span> die Daten verlassen den kontrollierten Raum nie</div>
+  </div>
+</div>
+<div class="axis-caption">
+<p>Konkret: SWISSUbase kann den Zugang auf akademische Forschung einschränken; die ETH Research Collection kann Dateien auf eingeloggte ETH-Angehörige beschränken.</p>
+</div>
+<aside class="notes">
+<p>Das ist die Zugangs-Achse aus dem Raster von vorhin, so wie Repositories sie tatsächlich umsetzen. Rückbezug auf Folie 4: dieselbe Achse, jetzt konkret. Betonen: Es ist eine Leiter, kein Schalter; ihr seid nicht auf ganz-offen oder ganz-geschlossen festgelegt. Die nächsten zwei Folien zoomen in diese Leiter: Stufe 2 vs.&nbsp;Stufe 3 ist “automatisch vs.&nbsp;manuell”, Stufe 4 ist “Zugang geben, ohne die Daten zu geben”.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="automatisch-vs.-manuell" class="slide level2">
+<h2>Automatisch vs.&nbsp;manuell</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Automatische Regeln</strong></p>
+<ul>
+<li>Embargo-Datum, nur akademische Forschung.</li>
+<li>Niemand prüft die einzelne Anfrage.</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>Manuell (sur dossier)</strong></p>
+<ul>
+<li>Eine benannte Person genehmigt jede Anfrage.</li>
+<li>Muss noch <strong>Jahre</strong> nach Projektende erreichbar sein.</li>
+</ul>
+</div></div>
+<div class="key-banner fragment">
+<p>Manuelle Genehmigung funktioniert nur, wenn die Rolle bei einer <strong>Funktion</strong> liegt (z.B. Data Steward). Sonst: automatische Regeln wählen.</p>
+</div>
+<aside class="notes">
+<p>Das ist die praktische Falle für die Park-Arbeit: “Ich genehmige die Anfragen selbst” überlebt keinen Personalwechsel. Bindet die Genehmigung an eine Rolle, nicht an eine Person, oder wählt automatische Regeln.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="lizenz-vs.-datennutzungsvereinbarung" class="slide level2">
+<h2>Lizenz vs.&nbsp;Datennutzungsvereinbarung</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Creative-Commons-Lizenz</strong></p>
+<ul>
+<li>Regelt das Urheberrecht.</li>
+<li>Im Voraus erteilt, nicht widerrufbar.</li>
+<li>Deckt <strong>keine</strong> Personendaten ab.</li>
+<li>CC / CC0 für vollständig anonymisierte offene Daten.</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>Datennutzungsvereinbarung (DUA)</strong></p>
+<ul>
+<li>Ein Vertrag mit jeder Nutzerin, jedem Nutzer.</li>
+<li>Beschränkt den Zweck, verbietet die Weitergabe.</li>
+<li>Verbietet Re-Identifikation, verlangt Löschung.</li>
+<li>Qualitative Daten brauchen meist genau das.</li>
+</ul>
+</div></div>
+<div class="key-banner fragment">
+<p>Keine von beiden darf offener sein, als was die Teilnehmenden eingewilligt haben.</p>
+</div>
+<aside class="notes">
+<p>SWISSUbase publiziert einen Standard Download Contract als öffentliches Beispiel einer DUA. Die Einwilligung ist die harte Obergrenze: ihr könnt Daten nicht offener lizenzieren oder teilen, als die Menschen zugestimmt haben.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="zugang-geben-ohne-die-daten-zu-geben" class="slide level2">
+<h2>Zugang geben, ohne die Daten zu geben</h2>
+<div class="columns">
+<div class="column" style="width:55%;">
+<ul>
+<li><strong>Lesesaal-Zugang</strong>: genehmigte Besucherinnen und Besucher konsultieren das vollständige Material vor Ort, keine Kopien (z.B. Archiv für Zeitgeschichte der ETH).</li>
+<li><strong>Den Prozess teilen, nicht die Daten</strong>: die Verarbeitungsstufe senken: Auszüge, Codebücher, Dokumentation der Entscheidungen.</li>
+</ul>
+</div><div class="column" style="width:45%;">
+<p><img data-src="img/reading-room-loc.jpg" class="rounded"></p>
+<div class="img-credit">
+<p>Foto: Carol M. Highsmith, Public Domain (<a href="https://commons.wikimedia.org/wiki/File:LOC_Main_Reading_Room_Highsmith.jpg">Library of Congress, via Wikimedia Commons</a>).</p>
+</div>
+</div></div>
+<aside class="notes">
+<p>Wenn keine Zugangsstufe zu den Daten passt, bewegt euch stattdessen auf der anderen Achse: teilt, was die Daten beschreibt (Metadaten, Dokumentation), auch wenn die Daten selbst geschlossen bleiben. Das schliesst den Kreis zu den “Verarbeitungsstufen”.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="jetzt-seid-ihr-dran" class="slide level2 center">
+<h2>Jetzt seid ihr dran</h2>
+<div class="big-question">
+<p>Welche “Orte” passen zu welchen eurer Daten?</p>
+</div>
+<div class="columns">
+<div class="column" style="width:55%;">
+<p>Auf eure Post-its: benennt einen Datensatz, platziert diesen auf dem Raster (wie offen, wie verarbeitet), und notiert, welches Repository oder Archiv dazu passt.</p>
+</div><div class="column" style="width:45%;">
+<p><img data-src="img/flipchart-output.jpg" class="rounded"></p>
+<div class="img-credit">
+<p>Foto: FAIRqual-Team, aus dem Paket <em>dataitd24</em> (CC BY 4.0). <a href="https://doi.org/10.5281/zenodo.18493525" class="uri">https://doi.org/10.5281/zenodo.18493525</a></p>
+</div>
+</div></div>
+<aside class="notes">
+<p>Übergabe an die Gruppenübung. Ermutigt die Gruppe, “Orte” jenseits der drei Repository-Typen zu ergänzen: Lesesäle, Projektwebsites, reine Dokumentations-Shares.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="thanks" class="slide level2">
+<h2>Danke</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="kicker">
+<p>Kontakt</p>
+</div>
+<ul>
+<li><strong>Lars Schöbitz</strong>, Global Health Engineering, ETH Zürich</li>
+<li><strong>Das FAIRqual-Projekt:</strong> <a href="https://fairqual.github.io/website">fairqual.github.io/website</a></li>
+<li><strong>Diese Folien:</strong> gebaut mit Quarto und reveal.js</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="kicker">
+<p>Ressourcen</p>
+</div>
+<ul>
+<li><strong>Zertifiziertes Repository für qualitative Daten:</strong> <a href="https://www.swissubase.ch">SWISSUbase</a> (FORS)</li>
+<li><strong>ETH Research Collection:</strong> <a href="https://www.research-collection.ethz.ch">research-collection.ethz.ch</a></li>
+<li><strong>Beispiel-Datensatz:</strong> <a href="https://doi.org/10.5281/zenodo.18493525">dataitd24 auf Zenodo</a>, kuratiert als <a href="https://fairqual.github.io/dataitd24/">eigenständige Website</a></li>
+</ul>
+</div></div>
+<div class="thanks-foot">
+<p>Alle Materialien sind lizenziert unter Creative Commons Attribution 4.0 International (CC BY 4.0).</p>
+</div>
+<aside class="notes">
+<p>Block abschliessen. Alles hier ist offen. Die Repository-Typen von vorhin entsprechen den Ressourcen: SWISSUbase für sensible qualitative Daten, die ETH Research Collection für ETH-Angehörige, Zenodo als generalistische Alternative.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="referenzen" class="slide level2">
+<h2>Referenzen</h2>
+<ul>
+<li>FAIRqual OER module, Subsection 4.3 <em>Practical Aspects of Sharing Qualitative Data</em> (Units 4.3.1–4.3.3). In Vorbereitung.</li>
+<li>Alexander, S. M., Jones, K., Bennett, N. J. et al.&nbsp;(2020). Qualitative data sharing and synthesis for sustainability science. <em>Nat Sustain</em> 3, 81–88. <a href="https://doi.org/10.1038/s41893-019-0434-8" class="uri">https://doi.org/10.1038/s41893-019-0434-8</a></li>
+<li>ETH Zürich (2022). <em>Guidelines for Research Data Management at ETH Zurich</em> (RSETHZ 414.2). Rechtssammlung der ETH Zürich.</li>
+</ul>
+</section>
+<section id="zusatz-was-bedeutet-coretrustseal" class="slide level2" data-visibility="uncounted">
+<h2>Zusatz: Was bedeutet CoreTrustSeal?</h2>
+<ul>
+<li><strong>Ein internationales Zertifikat für vertrauenswürdige Daten-Repositories</strong> – community-getragen, nicht kommerziell (<a href="https://www.coretrustseal.org">coretrustseal.org</a>)</li>
+<li><strong>16 Anforderungen</strong>, unter anderem: klarer Auftrag und gesicherte Finanzierung, Rechte und Lizenzen, Datenintegrität und Authentizität, Langzeitarchivierung, Sicherheit, Fachpersonal</li>
+<li><strong>Peer-Review-Verfahren</strong>: das Repository dokumentiert die Erfüllung, unabhängige Gutachterinnen und Gutachter prüfen; das Zertifikat gilt <strong>3 Jahre</strong>, dann Re-Zertifizierung</li>
+<li><strong>Entstanden 2017</strong> aus dem Data Seal of Approval und der Zertifizierung des ICSU World Data System</li>
+<li><strong>Für euch heisst das</strong>: ein zertifiziertes Repository hat nachgewiesen, dass eure Daten auch nach Projektende verwaltet, gesichert und zugänglich bleiben, unabhängig von einzelnen Personen</li>
+</ul>
+<div class="key-banner">
+<p>SWISSUbase trägt das CoreTrustSeal: einer der Gründe, warum es die Empfehlung für qualitative Daten ist.</p>
+</div>
+<aside class="notes">
+<p>Nur zeigen, falls die Frage nach der Zertifizierung kommt. Kernbotschaft: Zertifizierung heisst geprüfte Langzeit-Verlässlichkeit, nicht nur ein Label. Die Folie zählt nicht in der Foliennummerierung (uncounted).</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+
+
+</section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<div class="footer footer-default">
+<p>FAIRqual Workshop</p>
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="../../../site_libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="../../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="../../../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="../../../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="../../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../../../site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="../../../site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="../../../site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="../../../site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="../../../site_libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': false,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'fade',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1280,
+
+        height: 720,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Kopiert");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Kopiert");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp("https:\/\/fairqual\.github\.io\/website");
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    
+
+</body></html>

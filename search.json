@@ -1,0 +1,233 @@
+[
+  {
+    "objectID": "events/index.html",
+    "href": "events/index.html",
+    "title": "FAIRqual",
+    "section": "",
+    "text": "Date\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n \n\n\n\n\n\n\n\n\nApril 15, 2026\n\n\nFAIR Data Practices for Qualitative Research in Transdisciplinarity\n\n\nSTS NL conference - Track 7: Making Science Better?\n\n\n \n\n\n\n\n\n\nDecember 2, 2025\n\n\nEPFL IT4R Tech Talk - Research Data Management for Qualitative Data\n\n\nENAC-IT4R Tuesdays Tech Talks, EPFL\n\n\n \n\n\n\n\n\n\nJune 12, 2025\n\n\nAdvancing Open Research Data (ORD) Practices\n\n\nETH Domain ORD Day, Casino Bern\n\n\n \n\n\n\n\n\n\nNovember 4, 2024\n\n\nFAIR Data Practices for Qualitative Research in Transdisciplinarity\n\n\nITD Conference 2024, Utrecht, NL\n\n\n \n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about/bianca/index.html",
+    "href": "about/bianca/index.html",
+    "title": "PD Dr. Bianca Vienni-Baptista",
+    "section": "",
+    "text": "I am an interdisciplinary scholar working in the anthropology of science and technology while implementing transdisciplinary approaches for sustainable development. As a Group Leader of “Cultural Studies of Science and Technology”, I investigate with my team the specific conditions for inter- and transdisciplinary research and funding. Therefore, qualitative methods are at the centre of my research and teaching.\nMy role in the FAIRqual project is to support the team with and contribute to the research process, grounding us into the challenges and opportunities that transdisciplinary research faces."
+  },
+  {
+    "objectID": "about/franziska/index.html",
+    "href": "about/franziska/index.html",
+    "title": "Dr. Franziska Mohr",
+    "section": "",
+    "text": "I am a geographer by training. After graduating, I worked on a project to inventory the archaeological heritage of the canton of Graubünden. During my PhD at the Swiss Federal Research Institute WSL and the University of Bern, I studied how and why farming and agricultural landscapes have changed in Europe over the last 50 years. An important type of data we used were oral history interviews with (almost) retired farmers from 13 different study sites. This work introduced me to the power and challenges of working with qualitative data.\nMy own experience of working with qualitative data motivates me to delve deeper into this topic during my PostDoc, to understand how to make this valuable data more accessible where possible. In my role as PostDoc, it is my responsibility to organise and carry out the data collection and analysis. Through a workshop and expert interviews, I plan to highlight pressing issues of sharing qualitative data for Td researchers, but also to explore ways of applying FAIR data standards to such data. In the second part of the project, I will contribute to the production and dissemination of guidelines for Td researchers."
+  },
+  {
+    "objectID": "about/liz/index.html",
+    "href": "about/liz/index.html",
+    "title": "Prof. Dr. Elizabeth (Liz) Tilley",
+    "section": "",
+    "text": "As the Chair of Global Health Engineering at ETH Zurich, Elizabeth is obsessed with answering some not so simple questions: Why after 70 years of dedicated interventions doesn’t everyone on earth have access to a toilet? And, how can we make sure that no one ever dies from a preventable, sanitation-related disease? She believes that some of the answers are probably hidden in data that someone has produced, but hasn’t made accessible: yet!\nHer role in the FAIRqual project is of advisory nature. With her experience in managing a group that implements FAIR data principles to their work, she understands what it takes to make it priority."
+  },
+  {
+    "objectID": "gallery/slides/2026-08-31-jurapark-data-governance/index.html#wo-liegen-eure-daten-nach-dem-projekt",
+    "href": "gallery/slides/2026-08-31-jurapark-data-governance/index.html#wo-liegen-eure-daten-nach-dem-projekt",
+    "title": "Data Repositories und Mehr",
+    "section": "Wo liegen eure Daten nach dem Projekt?",
+    "text": "Wo liegen eure Daten nach dem Projekt?\n\nEin Ordner auf dem Laborserver ist nicht das Ende des Weges.\n\n\nDen Block aufsetzen: Wenn ein Td-Projekt endet, brauchen die Daten ein Zuhause, das das Projekt, die Personen und die Website überlebt. Das ist der “Wo”-Teil der Data Governance. 10 Minuten, dann öffnen wir die Runde."
+  },
+  {
+    "objectID": "gallery/slides/2026-08-31-jurapark-data-governance/index.html#warum-nicht-einfach-der-ordner-auf-dem-laborserver",
+    "href": "gallery/slides/2026-08-31-jurapark-data-governance/index.html#warum-nicht-einfach-der-ordner-auf-dem-laborserver",
+    "title": "Data Repositories und Mehr",
+    "section": "Warum nicht einfach der Ordner auf dem Laborserver?",
+    "text": "Warum nicht einfach der Ordner auf dem Laborserver?\n\n\n\nKein permanenter Link. Niemand kann diesen zitieren oder wiederfinden.\nUnsichtbar. Nur eure Gruppe weiss, dass der Ordner existiert.\nFragil. Der Ordner geht verloren, wenn Server, Personal oder Websites wechseln.\n\n\n\n\nFoto: FAIRqual-Team, ITD24-Workshop (Nov. 2024). Projektmaterial.\n\n\n\nDer Laborserver deckt die aktive Projektphase ab. Für alle ausserhalb der Gruppe leistet er nichts von dem, was hier folgt. Die ETH sagt dasselbe in RSETHZ 414.2."
+  },
+  {
+    "objectID": "gallery/slides/2026-08-31-jurapark-data-governance/index.html#was-euch-ein-repository-gibt",
+    "href": "gallery/slides/2026-08-31-jurapark-data-governance/index.html#was-euch-ein-repository-gibt",
+    "title": "Data Repositories und Mehr",
+    "section": "Was euch ein Repository gibt",
+    "text": "Was euch ein Repository gibt\n\n\n\nDOI – ein permanenter Identifikator, der dauerhaft funktioniert und zitiert werden kann.\nSichtbarkeit – ein öffentlicher Katalog, durchsuchbar, auch wenn die Dateien geschlossen bleiben.\nKontrollierter Zugang – Regeln, Antragsformulare, Verträge, ein Nachweis, wer die Daten erhalten hat.\nLangzeitarchivierung – Dateien bleiben lesbar und gesichert, über das Projekt hinaus.\n\n\n\nDOI · Katalog · Zugangsregeln · Backup\n\n\n\nKontrast zum Verschicken von Kopien per E-Mail: ihr verliert die Kontrolle darüber, was danach passiert. Ein Repository ist ein Service, keine Festplatte."
+  },
+  {
+    "objectID": "gallery/slides/2026-08-31-jurapark-data-governance/index.html#zwei-fragen-entscheiden-wie-ihr-teilt",
+    "href": "gallery/slides/2026-08-31-jurapark-data-governance/index.html#zwei-fragen-entscheiden-wie-ihr-teilt",
+    "title": "Data Repositories und Mehr",
+    "section": "Zwei Fragen entscheiden, wie ihr teilt",
+    "text": "Zwei Fragen entscheiden, wie ihr teilt\n\n\n\n\n\nZugang – wie leicht kommt jemand an die Daten? (geschlossen -&gt; offen)\nVerarbeitung – welche Arbeitsschritte teilt ihr? (Rohdaten -&gt; Endauswertung)\n\nEuer Datensatz ist ein Punkt auf diesem Raster. Der orange Kreis: vollständige Daten ohne Identifikatoren, offen geteilt.\n\n\nAbbildung: FAIRqual-OER-Modul (Unit 4.3.1). Beispiel: Mohr et al. 2026. Nach Tabelle 2, Alexander et al. 2020.\n\n\nDer orange Kreis ist eine Wahl: “vollständige Daten ohne Identifikatoren” in einem “offenen” Setting, wie der FAIRqual-ITD24-Datensatz (Mohr et al. 2026). Jeder Datensatz sitzt irgendwo auf diesem Raster; der Rest des Vortrags zeigt, wie Repositories euch den Punkt wählen lassen. Auf die Achsen hinweisen: Zugang läuft oben von geschlossen nach offen, Verarbeitung seitlich von Rohdaten zur Endauswertung."
+  },
+  {
+    "objectID": "gallery/slides/2026-08-31-jurapark-data-governance/index.html#drei-arten-von-repositories",
+    "href": "gallery/slides/2026-08-31-jurapark-data-governance/index.html#drei-arten-von-repositories",
+    "title": "Data Repositories und Mehr",
+    "section": "Drei Arten von Repositories",
+    "text": "Drei Arten von Repositories\n\nInstitutionell – für Angehörige einer Institution. An der ETH: die ETH Research Collection.\nDisziplinär – fachspezifische Kuratierung und Zugang. Für qualitative und sozialwissenschaftliche Daten in der Schweiz: SWISSUbase (betrieben von FORS), und EnviDat der WSL für Umweltdaten\nGeneralistisch – nimmt Daten aus allen Fächern an, z.B. Zenodo.\n\n\n  \n  \n  \n\n\nSWISSUbase ist das Zuhause für qualitative Daten: zertifiziert (CoreTrustSeal), vergibt DOIs, nimmt sensible Daten an, untersteht Schweizer Recht.\n\n\nDie meisten wählen standardmässig Zenodo, weil es einfach ist. Für sensible qualitative Daten ist die disziplinäre Option meist die bessere Wahl."
+  },
+  {
+    "objectID": "gallery/slides/2026-08-31-jurapark-data-governance/index.html#ein-beispiel-repository-envidat",
+    "href": "gallery/slides/2026-08-31-jurapark-data-governance/index.html#ein-beispiel-repository-envidat",
+    "title": "Data Repositories und Mehr",
+    "section": "Ein Beispiel-Repository: EnviDat",
+    "text": "Ein Beispiel-Repository: EnviDat\n\nBetrieben von der WSL, der Eidgenössischen Forschungsanstalt für Wald, Schnee und Landschaft.\nJetzt schon durchstöberbar: rund 766 Datensätze auf envidat.ch (Stand August 2026)\nWas ein Repository gibt, in Aktion: DOIs, offener Zugang, Creative-Commons-Lizenzen und Metadaten\nEinreichen bei der WSL: läuft über WSL-Zugehörigkeit oder Registrierung\nMehr finden: re3data.org listet über 3’000 Forschungsrepositories, filterbar nach Land und Fachgebiet\n\n\nDas Paar für dieses Publikum: EnviDat ist der Ort für die Umweltmonitoring-Daten rund um einen Park, SWISSUbase der Ort für die eigenen qualitativen und sozialen Daten der Teilnehmenden. Zusammen decken sie beide Hälften dessen ab, was ein Reallabor produziert. Für Artenbeobachtungen ist GBIF das greifbare Zusatzbeispiel, weil Park-Sichtungen letztlich dorthin fliessen. re3data macht aus der Post-it-Frage “welche Orte passen zu welchen Daten?” etwas, das die Teilnehmenden nach dem Workshop selbst beantworten können."
+  },
+  {
+    "objectID": "gallery/slides/2026-08-31-jurapark-data-governance/index.html#die-zugangs-achse-im-detail",
+    "href": "gallery/slides/2026-08-31-jurapark-data-governance/index.html#die-zugangs-achse-im-detail",
+    "title": "Data Repositories und Mehr",
+    "section": "Die Zugangs-Achse im Detail",
+    "text": "Die Zugangs-Achse im Detail\nDie Achse “geschlossen -&gt; offen” aus dem Raster ist kein Schalter. Repositories geben euch Stufen dazwischen.\n\n  OFFENGESCHLOSSEN\n  \n    Offen alle können herunterladen, offene Lizenz, keine Registrierung\n    Standardbedingungen registrieren & Bedingungen akzeptieren (automatisch)\n    Individuelle Genehmigung eine benannte Person entscheidet über jede Anfrage\n    Gesichert / vor Ort die Daten verlassen den kontrollierten Raum nie\n  \n\n\nKonkret: SWISSUbase kann den Zugang auf akademische Forschung einschränken; die ETH Research Collection kann Dateien auf eingeloggte ETH-Angehörige beschränken.\n\n\nDas ist die Zugangs-Achse aus dem Raster von vorhin, so wie Repositories sie tatsächlich umsetzen. Rückbezug auf Folie 4: dieselbe Achse, jetzt konkret. Betonen: Es ist eine Leiter, kein Schalter; ihr seid nicht auf ganz-offen oder ganz-geschlossen festgelegt. Die nächsten zwei Folien zoomen in diese Leiter: Stufe 2 vs. Stufe 3 ist “automatisch vs. manuell”, Stufe 4 ist “Zugang geben, ohne die Daten zu geben”."
+  },
+  {
+    "objectID": "gallery/slides/2026-08-31-jurapark-data-governance/index.html#automatisch-vs.-manuell",
+    "href": "gallery/slides/2026-08-31-jurapark-data-governance/index.html#automatisch-vs.-manuell",
+    "title": "Data Repositories und Mehr",
+    "section": "Automatisch vs. manuell",
+    "text": "Automatisch vs. manuell\n\n\nAutomatische Regeln\n\nEmbargo-Datum, nur akademische Forschung.\nNiemand prüft die einzelne Anfrage.\n\n\nManuell (sur dossier)\n\nEine benannte Person genehmigt jede Anfrage.\nMuss noch Jahre nach Projektende erreichbar sein.\n\n\n\nManuelle Genehmigung funktioniert nur, wenn die Rolle bei einer Funktion liegt (z.B. Data Steward). Sonst: automatische Regeln wählen.\n\n\nDas ist die praktische Falle für die Park-Arbeit: “Ich genehmige die Anfragen selbst” überlebt keinen Personalwechsel. Bindet die Genehmigung an eine Rolle, nicht an eine Person, oder wählt automatische Regeln."
+  },
+  {
+    "objectID": "gallery/slides/2026-08-31-jurapark-data-governance/index.html#lizenz-vs.-datennutzungsvereinbarung",
+    "href": "gallery/slides/2026-08-31-jurapark-data-governance/index.html#lizenz-vs.-datennutzungsvereinbarung",
+    "title": "Data Repositories und Mehr",
+    "section": "Lizenz vs. Datennutzungsvereinbarung",
+    "text": "Lizenz vs. Datennutzungsvereinbarung\n\n\nCreative-Commons-Lizenz\n\nRegelt das Urheberrecht.\nIm Voraus erteilt, nicht widerrufbar.\nDeckt keine Personendaten ab.\nCC / CC0 für vollständig anonymisierte offene Daten.\n\n\nDatennutzungsvereinbarung (DUA)\n\nEin Vertrag mit jeder Nutzerin, jedem Nutzer.\nBeschränkt den Zweck, verbietet die Weitergabe.\nVerbietet Re-Identifikation, verlangt Löschung.\nQualitative Daten brauchen meist genau das.\n\n\n\nKeine von beiden darf offener sein, als was die Teilnehmenden eingewilligt haben.\n\n\nSWISSUbase publiziert einen Standard Download Contract als öffentliches Beispiel einer DUA. Die Einwilligung ist die harte Obergrenze: ihr könnt Daten nicht offener lizenzieren oder teilen, als die Menschen zugestimmt haben."
+  },
+  {
+    "objectID": "gallery/slides/2026-08-31-jurapark-data-governance/index.html#zugang-geben-ohne-die-daten-zu-geben",
+    "href": "gallery/slides/2026-08-31-jurapark-data-governance/index.html#zugang-geben-ohne-die-daten-zu-geben",
+    "title": "Data Repositories und Mehr",
+    "section": "Zugang geben, ohne die Daten zu geben",
+    "text": "Zugang geben, ohne die Daten zu geben\n\n\n\nLesesaal-Zugang: genehmigte Besucherinnen und Besucher konsultieren das vollständige Material vor Ort, keine Kopien (z.B. Archiv für Zeitgeschichte der ETH).\nDen Prozess teilen, nicht die Daten: die Verarbeitungsstufe senken: Auszüge, Codebücher, Dokumentation der Entscheidungen.\n\n\n\n\nFoto: Carol M. Highsmith, Public Domain (Library of Congress, via Wikimedia Commons).\n\n\n\nWenn keine Zugangsstufe zu den Daten passt, bewegt euch stattdessen auf der anderen Achse: teilt, was die Daten beschreibt (Metadaten, Dokumentation), auch wenn die Daten selbst geschlossen bleiben. Das schliesst den Kreis zu den “Verarbeitungsstufen”."
+  },
+  {
+    "objectID": "gallery/slides/2026-08-31-jurapark-data-governance/index.html#jetzt-seid-ihr-dran",
+    "href": "gallery/slides/2026-08-31-jurapark-data-governance/index.html#jetzt-seid-ihr-dran",
+    "title": "Data Repositories und Mehr",
+    "section": "Jetzt seid ihr dran",
+    "text": "Jetzt seid ihr dran\n\nWelche “Orte” passen zu welchen eurer Daten?\n\n\n\nAuf eure Post-its: benennt einen Datensatz, platziert diesen auf dem Raster (wie offen, wie verarbeitet), und notiert, welches Repository oder Archiv dazu passt.\n\n\n\nFoto: FAIRqual-Team, aus dem Paket dataitd24 (CC BY 4.0). https://doi.org/10.5281/zenodo.18493525\n\n\n\nÜbergabe an die Gruppenübung. Ermutigt die Gruppe, “Orte” jenseits der drei Repository-Typen zu ergänzen: Lesesäle, Projektwebsites, reine Dokumentations-Shares."
+  },
+  {
+    "objectID": "gallery/slides/2026-08-31-jurapark-data-governance/index.html#thanks",
+    "href": "gallery/slides/2026-08-31-jurapark-data-governance/index.html#thanks",
+    "title": "Data Repositories und Mehr",
+    "section": "Danke",
+    "text": "Danke\n\n\n\nKontakt\n\n\nLars Schöbitz, Global Health Engineering, ETH Zürich\nDas FAIRqual-Projekt: fairqual.github.io/website\nDiese Folien: gebaut mit Quarto und reveal.js\n\n\n\nRessourcen\n\n\nZertifiziertes Repository für qualitative Daten: SWISSUbase (FORS)\nETH Research Collection: research-collection.ethz.ch\nBeispiel-Datensatz: dataitd24 auf Zenodo, kuratiert als eigenständige Website\n\n\n\nAlle Materialien sind lizenziert unter Creative Commons Attribution 4.0 International (CC BY 4.0).\n\n\nBlock abschliessen. Alles hier ist offen. Die Repository-Typen von vorhin entsprechen den Ressourcen: SWISSUbase für sensible qualitative Daten, die ETH Research Collection für ETH-Angehörige, Zenodo als generalistische Alternative."
+  },
+  {
+    "objectID": "gallery/slides/2026-08-31-jurapark-data-governance/index.html#referenzen",
+    "href": "gallery/slides/2026-08-31-jurapark-data-governance/index.html#referenzen",
+    "title": "Data Repositories und Mehr",
+    "section": "Referenzen",
+    "text": "Referenzen\n\nFAIRqual OER module, Subsection 4.3 Practical Aspects of Sharing Qualitative Data (Units 4.3.1–4.3.3). In Vorbereitung.\nAlexander, S. M., Jones, K., Bennett, N. J. et al. (2020). Qualitative data sharing and synthesis for sustainability science. Nat Sustain 3, 81–88. https://doi.org/10.1038/s41893-019-0434-8\nETH Zürich (2022). Guidelines for Research Data Management at ETH Zurich (RSETHZ 414.2). Rechtssammlung der ETH Zürich."
+  },
+  {
+    "objectID": "gallery/slides/2026-08-31-jurapark-data-governance/index.html#zusatz-was-bedeutet-coretrustseal",
+    "href": "gallery/slides/2026-08-31-jurapark-data-governance/index.html#zusatz-was-bedeutet-coretrustseal",
+    "title": "Data Repositories und Mehr",
+    "section": "Zusatz: Was bedeutet CoreTrustSeal?",
+    "text": "Zusatz: Was bedeutet CoreTrustSeal?\n\nEin internationales Zertifikat für vertrauenswürdige Daten-Repositories – community-getragen, nicht kommerziell (coretrustseal.org)\n16 Anforderungen, unter anderem: klarer Auftrag und gesicherte Finanzierung, Rechte und Lizenzen, Datenintegrität und Authentizität, Langzeitarchivierung, Sicherheit, Fachpersonal\nPeer-Review-Verfahren: das Repository dokumentiert die Erfüllung, unabhängige Gutachterinnen und Gutachter prüfen; das Zertifikat gilt 3 Jahre, dann Re-Zertifizierung\nEntstanden 2017 aus dem Data Seal of Approval und der Zertifizierung des ICSU World Data System\nFür euch heisst das: ein zertifiziertes Repository hat nachgewiesen, dass eure Daten auch nach Projektende verwaltet, gesichert und zugänglich bleiben, unabhängig von einzelnen Personen\n\n\nSWISSUbase trägt das CoreTrustSeal: einer der Gründe, warum es die Empfehlung für qualitative Daten ist.\n\n\nNur zeigen, falls die Frage nach der Zertifizierung kommt. Kernbotschaft: Zertifizierung heisst geprüfte Langzeit-Verlässlichkeit, nicht nur ein Label. Die Folie zählt nicht in der Foliennummerierung (uncounted)."
+  },
+  {
+    "objectID": "gallery/slides/index.html",
+    "href": "gallery/slides/index.html",
+    "title": "Slides",
+    "section": "",
+    "text": "On August 31st, 2026, the FAIRqual team ran a data governance workshop. The workshop was held in German, and so are all materials: the workshop deck, the input slides, and the handout.\nThe full workshop deck by the FAIRqual team frames the day: the project’s motivation, qualitative data in transdisciplinary projects, the shift from applying the FAIR principles towards implementing data governance, the reflection exercise on your own data, and the zine action plan that closes the workshop.\n  Download workshop deck (PDF) \n\nIn the “Data Repositories und Mehr” input, Lars Schöbitz walked through where qualitative data can live after a project ends: what a repository gives you over a lab-server folder, the three kinds of repository, how open to make the data, the automatic-versus-manual access choice, licences versus data-use agreements, and how to give access without handing over the data. A one-page take-away accompanies the talk for the group session that follows.\n  Open slides    Download 1-page handout (PDF)"
+  },
+  {
+    "objectID": "gallery/slides/index.html#fairqual-workshop-2026-data-repositories-und-mehr",
+    "href": "gallery/slides/index.html#fairqual-workshop-2026-data-repositories-und-mehr",
+    "title": "Slides",
+    "section": "",
+    "text": "On August 31st, 2026, the FAIRqual team ran a data governance workshop. The workshop was held in German, and so are all materials: the workshop deck, the input slides, and the handout.\nThe full workshop deck by the FAIRqual team frames the day: the project’s motivation, qualitative data in transdisciplinary projects, the shift from applying the FAIR principles towards implementing data governance, the reflection exercise on your own data, and the zine action plan that closes the workshop.\n  Download workshop deck (PDF) \n\nIn the “Data Repositories und Mehr” input, Lars Schöbitz walked through where qualitative data can live after a project ends: what a repository gives you over a lab-server folder, the three kinds of repository, how open to make the data, the automatic-versus-manual access choice, licences versus data-use agreements, and how to give access without handing over the data. A one-page take-away accompanies the talk for the group session that follows.\n  Open slides    Download 1-page handout (PDF)"
+  },
+  {
+    "objectID": "gallery/slides/index.html#sts-nl-2026-fair-data-practices-for-qualitative-research-in-transdisciplinarity",
+    "href": "gallery/slides/index.html#sts-nl-2026-fair-data-practices-for-qualitative-research-in-transdisciplinarity",
+    "title": "Slides",
+    "section": "STS NL 2026: FAIR Data Practices for Qualitative Research in Transdisciplinarity",
+    "text": "STS NL 2026: FAIR Data Practices for Qualitative Research in Transdisciplinarity\nOn April 16th, 2026, the FAIRqual team presented at the STS NL 2026 conference at the University of Twente, NL, in the track ‘How to Make Science Better’. The track provided plenty of food for thought on current trends in the ‘science industry’, such as publishing schemes, handling misconduct, and institutionalising movements such as Open Science. In our presentation, we discussed how raising awareness of data governance and FAIR data practices in qualitative, transdisciplinary research could contribute to making science better. The accepted abstract is published as a blog post.\n  Download PDF slides"
+  },
+  {
+    "objectID": "gallery/slides/index.html#epfl-it4r-tech-talk-research-data-management-for-qualitative-data",
+    "href": "gallery/slides/index.html#epfl-it4r-tech-talk-research-data-management-for-qualitative-data",
+    "title": "Slides",
+    "section": "EPFL IT4R Tech Talk: Research Data Management for Qualitative Data",
+    "text": "EPFL IT4R Tech Talk: Research Data Management for Qualitative Data\nOn December 2nd, 2025, the FAIRqual team presented “FAIRifying qualitative data” at EPFL’s Tuesdays Tech Talks series, organized by ENAC-IT4R (School of Architecture, Civil and Environmental Engineering - IT for Research). These lightning talk sessions foster interdisciplinary knowledge sharing on data and coding topics within the ENAC research community in a “Lunch & Learn” format.\n  Download PDF slides"
+  },
+  {
+    "objectID": "gallery/slides/index.html#advancing-open-research-data-ord-practices-collaboration-and-innovation-in-the-eth-domain",
+    "href": "gallery/slides/index.html#advancing-open-research-data-ord-practices-collaboration-and-innovation-in-the-eth-domain",
+    "title": "Slides",
+    "section": "Advancing Open Research Data (ORD) Practices: collaboration and innovation in the ETH Domain",
+    "text": "Advancing Open Research Data (ORD) Practices: collaboration and innovation in the ETH Domain\nOn June 12th, 2025, the FAIRqual team presented at the ETH Domain ORD Day at Casino Bern. The FAIRqual project was one of 6 accepted presentations selected from a programme of nearly 100 funded projects. This national event brought together researchers from across the ETH Domain institutions to showcase innovative research projects and discuss best practices for open research data through keynote presentations and tailored workshops.\n  Download PDF slides"
+  },
+  {
+    "objectID": "gallery/slides/index.html#fair-data-practices-for-qualitative-research-in-transdisciplinarity",
+    "href": "gallery/slides/index.html#fair-data-practices-for-qualitative-research-in-transdisciplinarity",
+    "title": "Slides",
+    "section": "FAIR Data Practices for Qualitative Research in Transdisciplinarity",
+    "text": "FAIR Data Practices for Qualitative Research in Transdisciplinarity\nFrom November 4-8, 2024, the FAIRqual team facilitated a 90-minute workshop at the International Transdisciplinary Conference (ITD24) in Utrecht, NL. The workshop brought together 24 researchers to brainstorm challenges and experiences of sharing qualitative data in transdisciplinary research, discussing topics such as handling sensitive data, preventing misuse and decontextualization, and navigating institutional data policies.\n  Download PDF slides"
+  },
+  {
+    "objectID": "gallery/slides/2026-08-31-jurapark-envidat/index.html#an-example-repository-envidat",
+    "href": "gallery/slides/2026-08-31-jurapark-envidat/index.html#an-example-repository-envidat",
+    "title": "An example repository: EnviDat",
+    "section": "An example repository: EnviDat",
+    "text": "An example repository: EnviDat\n\nRun by WSL, the federal institute for forest, snow, and landscape research. Its subjects read like a park’s data inventory: biodiversity, forest management, landscape planning, natural hazards\nBrowsable right now: about 766 datasets at envidat.ch (August 2026); search a region and see real Swiss environmental datasets\nWhat a repository gives you, in action: DOIs, open access, Creative Commons licences, and metadata that stay visible even where the data are restricted\nThe honest caveat: depositing runs through WSL affiliation or registration, so the route for parks is their research partners. Your own qualitative and social data goes to SwissUBase\nFinding more: re3data.org lists over 3,000 research repositories, filterable by country and subject (EnviDat: r3d100012587)\n\n\nThe pairing for this audience: EnviDat is where the environmental monitoring data around a park lives, SwissUBase is where the workshop participants’ own qualitative and social data goes. Together they cover both halves of what a Reallabor produces. For species observations, GBIF is the tangible extra example, since park sightings ultimately flow there. re3data turns the post-it question “which places suit which data?” into something participants can answer themselves after the workshop."
+  },
+  {
+    "objectID": "gallery/slides/2026-08-31-jurapark-evidence/index.html#sharing-qualitative-data-in-numbers",
+    "href": "gallery/slides/2026-08-31-jurapark-evidence/index.html#sharing-qualitative-data-in-numbers",
+    "title": "Sharing qualitative data, in numbers",
+    "section": "Sharing qualitative data, in numbers",
+    "text": "Sharing qualitative data, in numbers\n\n96% never deposited. Of 425 surveyed qualitative researchers in the US, 96% have never shared qualitative data in a repository (Mozersky et al. 2021)\nParticipants are more open than researchers. The vast majority of 30 interviewed participants of sensitive interview studies support sharing, deidentified and among researchers (Mozersky et al. 2020)\n“Available on request” rarely holds. In an audit of 190 articles, 74% of datasets were unavailable (Asmundo et al. 2024), and only 31% of on-request promises were honoured when tested (Archer et al. 2025)\nWhere an archive exists, reuse happens. 7,155 downloads of 267 qualitative collections at the UK Data Service, 2002-2016; 60% of collections reused at least once, three quarters of downloads for teaching and learning (Bishop and Kuula-Luumi 2017)\n\n\nThe gap runs in both directions: researchers hold back although participants support sharing, and informal promises do not deliver. Infrastructure does: where a curated archive exists, the data get used, mostly in teaching. Full sources with abstracts are in the Zotero collection jurapark-workshop; the audits come from health and clinical fields because that is where such audits exist, and no transdisciplinary-specific audit was found (stating that openly is itself credible)."
+  },
+  {
+    "objectID": "gallery/slides/2026-08-31-jurapark-evidence/index.html#references",
+    "href": "gallery/slides/2026-08-31-jurapark-evidence/index.html#references",
+    "title": "Sharing qualitative data, in numbers",
+    "section": "References",
+    "text": "References\n\nArcher, D., Barks, N., Chaudhry, M., et al. (2025). Data sharing statements: impact of journal policies across clinical research disciplines. European Heart Journal. https://doi.org/10.1093/eurheartj/ehaf359\nAsmundo, M. G., Durukan, E., Russo, G. I., Jensen, C. F. S., Østergren, P., Cimino, S., & Fode, M. (2024). Data availability statements and data sharing in urology: A false promise? European Urology Focus.\nBishop, L., & Kuula-Luumi, A. (2017). Revisiting qualitative data reuse: A decade on. SAGE Open, January-March 2017, 1-15. https://doi.org/10.1177/2158244016685136\nMozersky, J., Parsons, M. V., Walsh, H. A., Baldwin, K. A., McIntosh, T. J., & DuBois, J. M. (2020). Research participant views regarding qualitative data sharing. Ethics & Human Research. https://doi.org/10.1002/eahr.500044\nMozersky, J., McIntosh, T. J., Walsh, H. A., Parsons, M. V., Goodman, M., & DuBois, J. M. (2021). Barriers and facilitators to qualitative data sharing in the United States: A survey of qualitative researchers. PLOS ONE. https://doi.org/10.1371/journal.pone.0261719"
+  },
+  {
+    "objectID": "gallery/slides/2026-08-31-jurapark-data-governance/img/CREDITS.html",
+    "href": "gallery/slides/2026-08-31-jurapark-data-governance/img/CREDITS.html",
+    "title": "Image credits",
+    "section": "",
+    "text": "Images used in the “Data repositories and beyond” slides and handout.\n\n\n\nFile\nSource\nAuthor\nLicence\nNotes\n\n\n\n\ngrades-of-sharing.png\nFAIRqual OER module (Figure, Unit 4.3.1)\nFAIRqual team\nProject asset\n“Different Grades of Sharing”: level of access (x-axis, closed -&gt; open) x level of processing (y-axis, raw data -&gt; final analysis); orange circle = full data without identifiers, shared openly (Mohr et al. 2026). Based on Table 2, Alexander et al. 2020. Used on the “two questions decide how you share” slide and on the handout. Right whitespace cropped (660 -&gt; 624 px).\n\n\nzenodo-black-border.svg\nzenodo.org\nCERN / OpenAIRE\nZenodo brand asset\nZenodo wordmark, dark version for the white slide background. Used on the “three kinds of repository” slide. Cite: European Organization for Nuclear Research and OpenAIRE (2013). Zenodo. CERN. https://doi.org/10.25495/7GXK-RD71. A zenodo-white-border.svg variant is also in the folder (unused; for dark backgrounds).\n\n\neth-logo-pos.png\nETH Zurich corporate design\nETH Zurich\nETH Zurich brand asset\nInstitutional “ETH Zürich” logo (positive/dark version). Stands in for the ETH Research Collection on the “three kinds of repository” slide; it is the institution mark, not the repository product mark. Swap for a Research Collection logo if one is preferred.\n\n\nswissubase.webp\nswissubase.ch\nFORS / SWISSUbase\nSWISSUbase brand asset\nSWISSUbase wordmark, dark version for the white slide background. Used on the “three kinds of repository” slide.\n\n\nreading-room-loc.jpg\nWikimedia Commons\nCarol M. Highsmith\nPublic domain\nLibrary of Congress Main Reading Room. Stands in for on-site / reading-room access. Resized to 1600 px.\n\n\nitd24-workshop-1.jpg\nFAIRqual website repo (blog/posts/2024-12-05-itd24/)\nFAIRqual team\nProject asset\nPhoto from the FAIRqual workshop at ITD24, Nov 2024. Used on the “why not the lab-server folder” slide. Resized to 1600 px.\n\n\nflipchart-output.jpg\ndataitd24 data package (data-raw/pictures_flipcharts_fairqual_workshop_itd24/)\nFAIRqual team\nProject asset (dataitd24, Zenodo)\nFlip-chart / post-it output from the ITD24 workshop. Used on the “over to you” hand-off slide. Resized to 1600 px.\n\n\n\n\n\nTwo slides use CSS/HTML diagrams authored directly in index.qmd, in FAIRqual colours, so they never depend on an external image:\n\nThe open-to-closed access ladder.\nThe automatic-vs-manual (sur dossier) access fork.\n\n(The access × processing grid now uses the OER figure grades-of-sharing.png, not a CSS diagram.)\n\n\n\n\nThe Jurapark workshop photo on slide 10 of the master deck is credited “© Yuri Schmid” (rights reserved), so it is not reused here for a public website without permission."
+  },
+  {
+    "objectID": "gallery/slides/2026-08-31-jurapark-data-governance/img/CREDITS.html#schematic-figures-authored-inline-no-image-files",
+    "href": "gallery/slides/2026-08-31-jurapark-data-governance/img/CREDITS.html#schematic-figures-authored-inline-no-image-files",
+    "title": "Image credits",
+    "section": "",
+    "text": "Two slides use CSS/HTML diagrams authored directly in index.qmd, in FAIRqual colours, so they never depend on an external image:\n\nThe open-to-closed access ladder.\nThe automatic-vs-manual (sur dossier) access fork.\n\n(The access × processing grid now uses the OER figure grades-of-sharing.png, not a CSS diagram.)"
+  },
+  {
+    "objectID": "gallery/slides/2026-08-31-jurapark-data-governance/img/CREDITS.html#not-used-and-why",
+    "href": "gallery/slides/2026-08-31-jurapark-data-governance/img/CREDITS.html#not-used-and-why",
+    "title": "Image credits",
+    "section": "",
+    "text": "The Jurapark workshop photo on slide 10 of the master deck is credited “© Yuri Schmid” (rights reserved), so it is not reused here for a public website without permission."
+  },
+  {
+    "objectID": "about/mollie/index.html",
+    "href": "about/mollie/index.html",
+    "title": "Dr. Mollie Chapman",
+    "section": "",
+    "text": "I am a conservation social scientist who uses qualitative and transdisciplinary methods to address food system transformations.\nMy role in this project is to keep the creative energy flowing and help the team navigate challenges and find a pathway to building useful outputs for our team and the larger research community."
+  },
+  {
+    "objectID": "about/lars/index.html",
+    "href": "about/lars/index.html",
+    "title": "Lars Schöbitz",
+    "section": "",
+    "text": "With a passion for reproducibility, Lars is actively working on bringing people together that care for open data and open code. He currently works for the Global Health Engineering group at ETH Zurich, and independently to provide data science training for literate programming with Quarto and R, and collaboration and version control with Git and GitHub.\nHis role in the FAIRqual project is to support the core project team in all aspects regarding research data management and stewardship, and to ensure that the project’s data is FAIR (Findable, Accessible, Interoperable, Reusable). He is also responsible for the project’s website and the technical development of the project’s data management plan."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "In the FAIRqual project, the core question that drives us is how to make FAIR data practices an integral part of qualitative data management in transdisciplinary research. But why is this necessary? Open research data (ORD) practices are becoming more widespread and - apart from their inherent value - are increasingly required by funders, publishers or institutions. There is already some traction towards ORD for quantitative data, but what about qualitative data?\nQualitative data are more difficult to process and make available in ORD practice. More importantly, ethical norms require confidentiality of research subjects - with interview transcripts, workshops or other types of qualitative data sometimes difficult or impossible to anonymise. Nevertheless, sharing qualitative data can be valuable. Particularly in transdisciplinary (Td) research, where new forms of engagement between science and society are central to the co-production of problem framing and project outcomes, the question of who processes and stores data is even more pressing. Whether qualitative data is generated during the facilitation of the Td process or as part of the scientific study itself, sharing this data could allow for improved learning between Td processes and increased engagement between science and society. And we are curious to find out how!\nIn order to move qualitative data in Td research towards ORD, a focus on the FAIR Principles could be a central element.While the FAIR Principles promote a transparent description of the content and location of datasets and their metadata, it is not a requirement that the data necessarily be made available to everyone. Given the ethical challenges of qualitative data, the ability to decide how much of the dataset is publicly available and, if necessary, to control who can access it and for what purpose, is a key condition.\nIn the FAIRqal project we will approach this challenge from different angles. As a first step, we are exploring different facets of the application of FAIR principles to qualitative data in Td research. We facilitated a workshop at the International Transdisciplinary Conference and plan to conduct interviews with Td researchers using qualitative data, but also with experts in information science, data authority, ethics and other related topics. In parallel, we are developing workflows and prototypes to facilitate the technical side of sharing qualitative data. Based on the generated knowledge and experience, we will develop guidelines and show examples / case studies on how to start integrating FAIR principles in qualitative data in Td research. To share, discuss and further develop our findings, we intend to build a community of practice around FAIR qualitative data in Td research and initiate networking and educational events such as workshops or webinars.\nThe FAIRqual project is funded by the Open Research Data Program of the ETH Board and carried out by researchers from Tdlab and the Global Health Engineering group - both at ETH Zurich.\n\nTeam\nThe first proposal for this work was funded in 2024 and our project team is comprised of five team members. You can read the full proposal to learn more about this project.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDr. Franziska Mohr\n\n\nPostDoc\n\n\n\n\n\n\n\n\n\n\n\n\nDr. Mollie Chapman\n\n\nPrincipal Investigator\n\n\n\n\n\n\n\n\n\n\n\n\nLars Schöbitz\n\n\nData Steward\n\n\n\n\n\n\n\n\n\n\n\n\nPD Dr. Bianca Vienni-Baptista\n\n\nCo-Principal Investigator (Co-PI)\n\n\n\n\n\n\n\n\n\n\n\n\nProf. Dr. Elizabeth (Liz) Tilley\n\n\nProject Advisor\n\n\n\n\n\nNo matching items"
+  }
+]

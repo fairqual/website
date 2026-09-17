@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>FAIRqual</title>
+<link>https://fairqual.github.io/website/blog/</link>
+<atom:link href="https://fairqual.github.io/website/blog/index.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.10.18</generator>
+<lastBuildDate>Wed, 16 Sep 2026 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>FAIR Data Practices for Qualitative Research in Transdisciplinarity</title>
+  <dc:creator>Dr. Franziska Mohr</dc:creator>
+  <link>https://fairqual.github.io/website/blog/posts/2026-02-05-sts-nl2026/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>We are excited to announce that our abstract has been accepted for the <a href="https://www.utwente.nl/en/bms/sts-nl2026/">STS NL 2026 conference</a>. The FAIRqual project will be represented in the track ‘How to Make Science Better’, where we will talk about how the use of FAIR qualitative data in Td research could contribute to this ambition. Are you planning to join STS NL 2026 as well? Get in touch!</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Update
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>We presented this work at the conference on April 16th, 2026. The slides are available in our <a href="../../../gallery/slides/index.html">slides gallery</a>.</p>
+</div>
+</div>
+<section id="abstract-fair-data-practices-for-qualitative-research-in-transdisciplinarity" class="level2">
+<h2 class="anchored" data-anchor-id="abstract-fair-data-practices-for-qualitative-research-in-transdisciplinarity">Abstract: FAIR Data Practices for Qualitative Research in Transdisciplinarity</h2>
+<p>In recent years, open research data (ORD) practices have gained traction, as evidenced by funding calls and journals establishing them as a requirement. ORD intends to ‘make science better’ by increasing transparency and reproducibility, and by making datasets reusable and citable. However, ORD practises are often based on quantitative data cultures, and are rarely applied to qualitative data. Given their growing importance, it is important to rethink ORD practices for qualitative data, taking into account the practical, epistemological, and ethical challenges of sharing such data. This need comes to the fore when conducting transdisciplinary (Td) research, where new forms of engagement between science and society co-produce problem framings and project outputs. Sharing interview or workshop data from Td projects could allow for improved learning between Td processes and increase engagement between science and society.</p>
+<p>In the FAIRqual project we address this issue by asking the questions: What are options to share this data according to FAIR principles? How to navigate the ethical issues of research participant protection and the benefits of sharing qualitative data? Who processes and stores data from Td research, and for whom? During a workshop with Td researchers, we identified key considerations and questions relating to open qualitative data in Td research. In a second step, we explored these in expert interviews with experienced Td researchers and open science experts. Based on our insights, our aim is to provide guidance on opening up qualitative data and encourage reflection on the current data management in Td research. By doing this, we do not view ORD as a measure of ‘better science’, but rather as a tool to start conversations about data documentation and data governance in Td projects. This has the potential to strengthen both research integrity and the partnership between science and society.</p>
+<hr>
+<p>If you would like to get in touch or receive updates of the projects, <a href="mailto:franziska.mohr@usys.ethz.ch?subject=FAIRqual%20request">drop us a line</a>!</p>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@misc{franziska_mohr2026,
+  author = {Franziska Mohr, Dr.},
+  title = {FAIR {Data} {Practices} for {Qualitative} {Research} in
+    {Transdisciplinarity}},
+  date = {2026-09-17},
+  url = {https://fairqual.github.io/website/blog/posts/2026-02-05-sts-nl2026/},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-franziska_mohr2026" class="csl-entry quarto-appendix-citeas">
+Franziska Mohr, Dr. 2026. <span>“FAIR Data Practices for Qualitative
+Research in Transdisciplinarity.”</span> FAIRqual Project Blog,
+September 17. <a href="https://fairqual.github.io/website/blog/posts/2026-02-05-sts-nl2026/">https://fairqual.github.io/website/blog/posts/2026-02-05-sts-nl2026/</a>.
+</div></div></section></div> ]]></description>
+  <category>conference</category>
+  <category>presentation</category>
+  <guid>https://fairqual.github.io/website/blog/posts/2026-02-05-sts-nl2026/</guid>
+  <pubDate>Wed, 16 Sep 2026 22:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>ITD24 Workshop Data Now Available</title>
+  <dc:creator>Dr. Franziska Mohr</dc:creator>
+  <dc:creator>Lars Schöbitz</dc:creator>
+  <link>https://fairqual.github.io/website/blog/posts/2026-02-04-dataitd24/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>The data from our workshop at the <a href="../../../blog/posts/2024-12-05-itd24/index.html">ITD24 conference</a> is finally online! After deciding how to digitize the flip charts produced during the workshop, gathering feedback and approval from all participants, and selecting an appropriate repository and workflow, the data is now available for you to view and download here: <a href="https://fairqual.github.io/dataitd24/" class="uri">https://fairqual.github.io/dataitd24/</a></p>
+<p>If you have any questions or comments about the dataset, please <a href="mailto:franziska.mohr@usys.ethz.ch?subject=FAIRqual%20dataitd24%20dataset">contact us</a>. We have learned a lot along the way and will soon share some of our insights in a separate blog post. We are now excited to explore some of the questions raised during the workshop in the upcoming expert interviews. Stay tuned!</p>
+<section id="publishing-the-data-our-technical-workflow" class="level2">
+<h2 class="anchored" data-anchor-id="publishing-the-data-our-technical-workflow">Publishing the data: Our technical workflow</h2>
+<section id="data-storage-and-documentation" class="level3">
+<h3 class="anchored" data-anchor-id="data-storage-and-documentation">Data storage and documentation</h3>
+<p>The R package development environment enabled us to maintain a complete audit trail from unprocessed raw data to analysis-ready datasets. The data are stored in a <a href="https://github.com/fairqual/dataitd24">Git repository on GitHub</a>, alongside the code for data processing, rich metadata, and documentation, following FAIR data-sharing principles.</p>
+</section>
+<section id="metadata-and-archiving" class="level3">
+<h3 class="anchored" data-anchor-id="metadata-and-archiving">Metadata and archiving</h3>
+<p>The repository includes several metadata files supporting FAIR principles: a Citation File Format (.cff) file that records contributor ORCID IDs, a permissive CC-BY license, and structured documentation. GitHub–Zenodo integration allows the creation of a digital object identifier (DOI) and ensures long-term archiving aligned with internationally recommended best practices. Once published, the DOI-based entry was imported into the <a href="https://www.research-collection.ethz.ch/">ETH Research Collection</a> to enhance discoverability and ensure institutional archiving.</p>
+</section>
+<section id="data-presentation" class="level3">
+<h3 class="anchored" data-anchor-id="data-presentation">Data presentation</h3>
+<p>For data communication and curation, the R package <a href="https://pkgdown.r-lib.org/">pkgdown</a> offers substantial advantages. It allows R practitioners to create an attractive website presenting exploratory data analysis examples, even without web development experience. The tool leverages structured metadata to generate a standalone, shareable website on <a href="https://fairqual.github.io/dataitd24/">GitHub Pages</a> while remaining platform-independent—the repository can be migrated to other Git hosting platforms and alternative website hosting services at any time.</p>
+</section>
+<section id="alternative-platforms" class="level3">
+<h3 class="anchored" data-anchor-id="alternative-platforms">Alternative platforms</h3>
+<p>For qualitative data in Switzerland, another option is <a href="https://www.swissubase.ch/">SwissUbase</a>. While it provides advantages such as an integrated access control system, it would have been difficult to integrate with the open publishing workflow described above. Because our workshop data were fully anonymized and contained no sensitive information, controlled access was deemed unnecessary. Therefore, Zenodo and the GitHub-based workflow were chosen. In practice, GitHub is best suited for open-by-default data sharing without restrictions, which is an important consideration when designing informed consent forms and ethics applications.</p>
+
+
+</section>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@misc{franziska_mohr2026,
+  author = {Franziska Mohr, Dr. and Schöbitz, Lars},
+  title = {ITD24 {Workshop} {Data} {Now} {Available}},
+  date = {2026-02-04},
+  url = {https://fairqual.github.io/website/blog/posts/2026-02-04-dataitd24/},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-franziska_mohr2026" class="csl-entry quarto-appendix-citeas">
+Franziska Mohr, Dr., and Lars Schöbitz. 2026. <span>“ITD24 Workshop Data
+Now Available.”</span> FAIRqual Project Blog, February 4. <a href="https://fairqual.github.io/website/blog/posts/2026-02-04-dataitd24/">https://fairqual.github.io/website/blog/posts/2026-02-04-dataitd24/</a>.
+</div></div></section></div> ]]></description>
+  <category>data package</category>
+  <category>open data</category>
+  <category>FAIR</category>
+  <guid>https://fairqual.github.io/website/blog/posts/2026-02-04-dataitd24/</guid>
+  <pubDate>Tue, 03 Feb 2026 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>FAIR Data Practices for Qualitative Research in Transdisciplinarity</title>
+  <dc:creator>Dr. Franziska Mohr</dc:creator>
+  <link>https://fairqual.github.io/website/blog/posts/2024-12-05-itd24/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>From 4 to 8 November, the International Transdisciplinary Conference (ITD24) took place in Utrecht, NL. This occasion brought together researchers active or interested in transdisciplinarity and other forms of collaborative research/education for a thought-provoking and inspiring week of presentations, workshops and keynotes.</p>
+<iframe class="slide-deck" src="fairqual_itd24_webpage.pdf" height="420" width="747" style="border: 1px solid #123233;"></iframe>
+<p><a href="fairqual_itd24_webpage.pdf" download="" class="btn btn-primary"> <i class="bi bi-download"></i> Download Slides </a></p>
+<p>The FAIRqual project facilitated a 90-minute workshop to brainstorm challenges and experiences of sharing qualitative data in TD research. 24 researchers attended and in four groups many ideas and concerns were shared and discussed using prepared flipcharts that quickly filled up with colourful post-its.</p>
+<div id="fig-elephants" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-elephants-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-elephants" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://fairqual.github.io/website/blog/posts/2024-12-05-itd24/PXL_20241105_110903103.jpg" id="fig-1" class="img-fluid figure-img" data-ref-parent="fig-elephants">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(a)
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-elephants" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-2" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://fairqual.github.io/website/blog/posts/2024-12-05-itd24/PXL_20241105_105230709.jpg" id="fig-2" class="img-fluid figure-img" data-ref-parent="fig-elephants">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(b)
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-elephants-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Workshop participants at the ITD conference in Utrecht, NL.
+</figcaption>
+</figure>
+</div>
+<p>It became clear that while this topic is on the minds of many researchers, there is also a lot of uncertainty about how and what to share. The main points of discussion related to the handling of sensitive data, the misuse/decontextualisation of data, and the potential (danger) of new AI applications. The issue of appropriate data repositories in light of different institutional data policies was also raised, as well as the cost-benefit of taking time to prepare data for sharing.</p>
+<p>We also gained two practical insights into how to prevent workshop data from being shared without people’s consent:</p>
+<ul>
+<li>Participants were informed at the beginning of the workshop that the flipchart and post-its would be shared publicly after the event. In order to mark sensitive information from the outset, participants were given the opportunity to put a special sticker on post-its that they did not want shared.</li>
+<li>The conference organiser introduced the possibility of getting an orange wristband as a symbol of not wanting to be photographed for the event website.</li>
+</ul>
+<p>Filled with inspiration and data from the conference, we are now looking forward to exploring the hot topics identified in the workshop in the next phase of the project through expert interviews.</p>
+<p>We would like to thank everyone who took part. It was great to have you all at the workshop!</p>
+<p>Keep an eye out: The data from the workshop will soon be openly available on this website, in line with our project’s intention to promote FAIR data standards for qualitative data in TD research.</p>
+<p>If you would like to get in touch or receive updates of the projects, <a href="mailto:franziska.mohr@usys.ethz.ch?subject=FAIRqual%20request">drop us a line</a>!</p>
+
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@misc{franziska_mohr2024,
+  author = {Franziska Mohr, Dr.},
+  title = {FAIR {Data} {Practices} for {Qualitative} {Research} in
+    {Transdisciplinarity}},
+  date = {2024-12-05},
+  url = {https://fairqual.github.io/website/blog/posts/2024-12-05-itd24/},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-franziska_mohr2024" class="csl-entry quarto-appendix-citeas">
+Franziska Mohr, Dr. 2024. <span>“FAIR Data Practices for Qualitative
+Research in Transdisciplinarity.”</span> FAIRqual Project Blog, December
+5. <a href="https://fairqual.github.io/website/blog/posts/2024-12-05-itd24/">https://fairqual.github.io/website/blog/posts/2024-12-05-itd24/</a>.
+</div></div></section></div> ]]></description>
+  <category>conference</category>
+  <category>workshop</category>
+  <guid>https://fairqual.github.io/website/blog/posts/2024-12-05-itd24/</guid>
+  <pubDate>Wed, 04 Dec 2024 23:00:00 GMT</pubDate>
+  <media:content url="https://fairqual.github.io/website/blog/posts/2024-12-05-itd24/PXL_20241105_110903103.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>

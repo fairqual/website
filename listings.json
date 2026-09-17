@@ -1,0 +1,24 @@
+[
+  {
+    "listing": "/events/index.html",
+    "items": []
+  },
+  {
+    "listing": "/blog/index.html",
+    "items": [
+      "/blog/posts/2026-02-05-sts-nl2026/index.html",
+      "/blog/posts/2026-02-04-dataitd24/index.html",
+      "/blog/posts/2024-12-05-itd24/index.html"
+    ]
+  },
+  {
+    "listing": "/about.html",
+    "items": [
+      "/about/franziska/index.html",
+      "/about/mollie/index.html",
+      "/about/lars/index.html",
+      "/about/bianca/index.html",
+      "/about/liz/index.html"
+    ]
+  }
+]
