@@ -1,2 +1,18 @@
-[[plugins]]
-package = "@quarto/netlify-plugin-quarto"
+# fairqual.org is now only a redirect shell. The site itself is published
+# from the gh-pages branch of this repository to GitHub Pages:
+# https://fairqual.github.io/website
+#
+# Netlify deploys the "netlify" folder (a single fallback page) and the
+# redirect rule below sends every request, deep links included, to the
+# same path on GitHub Pages. "force = true" applies the rule even when a
+# file exists at the requested path.
+
+[build]
+  publish = "netlify"
+  command = "echo 'redirect-only site, nothing to build'"
+
+[[redirects]]
+  from = "/*"
+  to = "https://fairqual.github.io/website/:splat"
+  status = 301
+  force = true
