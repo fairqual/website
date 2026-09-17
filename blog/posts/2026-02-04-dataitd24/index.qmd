@@ -27,7 +27,7 @@ css: ../../../style/styles.css
 citation:
   type: post
   container-title: FAIRqual Project Blog
-  url: https://fairqual.org/blog/2026-02-04-dataitd24
+  url: https://fairqual.github.io/website/blog/posts/2026-02-04-dataitd24/
 ---
 
 The data from our workshop at the [ITD24 conference](../2024-12-05-itd24/index.qmd) is finally online! After deciding how to digitize the flip charts produced during the workshop, gathering feedback and approval from all participants, and selecting an appropriate repository and workflow, the data is now available for you to view and download here: <https://fairqual.github.io/dataitd24/>

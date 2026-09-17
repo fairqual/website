@@ -259,7 +259,7 @@ Kontakt
 :::
 
 - **Lars Schöbitz**, Global Health Engineering, ETH Zürich
-- **Das FAIRqual-Projekt:** [fairqual.org](https://fairqual.org)
+- **Das FAIRqual-Projekt:** [fairqual.github.io/website](https://fairqual.github.io/website)
 - **Diese Folien:** gebaut mit Quarto und reveal.js
 
 :::
