@@ -14,7 +14,7 @@ website:
       - text: About
         href: about.qmd
       - icon: "envelope-at"
-        href: "mailto:franziska.mohr@usys.ethz.ch?subject=FAIRqual request"
+        href: "mailto:mollie.chapman@usys.ethz.ch?subject=FAIRqual request"
         aria-label: Email
       - icon: github
         href: https://github.com/fairqual
@@ -40,7 +40,7 @@ website:
         menu:
           - text: "Email us"
             icon: "envelope-at"
-            href: "mailto:franziska.mohr@usys.ethz.ch?subject=FAIRqual request"
+            href: "mailto:mollie.chapman@usys.ethz.ch?subject=FAIRqual request"
           - text: "Report a Bug"
             icon: "bug"
             href: "https://github.com/fairqual/website/issues"

@@ -32,7 +32,7 @@ citation:
 
 The data from our workshop at the [ITD24 conference](../2024-12-05-itd24/index.qmd) is finally online! After deciding how to digitize the flip charts produced during the workshop, gathering feedback and approval from all participants, and selecting an appropriate repository and workflow, the data is now available for you to view and download here: <https://fairqual.github.io/dataitd24/>
 
-If you have any questions or comments about the dataset, please [contact us](mailto:franziska.mohr@usys.ethz.ch?subject=FAIRqual dataitd24 dataset). We have learned a lot along the way and will soon share some of our insights in a separate blog post. We are now excited to explore some of the questions raised during the workshop in the upcoming expert interviews. Stay tuned!
+If you have any questions or comments about the dataset, please [contact us](mailto:mollie.chapman@usys.ethz.ch?subject=FAIRqual dataitd24 dataset). We have learned a lot along the way and will soon share some of our insights in a separate blog post. We are now excited to explore some of the questions raised during the workshop in the upcoming expert interviews. Stay tuned!
 
 ## Publishing the data: Our technical workflow
 

@@ -39,4 +39,4 @@ In the FAIRqual project we address this issue by asking the questions: What are 
 
 ---
 
-If you would like to get in touch or receive updates of the projects, [drop us a line](mailto:franziska.mohr@usys.ethz.ch?subject=FAIRqual request)!
+If you would like to get in touch or receive updates of the projects, [drop us a line](mailto:mollie.chapman@usys.ethz.ch?subject=FAIRqual request)!
