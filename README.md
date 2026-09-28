@@ -32,6 +32,7 @@ The FAIRqual project is funded by the [Open Research Data Program of the ETH Boa
 
 This website includes:
 
+- **Outputs & Data**: Published datasets, and the e-learning course and papers once they are out
 - **Blog**: Updates on project activities, conference participation, and reflections
 - **Events**: Information about workshops, webinars, and presentations
 - **Slides**: Presentations from conferences and talks
