@@ -2,17 +2,25 @@
 # from the gh-pages branch of this repository to GitHub Pages:
 # https://fairqual.github.io/website
 #
-# Netlify deploys the "netlify" folder (a single fallback page) and the
-# redirect rule below sends every request, deep links included, to the
-# same path on GitHub Pages. "force = true" applies the rule even when a
-# file exists at the requested path.
+# Production and branch deploys publish the "netlify" folder (a single
+# fallback page). The rule in netlify/_redirects sends every request, deep
+# links included, to the same path on GitHub Pages. The rule lives in that
+# folder rather than in this file because rules in this file apply to
+# every deploy, pull request previews included.
 
 [build]
   publish = "netlify"
   command = "echo 'redirect-only site, nothing to build'"
 
-[[redirects]]
-  from = "/*"
-  to = "https://fairqual.github.io/website/:splat"
-  status = 301
-  force = true
+# Pull request previews render the Quarto site, so reviewers can see a
+# change before it is published. Netlify has no R, so every page with R
+# code must have its results in _freeze/ (render locally and commit
+# _freeze/ before opening the pull request).
+[context.deploy-preview]
+  publish = "_site"
+  # Quarto is unpacked outside the repository, so its own files are not
+  # picked up as pages of the site.
+  command = "curl -sL https://github.com/quarto-dev/quarto-cli/releases/download/v${QUARTO_VERSION}/quarto-${QUARTO_VERSION}-linux-amd64.tar.gz | tar -xz -C \"$HOME\" && \"$HOME/quarto-${QUARTO_VERSION}/bin/quarto\" render"
+
+[context.deploy-preview.environment]
+  QUARTO_VERSION = "1.10.18"

@@ -1,0 +1,3 @@
+# Send every request, deep links included, to the same path on GitHub
+# Pages. The "!" applies the rule even when a file exists at the path.
+/*  https://fairqual.github.io/website/:splat  301!
