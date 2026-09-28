@@ -50,13 +50,13 @@ website:
 format:
   html:
     theme:
-      light: [litera, style/theme.scss]
+      light: [litera, style/theme.scss, style/landing.scss]
     highlight-style: a11y-dark
     css: style/styles.css
     code-copy: true
     code-overflow: wrap
     toc: true
-    mainfont: "Atkinson Hyperlegible"
+    mainfont: "Atkinson Hyperlegible Next"
     grid:
       sidebar-width: 250px
       body-width: 900px

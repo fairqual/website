@@ -1,0 +1,301 @@
+/*-- scss:defaults --*/
+
+/*-- scss:rules --*/
+
+// Landing page and Outputs & Data page. Colours come from the $fq-<name>
+// variables in style/theme.scss. The layout follows the openwashdata
+// website (openwashdata/website, style/landing.scss).
+
+// Sections and headings.
+.fq-section {
+  padding: 2.5rem 1.25rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+// Quarto sets margin-top on the first heading of the first section inside
+// any wrapper, which hits every tinted section; the section padding is the
+// spacing here.
+.fq-section h2,
+.fq-band-inner h2 {
+  font-size: clamp(1.5rem, 4.5vw, 2.25rem);
+  color: $fq-blue-dark;
+  margin-top: 0 !important;
+  margin-bottom: 0.25rem;
+}
+
+.fq-section > p.fq-lead {
+  font-size: 1.1rem;
+  color: $fq-grey;
+  margin-bottom: 1.5rem;
+}
+
+.fq-more {
+  display: inline-block;
+  margin-top: 1rem;
+  font-weight: 600;
+  color: $fq-blue-dark;
+}
+
+.fq-more + .fq-more {
+  margin-left: 1.5rem;
+}
+
+@media (max-width: 575px) {
+  .fq-more + .fq-more {
+    margin-left: 0;
+    display: block;
+  }
+}
+
+.fq-tint {
+  background-color: $fq-tint;
+}
+
+.fq-band {
+  background-color: $fq-blue-dark;
+  color: $fq-paper;
+}
+
+.fq-band h2,
+.fq-band p,
+.fq-band a {
+  color: $fq-paper !important;
+}
+
+.fq-band a {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.fq-band-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem;
+}
+
+// Hero.
+.fq-hero {
+  background-color: $fq-tint;
+}
+
+.fq-hero .fq-section {
+  padding-top: 2.5rem;
+  padding-bottom: 2rem;
+}
+
+.fq-hero h1 {
+  font-size: clamp(2rem, 6.5vw, 3.25rem);
+  line-height: 1.1;
+  color: $fq-blue-dark;
+  // Bootstrap puts a top margin on the first heading, which stacks on the
+  // section padding and pushes the hero down.
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  max-width: 20em;
+}
+
+.fq-hero p.fq-lead {
+  font-size: clamp(1.05rem, 3.4vw, 1.25rem);
+  color: $fq-ink;
+  max-width: 38em;
+}
+
+// Buttons in the hero.
+.fq-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 1.25rem 0 0;
+}
+
+.fq-actions .btn {
+  border-radius: 2rem;
+  padding: 0.6rem 1.4rem;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.fq-actions .btn-primary {
+  background-color: $fq-blue-dark;
+  border-color: $fq-blue-dark;
+  color: $fq-paper;
+}
+
+.fq-actions .btn-primary:hover {
+  background-color: darken($fq-blue-dark, 6%);
+  border-color: darken($fq-blue-dark, 6%);
+}
+
+.fq-actions .btn-outline {
+  background: transparent;
+  border: 2px solid $fq-blue-dark;
+  color: $fq-blue-dark;
+}
+
+.fq-actions .btn-outline:hover {
+  background-color: $fq-paper;
+}
+
+// Dataset: text on the left, chart on the right, stacked on phones.
+.fq-dataset {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.fq-dataset-chart .cell-output-display,
+.fq-dataset-chart figure,
+.fq-dataset-chart p {
+  margin: 0;
+}
+
+.fq-dataset-chart img {
+  max-width: 100%;
+  height: auto;
+}
+
+.fq-chart-title {
+  font-weight: 700;
+  color: $fq-ink;
+  margin: 0 !important;
+}
+
+.fq-chart-note {
+  font-size: 0.9rem;
+  color: $fq-grey;
+  margin: 0 0 0.5rem !important;
+}
+
+// Cards in a responsive grid: one column on phones, three on desktop.
+.fq-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.fq-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid $fq-grey-light;
+  border-radius: 0.75rem;
+  background-color: $fq-paper;
+  color: $fq-ink;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+a.fq-card:hover {
+  border-color: $fq-blue-dark;
+  text-decoration: none;
+}
+
+.fq-card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-bottom: 1px solid $fq-grey-light;
+}
+
+.fq-card-body {
+  padding: 1rem 1.2rem 1.1rem;
+}
+
+.fq-card-kicker {
+  display: block;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: $fq-grey;
+  margin-bottom: 0.25rem;
+}
+
+.fq-card strong {
+  display: block;
+  font-size: 1.1rem;
+  line-height: 1.3;
+  color: $fq-blue-dark;
+  margin-bottom: 0.35rem;
+}
+
+.fq-card p {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+// Link row at the foot of a card on the Outputs & Data page.
+.fq-card-links {
+  margin-top: 0.75rem !important;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1rem;
+}
+
+.fq-card-links a {
+  font-weight: 600;
+  color: $fq-blue-dark;
+}
+
+// Status label for outputs that are not out yet.
+.fq-status {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: $fq-ink;
+  background-color: $fq-tint;
+  border: 1px solid $fq-grey-light;
+  border-radius: 2rem;
+  padding: 0.1rem 0.6rem;
+  margin-bottom: 0.5rem;
+}
+
+// The latest posts list inside the Blog section: date, then title.
+.fq-section .quarto-listing {
+  margin-top: 0.5rem;
+}
+
+.fq-section .quarto-post {
+  display: grid;
+  grid-template-columns: 9rem minmax(0, 1fr);
+  grid-template-areas: "meta body";
+  column-gap: 1rem;
+  align-items: baseline;
+  padding: 0.6rem 0;
+  margin: 0;
+}
+
+.fq-section .quarto-post .metadata {
+  grid-area: meta;
+}
+
+.fq-section .quarto-post .body {
+  grid-area: body;
+}
+
+.fq-section .quarto-post .thumbnail {
+  display: none;
+}
+
+.fq-section .quarto-post .listing-title {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.fq-section .quarto-post .listing-date,
+.fq-section .quarto-post .listing-author {
+  font-size: 0.95rem;
+  color: $fq-grey;
+}
+
+@media (max-width: 575px) {
+  .fq-section .quarto-post {
+    grid-template-columns: 1fr;
+    grid-template-areas: "meta" "body";
+  }
+}
