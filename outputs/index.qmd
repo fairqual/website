@@ -1,0 +1,39 @@
+---
+title: "Outputs & Data"
+description: "Datasets, course material and publications from the FAIRqual project."
+toc: false
+---
+
+This page lists what the FAIRqual project has published. We add each new dataset, course and paper here once it is out.
+
+## Datasets
+
+```{=html}
+<div class="fq-cards">
+<div class="fq-card">
+<div class="fq-card-body">
+<span class="fq-card-kicker">Published February 2026</span>
+<strong>dataitd24: FAIRqual workshop data from ITD24</strong>
+<p>Flipcharts and post-it notes from our workshop at the International Transdisciplinary Conference (ITD24) in Utrecht, November 2024, where 24 researchers discussed how they share qualitative data in transdisciplinary research. The dataset holds the digitised flipcharts and a codebook with the 50 codes from our content analysis. A written summary of the workshop comes with it.</p>
+<p class="fq-card-links">
+<a href="https://fairqual.github.io/dataitd24/">Data website</a>
+<a href="https://doi.org/10.5281/zenodo.18493525">DOI 10.5281/zenodo.18493525</a>
+<a href="https://github.com/fairqual/dataitd24">GitHub</a>
+<a href="../blog/posts/2026-02-04-dataitd24/index.qmd">Blog post</a>
+</p>
+</div>
+</div>
+</div>
+```
+
+## E-learning course
+
+<span class="fq-status">In preparation</span>
+
+We are preparing an e-learning course from the FAIRqual project. We presented the course at the [PECSRL 2026 conference](../gallery/slides/index.qmd#pecsrl-2026) in Ghent, Belgium. We will link the course here once it is online.
+
+## Publications
+
+<span class="fq-status">In preparation</span>
+
+Papers from the project will appear here once they are published.

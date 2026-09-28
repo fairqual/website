@@ -28,6 +28,8 @@ website:
         text: Home
       - text: "About"
         href: about.qmd
+      - text: "Outputs & Data"
+        href: outputs/index.qmd
       - text: "Blog"
         href: blog/
       - text: "Slides"
