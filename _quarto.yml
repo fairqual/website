@@ -1,5 +1,9 @@
 project:
   type: website
+  # The course video is only referenced from raw HTML, so list it here to
+  # make sure it is copied to _site.
+  resources:
+    - "outputs/media/*"
 
 website:
   title: "FAIRqual"

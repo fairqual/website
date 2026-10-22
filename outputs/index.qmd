@@ -1,10 +1,31 @@
 ---
 title: "Outputs & Data"
-description: "Datasets, course material and publications from the FAIRqual project."
+description: "Course material, datasets and publications from the FAIRqual project."
 toc: false
 ---
 
 This page lists what the FAIRqual project has published. We add each new dataset, course and paper here once it is out.
+
+## E-learning course
+
+```{=html}
+<div class="fq-cards">
+<div class="fq-card">
+<div class="fq-card-body">
+<span class="fq-card-kicker">Published 30 September 2026</span>
+<strong>Qualitative Data Governance for Transdisciplinary and Participatory Research</strong>
+<p>An e-learning module of the ETH Domain Data Management Campus. It teaches shared data governance, an approach from the USYS TdLab at ETH Zurich that applies the FAIR principles to qualitative data in transdisciplinary research. Stakeholders and practice partners take part at every stage, from the design of a project to the archiving of its data. Most readers will want the course on OpenLearnity. The Zenodo record keeps an archived copy with a DOI for citing.</p>
+<p class="fq-card-cite">Mohr, F., Marqués, L., Reifenrath, J., Schöbitz, L., Simon, L., &amp; Chapman, M. (2026). Supported by Measure 3 Open Educational Resources.</p>
+<p class="fq-card-links">
+<a href="https://courses.openlearnity.org/learning/course/course-v1:ETH_domain+qualitative+datagovernance/home">Course on OpenLearnity</a>
+<a href="https://doi.org/10.5281/zenodo.23016356">DOI 10.5281/zenodo.23016356</a>
+<a href="media/elearning-intro.mp4">Introduction video</a>
+<a href="../gallery/slides/index.qmd#pecsrl-2026">PECSRL 2026 slides</a>
+</p>
+</div>
+</div>
+</div>
+```
 
 ## Datasets
 
@@ -23,14 +44,15 @@ This page lists what the FAIRqual project has published. We add each new dataset
 </p>
 </div>
 </div>
+<div class="fq-card">
+<div class="fq-card-body">
+<span class="fq-status">In preparation</span>
+<strong>Expert interviews</strong>
+<p>The expert interviews from the FAIRqual project. The metadata and the instruments we used to collect the data will be public on SWISSUbase. The interview transcripts stay restricted to the USYS TdLab.</p>
+</div>
+</div>
 </div>
 ```
-
-## E-learning course
-
-<span class="fq-status">In preparation</span>
-
-We are preparing an e-learning course from the FAIRqual project. We presented the course at the [PECSRL 2026 conference](../gallery/slides/index.qmd#pecsrl-2026) in Ghent, Belgium. We will link the course here once it is online.
 
 ## Publications
 

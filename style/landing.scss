@@ -137,35 +137,32 @@
   background-color: $fq-paper;
 }
 
-// Dataset: text on the left, chart on the right, stacked on phones.
-.fq-dataset {
+// Feature block (the e-learning course on the landing page): text on the
+// left, video on the right, stacked on phones.
+.fq-feature {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 1.5rem;
   align-items: center;
 }
 
-.fq-dataset-chart .cell-output-display,
-.fq-dataset-chart figure,
-.fq-dataset-chart p {
-  margin: 0;
+.fq-feature-text .fq-actions {
+  margin-top: 1rem;
 }
 
-.fq-dataset-chart img {
-  max-width: 100%;
+.fq-feature-media video {
+  display: block;
+  width: 100%;
   height: auto;
+  aspect-ratio: 16 / 9;
+  border-radius: 0.75rem;
+  background-color: $fq-ink;
 }
 
-.fq-chart-title {
-  font-weight: 700;
-  color: $fq-ink;
-  margin: 0 !important;
-}
-
-.fq-chart-note {
-  font-size: 0.9rem;
+.fq-credit {
+  font-size: 0.85rem;
   color: $fq-grey;
-  margin: 0 0 0.5rem !important;
+  margin: 0.5rem 0 0 !important;
 }
 
 // Cards in a responsive grid: one column on phones, three on desktop.
@@ -223,6 +220,13 @@ a.fq-card:hover {
 .fq-card p {
   margin: 0;
   font-size: 0.95rem;
+}
+
+// Citation line under the description of a card on the Outputs & Data page.
+.fq-card p.fq-card-cite {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: $fq-grey;
 }
 
 // Link row at the foot of a card on the Outputs & Data page.

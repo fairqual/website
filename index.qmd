@@ -3,10 +3,6 @@ pagetitle: "FAIRqual"
 page-layout: custom
 section-divs: false
 toc: false
-execute:
-  echo: false
-  warning: false
-  message: false
 listing:
   - id: latest-posts
     contents: blog/posts/*/index.qmd
@@ -36,65 +32,30 @@ listing:
 
 ::: {.fq-section}
 
-## Dataset
+## E-learning course
 
-::: {.fq-dataset}
-::: {.fq-dataset-text}
-**dataitd24** holds the data from our workshop at the International Transdisciplinary Conference (ITD24) in Utrecht in November 2024. In four groups, 24 researchers wrote on flipcharts and post-it notes how they collect and share qualitative data, and what worries them about sharing it. We coded all notes into 50 codes in seven categories. The types of data people work with came up most often, e.g., interviews and workshops. Reasons for sharing and fears about sharing came next.
+::: {.fq-feature}
+::: {.fq-feature-text}
+**Qualitative Data Governance for Transdisciplinary and Participatory Research** is our e-learning course, published on 30 September 2026 as a module of the ETH Domain Data Management Campus. It teaches shared data governance, an approach from the USYS TdLab at ETH Zurich that applies the FAIR principles to qualitative data in transdisciplinary research. Stakeholders and practice partners take part at every stage, from the design of a project to the archiving of its data, so data management runs through the whole project from the start.
 
-[Open dataitd24](https://fairqual.github.io/dataitd24/){.fq-more}
+::: {.fq-actions}
+[Take the course on OpenLearnity](https://courses.openlearnity.org/learning/course/course-v1:ETH_domain+qualitative+datagovernance/home){.btn .btn-primary}
+[Archived on Zenodo](https://doi.org/10.5281/zenodo.23016356){.btn .btn-outline}
+:::
+
 [All outputs & data](outputs/index.qmd){.fq-more}
 :::
 
-::: {.fq-dataset-chart}
+::: {.fq-feature-media}
 
-<p class="fq-chart-title">Types of data came up most often</p>
-<p class="fq-chart-note">How often the codes in each category appeared in the workshop notes.</p>
-
-```{r}
-#| label: dataset-chart
-#| dev: ragg_png
-#| dev.args: !expr list(bg = "transparent")
-#| fig-width: 4.8
-#| fig-height: 3.2
-#| fig-dpi: 220
-#| fig-alt: "Horizontal bar chart of how often the codes in each category appeared in the ITD24 workshop notes. Types of qualitative data 91, why share 51, fears and challenges of sharing 44, data sharing approaches 38, data sovereignty 28, ways of sharing qualitative data 25, how to navigate AI 6."
-# pak::pak("fairqual/dataitd24")
-library(dataitd24)
-library(dplyr)
-library(ggplot2)
-
-category_labels <- c(
-  "data types" = "Types of qualitative data",
-  "why share? Practical aspects of sharing" = "Why share?",
-  "fears / direct challenges of sharing" = "Fears and challenges of sharing",
-  "data sharing approaches" = "Data sharing approaches",
-  "data sovereignty" = "Data sovereignty",
-  "ways of sharing qualitative data" = "Ways of sharing qualitative data",
-  "how to navigate ai?" = "How to navigate AI?"
-)
-
-categories <- codebook_qualitative |>
-  summarise(mentions = sum(frequency), .by = category) |>
-  mutate(label = category_labels[category]) |>
-  arrange(mentions) |>
-  mutate(label = factor(label, levels = label))
-
-ggplot(categories, aes(x = mentions, y = label)) +
-  geom_col(fill = "#0081A7", width = 0.55) +
-  geom_text(aes(label = mentions), hjust = -0.25, size = 4.4,
-            colour = "#1e1e1e", family = "Atkinson Hyperlegible Next") +
-  scale_x_continuous(expand = expansion(mult = c(0, 0.14))) +
-  labs(x = NULL, y = NULL) +
-  theme_minimal(base_size = 13, base_family = "Atkinson Hyperlegible Next") +
-  theme(
-    panel.grid = element_blank(),
-    axis.text.x = element_blank(),
-    axis.text.y = element_text(colour = "#1e1e1e", size = 12.5, hjust = 1),
-    plot.background = element_rect(fill = "transparent", colour = NA),
-    plot.margin = margin(0, 4, 0, 0)
-  )
+```{=html}
+<video controls preload="metadata" playsinline poster="outputs/media/elearning-intro-poster.jpg" aria-label="Introduction video of the e-learning course">
+<source src="outputs/media/elearning-intro.mp4" type="video/mp4">
+<a href="https://doi.org/10.5281/zenodo.21809352">Watch the introduction video on Zenodo</a>
+</video>
 ```
+
+<p class="fq-credit">Introduction video by the ETH Domain Data Management Campus, FAIRqual (USYS TdLab, ETH Zurich) and ATOY Studio, licensed CC BY 4.0. Archived on Zenodo: <a href="https://doi.org/10.5281/zenodo.21809352">10.5281/zenodo.21809352</a>.</p>
 
 :::
 :::
