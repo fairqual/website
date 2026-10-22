@@ -40,7 +40,6 @@ listing:
 
 ::: {.fq-actions}
 [Take the course on OpenLearnity](https://courses.openlearnity.org/learning/course/course-v1:ETH_domain+qualitative+datagovernance/home){.btn .btn-primary}
-[Archived on Zenodo](https://doi.org/10.5281/zenodo.23016356){.btn .btn-outline}
 :::
 
 [All outputs & data](outputs/index.qmd){.fq-more}
